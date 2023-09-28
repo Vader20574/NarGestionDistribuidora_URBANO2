@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="NARGESTModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <Function Name="SP_RPT_VENTAS_DETALLE_POR_DOCU" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CODI" Type="int" Mode="In" />
+        </Function>
+        <EntityContainer Name="NARGESTModelStoreContainer" />
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="NARGESTModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="NARGESTEntities" annotation:LazyLoadingEnabled="true" >
+          <FunctionImport Name="SP_RPT_VENTAS_DETALLE_POR_DOCU" ReturnType="Collection(NARGESTModel.SP_RPT_VENTAS_DETALLE_POR_DOCU_Result)">
+            <Parameter Name="CODI" Mode="In" Type="Int32" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="SP_RPT_VENTAS_DETALLE_POR_DOCU_Result">
+          <Property Type="Int32" Name="CORREL" Nullable="true" />
+          <Property Type="String" Name="TIPODOC" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="SERIE" Nullable="true" MaxLength="3" />
+          <Property Type="String" Name="NUMERODOC" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="CLIENTE_NOM" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="DIRECCION" Nullable="true" MaxLength="150" />
+          <Property Type="String" Name="DISTRITO" Nullable="true" MaxLength="100" />
+          <Property Type="Decimal" Name="TOTAL" Nullable="true" Precision="20" Scale="4" />
+          <Property Type="String" Name="EMPLEADO" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="RUTA" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="VENDEDOR" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="CODIGO_PROD" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="NOMBRE_PROD" Nullable="true" MaxLength="150" />
+          <Property Type="Decimal" Name="CANTIDAD" Nullable="true" Precision="18" Scale="0" />
+          <Property Type="DateTime" Name="FECHA" Nullable="true" Precision="23" />
+          <Property Type="String" Name="DESSUBLINEA" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="TIPOPAGO" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="TIPONEGOCIO" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="CODCLIDEP" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="CODCLIPRIN" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="NOMCLIPRIN" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="DNI" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="RUC" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="TELEFONO" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="OD" Nullable="false" MaxLength="50" />
+          <Property Type="Decimal" Name="precio_unit_venta" Nullable="false" Precision="20" Scale="4" />
+          <Property Type="Decimal" Name="precio_unit_costo" Nullable="false" Precision="20" Scale="4" />
+          <Property Type="Decimal" Name="total_costo" Nullable="true" Precision="38" Scale="4" />
+          <Property Type="Decimal" Name="descuento" Nullable="false" Precision="20" Scale="4" />
+          <Property Type="String" Name="nro_plan_desc" Nullable="false" MaxLength="50" />
+          <Property Type="Decimal" Name="por_cobrar" Nullable="false" Precision="20" Scale="4" />
+          <Property Type="String" Name="OBSV" Nullable="true" MaxLength="50" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="NARGESTModelStoreContainer" CdmEntityContainer="NARGESTEntities" >
+          <FunctionImportMapping FunctionImportName="SP_RPT_VENTAS_DETALLE_POR_DOCU" FunctionName="NARGESTModel.Store.SP_RPT_VENTAS_DETALLE_POR_DOCU">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="NARGESTModel.SP_RPT_VENTAS_DETALLE_POR_DOCU_Result">
+                <ScalarProperty Name="CORREL" ColumnName="CORREL" />
+                <ScalarProperty Name="TIPODOC" ColumnName="TIPODOC" />
+                <ScalarProperty Name="SERIE" ColumnName="SERIE" />
+                <ScalarProperty Name="NUMERODOC" ColumnName="NUMERODOC" />
+                <ScalarProperty Name="CLIENTE_NOM" ColumnName="CLIENTE_NOM" />
+                <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+                <ScalarProperty Name="DISTRITO" ColumnName="DISTRITO" />
+                <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+                <ScalarProperty Name="EMPLEADO" ColumnName="EMPLEADO" />
+                <ScalarProperty Name="RUTA" ColumnName="RUTA" />
+                <ScalarProperty Name="VENDEDOR" ColumnName="VENDEDOR" />
+                <ScalarProperty Name="CODIGO_PROD" ColumnName="CODIGO_PROD" />
+                <ScalarProperty Name="NOMBRE_PROD" ColumnName="NOMBRE_PROD" />
+                <ScalarProperty Name="CANTIDAD" ColumnName="CANTIDAD" />
+                <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+                <ScalarProperty Name="DESSUBLINEA" ColumnName="DESSUBLINEA" />
+                <ScalarProperty Name="TIPOPAGO" ColumnName="TIPOPAGO" />
+                <ScalarProperty Name="TIPONEGOCIO" ColumnName="TIPONEGOCIO" />
+                <ScalarProperty Name="CODCLIDEP" ColumnName="CODCLIDEP" />
+                <ScalarProperty Name="CODCLIPRIN" ColumnName="CODCLIPRIN" />
+                <ScalarProperty Name="NOMCLIPRIN" ColumnName="NOMCLIPRIN" />
+                <ScalarProperty Name="DNI" ColumnName="DNI" />
+                <ScalarProperty Name="RUC" ColumnName="RUC" />
+                <ScalarProperty Name="TELEFONO" ColumnName="TELEFONO" />
+                <ScalarProperty Name="OD" ColumnName="OD" />
+                <ScalarProperty Name="precio_unit_venta" ColumnName="precio_unit_venta" />
+                <ScalarProperty Name="precio_unit_costo" ColumnName="precio_unit_costo" />
+                <ScalarProperty Name="total_costo" ColumnName="total_costo" />
+                <ScalarProperty Name="descuento" ColumnName="descuento" />
+                <ScalarProperty Name="nro_plan_desc" ColumnName="nro_plan_desc" />
+                <ScalarProperty Name="por_cobrar" ColumnName="por_cobrar" />
+                <ScalarProperty Name="OBSV" ColumnName="OBSV" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

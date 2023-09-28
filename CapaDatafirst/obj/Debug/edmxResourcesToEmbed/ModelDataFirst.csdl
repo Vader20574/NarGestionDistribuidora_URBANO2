@@ -1,0 +1,1846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NARGESTModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="VENTA_X_COBRAR">
+    <Key>
+      <PropertyRef Name="CDTIPODOCUM" />
+      <PropertyRef Name="NRODOCU" />
+    </Key>
+    <Property Name="CDTIPODOCUM" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NRODOCU" Type="Decimal" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="CDMONEDA" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="CDCLIENTE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TOTCREDBAS" Type="Decimal" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="TOTCREDEXT" Type="Decimal" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="FECDOCUM" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="PLAZO" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="VENCIMIENTO" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ESTADO" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="PAGCREDBAS" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="PAGCREDEXT" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="TIPCREDFAC" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="TRANS" Type="Boolean" />
+    <Property Name="DATETRANS" Type="DateTime" Precision="3" />
+    <Property Name="CODEMPRESA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CDCLIENTEDEP" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PTOVTA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DOCUREF" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="fproceso" Type="DateTime" Precision="3" />
+    <Property Name="PAG" Type="Boolean" />
+    <Property Name="DSCLIENTE" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="EXISTE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="marca" Type="Boolean" />
+    <Property Name="PPAGO" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="codvend" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="NARGESTEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="VENTA_X_COBRAR" EntityType="Self.VENTA_X_COBRAR" />
+    <EntitySet Name="VENTADET" EntityType="NARGESTModel.VENTADET" />
+    <EntitySet Name="VENDEDOR" EntityType="NARGESTModel.VENDEDOR" />
+    <FunctionImport Name="SP_INSERT_TMP_VENDEDOR">
+      <Parameter Name="CORREL" Mode="In" Type="Int32" />
+      <Parameter Name="CODVEND" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_DELETE_TMP_VENDEDOR">
+      <Parameter Name="CORREL" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_SELECT_FACTURAS" ReturnType="Collection(NARGESTModel.SP_SELECT_FACTURAS_Result)">
+      <Parameter Name="FECHA1" Mode="In" Type="String" />
+      <Parameter Name="FECHA2" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_TOTAL_FACTURAS" ReturnType="Collection(Decimal)">
+      <Parameter Name="ctipdoc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_TOTAL_FACTURAS_TODO" ReturnType="Collection(Decimal)">
+      <Parameter Name="ctipdoc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="BUSQ_CLIDEP" ReturnType="Collection(NARGESTModel.BUSQ_CLIDEP_Result)">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+      <Parameter Name="CODCLIENTE" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="BUSCA_FECHA" ReturnType="Collection(DateTime)">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+      <Parameter Name="PTOVTA" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="BUSCAPROVEEDOR" ReturnType="Collection(NARGESTModel.BUSCAPROVEEDOR_Result)">
+      <Parameter Name="NROPEDIDO" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="BUSCAR_CORREL_LINEA" ReturnType="Collection(Decimal)">
+      <Parameter Name="CODLINEA" Mode="In" Type="String" />
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="TIPOPROD" EntityType="NARGESTModel.TIPOPROD" />
+    <EntitySet Name="TIPODOC" EntityType="NARGESTModel.TIPODOC" />
+    <EntitySet Name="VENTACAB" EntityType="NARGESTModel.VENTACAB" />
+    <FunctionImport Name="SP_VERIFICA_NROPTOVTA" ReturnType="Collection(Boolean)">
+      <Parameter Name="NROPTOVTA" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_REPORTE_PEDIDO_XVENDEDOR" ReturnType="Collection(NARGESTModel.SP_REPORTE_PEDIDO_XVENDEDOR_Result)">
+      <Parameter Name="CORREL" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="BORRAR_VENTA_X_COBRAR">
+      <Parameter Name="CORRNBR" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_PEDIDO_XVENDEDOR">
+      <Parameter Name="FECHAD" Mode="In" Type="String" />
+      <Parameter Name="FECHAH" Mode="In" Type="String" />
+      <Parameter Name="CORREL" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="BORRA_TEMPORALES">
+      <Parameter Name="PTOVTA" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="NSP_SELECT_CORRELATIVOS" ReturnType="Collection(NARGESTModel.NSP_SELECT_CORRELATIVOS_Result)">
+      <Parameter Name="PTOVTA" Mode="In" Type="String" />
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_REPORTE_COBRANZA" ReturnType="Collection(NARGESTModel.SP_REPORTE_COBRANZA_Result)" />
+    <FunctionImport Name="Nsp_Sele_banco" ReturnType="Collection(NARGESTModel.Nsp_Sele_banco_Result)">
+      <Parameter Name="codempresa" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="NSP_AGRUP_FECHA" ReturnType="Collection(NARGESTModel.NSP_AGRUP_FECHA_Result)">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="TMP_PEDIDO_XVENDEDOR" EntityType="NARGESTModel.TMP_PEDIDO_XVENDEDOR" />
+    <FunctionImport Name="SP_RPT_VENTAS_DETALLE_POR_DOCU" ReturnType="Collection(NARGESTModel.SP_RPT_VENTAS_DETALLE_POR_DOCU_Result)">
+      <Parameter Name="CODI" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="CIUDAD" EntityType="NARGESTModel.CIUDAD" />
+    <EntitySet Name="Distrito" EntityType="NARGESTModel.Distrito" />
+    <EntitySet Name="PAIS" EntityType="NARGESTModel.PAIS" />
+    <EntitySet Name="TIPOPRE" EntityType="NARGESTModel.TIPOPRE" />
+    <EntitySet Name="RUTA" EntityType="NARGESTModel.RUTA" />
+    <EntitySet Name="TIPO_PAGO" EntityType="NARGESTModel.TIPO_PAGO" />
+    <EntitySet Name="Moneda" EntityType="NARGESTModel.Moneda" />
+    <AssociationSet Name="FK__TIPOPRE__codmon__1249A49B" Association="NARGESTModel.FK__TIPOPRE__codmon__1249A49B">
+      <End Role="Moneda" EntitySet="Moneda" />
+      <End Role="TIPOPRE" EntitySet="TIPOPRE" />
+    </AssociationSet>
+    <FunctionImport Name="SP_SELECT_COBRANZAXCLIENTE" ReturnType="Collection(Decimal)">
+      <Parameter Name="CODEMP" Mode="In" Type="String" />
+      <Parameter Name="CODCLIENTE" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_LISTA_ARTICULO_FACT" ReturnType="Collection(NARGESTModel.SP_LISTA_ARTICULO_FACT_Result)">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+      <Parameter Name="CDZONA" Mode="In" Type="String" />
+      <Parameter Name="TIPO" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SP_SUMPEDIDO" ReturnType="Collection(Decimal)">
+      <Parameter Name="CODCLIENTE" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="USP_CONFIGINV" ReturnType="Collection(NARGESTModel.USP_CONFIGINV_Result)">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="TIPCREDF" EntityType="NARGESTModel.TIPCREDF" />
+    <FunctionImport Name="SP_EXTRAER_AÑO_MES" ReturnType="Collection(NARGESTModel.SP_EXTRAER_AÑO_MES_Result)">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_BUSQUEDA_CLIENTE_VTA" ReturnType="Collection(Int32)">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+      <Parameter Name="CODDEP" Mode="In" Type="String" />
+      <Parameter Name="VENTACAB" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="VERIFICA_HISTORICOVENT" ReturnType="Collection(String)">
+      <Parameter Name="CADVENT" Mode="In" Type="String" />
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_BUSQUEDA_CLIENTE_PEDIDO" ReturnType="Collection(String)">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+      <Parameter Name="CODDEP" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="ALMACEN" EntityType="NARGESTModel.ALMACEN" />
+    <EntitySet Name="CATEGORIA_CLIENTE" EntityType="NARGESTModel.CATEGORIA_CLIENTE" />
+    <EntitySet Name="SEGMENTO_CLIENTE" EntityType="NARGESTModel.SEGMENTO_CLIENTE" />
+    <EntitySet Name="TIPONEGOCIO" EntityType="NARGESTModel.TIPONEGOCIO" />
+    <EntitySet Name="paisdepa" EntityType="NARGESTModel.paisdepa" />
+    <EntitySet Name="CLIE_FUERZA" EntityType="NARGESTModel.CLIE_FUERZA" />
+    <EntitySet Name="FUERZAVENTA" EntityType="NARGESTModel.FUERZAVENTA" />
+    <AssociationSet Name="FK_CLIE_FUERZA_FUERZAVENTA" Association="NARGESTModel.FK_CLIE_FUERZA_FUERZAVENTA">
+      <End Role="FUERZAVENTA" EntitySet="FUERZAVENTA" />
+      <End Role="CLIE_FUERZA" EntitySet="CLIE_FUERZA" />
+    </AssociationSet>
+    <EntitySet Name="CONFIGSIS" EntityType="NARGESTModel.CONFIGSIS" />
+    <EntitySet Name="CONFIGVTA" EntityType="NARGESTModel.CONFIGVTA" />
+    <FunctionImport Name="SP_BUSQUEDA_CLIENTEDEP_VTA" ReturnType="Collection(Int32)">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+      <Parameter Name="CODDEP" Mode="In" Type="String" />
+      <Parameter Name="VENTACAB" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_RPT_CLIENTE" ReturnType="Collection(NARGESTModel.SP_RPT_CLIENTE_Result)">
+      <Parameter Name="CODEMP" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_REPORTE_CLIENTEDEP_PERCEP" ReturnType="Collection(NARGESTModel.SP_REPORTE_CLIENTEDEP_PERCEP_Result)">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="ACCESO" EntityType="NARGESTModel.ACCESO" />
+    <EntitySet Name="CIERRE_MES_INVENTARIO" EntityType="NARGESTModel.CIERRE_MES_INVENTARIO" />
+    <EntitySet Name="ACCESOPROC" EntityType="NARGESTModel.ACCESOPROC" />
+    <EntitySet Name="ACTIVO" EntityType="NARGESTModel.ACTIVO" />
+    <EntitySet Name="rsyssegment" EntityType="NARGESTModel.rsyssegment" />
+    <EntitySet Name="rsyssegmentC" EntityType="NARGESTModel.rsyssegmentC" />
+    <EntitySet Name="syssegments" EntityType="NARGESTModel.syssegments" />
+    <EntitySet Name="test" EntityType="NARGESTModel.test" />
+    <EntitySet Name="CLIDEP" EntityType="NARGESTModel.CLIDEP" />
+    <AssociationSet Name="FK_CLIDEP_Distrito" Association="NARGESTModel.FK_CLIDEP_Distrito">
+      <End Role="Distrito" EntitySet="Distrito" />
+      <End Role="CLIDEP" EntitySet="CLIDEP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIDEP_RUTA" Association="NARGESTModel.FK_CLIDEP_RUTA">
+      <End Role="RUTA" EntitySet="RUTA" />
+      <End Role="CLIDEP" EntitySet="CLIDEP" />
+    </AssociationSet>
+    <EntitySet Name="ACTIVO_FIJO" EntityType="NARGESTModel.ACTIVO_FIJO" />
+    <EntitySet Name="ALMAZON" EntityType="NARGESTModel.ALMAZON" />
+    <FunctionImport Name="CUR_TMP_DATOSPROD_HISTO">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+      <Parameter Name="VENTADETHIST" Mode="In" Type="String" />
+      <Parameter Name="HISTO" Mode="In" Type="Int32" />
+      <Parameter Name="CORREL" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="NSP_RPT_EQUIPOVENTAS" ReturnType="Collection(NARGESTModel.NSP_RPT_EQUIPOVENTAS_Result)" />
+    <FunctionImport Name="NSP_RPT_DESCEXT" ReturnType="Collection(NARGESTModel.NSP_RPT_DESCEXT_Result)" />
+    <FunctionImport Name="DEL_SEGUROS">
+      <Parameter Name="CODSEG" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="ADUANA" EntityType="NARGESTModel.ADUANA" />
+    <FunctionImport Name="ZSP_RPT_DESCEXT" ReturnType="Collection(NARGESTModel.ZSP_RPT_DESCEXT_Result)" />
+    <FunctionImport Name="SP_DEL_TMP_DOC_ANULADOS">
+      <Parameter Name="CORREL" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SP_DEL_TMP_DATOSPROD">
+      <Parameter Name="CORREL" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SP_DEL_TMP_ARTIDEV">
+      <Parameter Name="CORREL" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SP_INS_TMP_DOC_ANULADOS">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+      <Parameter Name="FECHAD" Mode="In" Type="DateTime" />
+      <Parameter Name="FECHAH" Mode="In" Type="DateTime" />
+      <Parameter Name="VENTADETHIST" Mode="In" Type="String" />
+      <Parameter Name="HISTO" Mode="In" Type="Int32" />
+      <Parameter Name="CORREL" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CUR_TMP_ARTIDEV_HISTO">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+      <Parameter Name="VENTADETHIST" Mode="In" Type="String" />
+      <Parameter Name="CORREL" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CUR_TMP_ARTIDEV_HISTO2">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+      <Parameter Name="CORREL" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CUR_TMP_ARTIDEV_HISTO3">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+      <Parameter Name="CORREL" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SP_DELETE_TMP_RPT_REPOR_SUNA">
+      <Parameter Name="CORREL" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_RPT_VTA_SUNA_ANUL">
+      <Parameter Name="CODEMP" Mode="In" Type="String" />
+      <Parameter Name="FECHAD" Mode="In" Type="DateTime" />
+      <Parameter Name="FECHAH" Mode="In" Type="DateTime" />
+      <Parameter Name="CODDOCUM" Mode="In" Type="String" />
+      <Parameter Name="CORREL" Mode="In" Type="Int32" />
+      <Parameter Name="VENTCAB" Mode="In" Type="String" />
+      <Parameter Name="VENTDET" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="Zonas" EntityType="NARGESTModel.Zona" />
+    <FunctionImport Name="SP_LISTA_ARTICULO_FACT_FILTRO" ReturnType="Collection(NARGESTModel.SP_LISTA_ARTICULO_FACT_FILTRO_Result)">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+      <Parameter Name="CDZONA" Mode="In" Type="String" />
+      <Parameter Name="TIPO" Mode="In" Type="Int32" />
+      <Parameter Name="TEXTO" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SelectPRECIART_Presentxproc2" ReturnType="Collection(NARGESTModel.SelectPRECIART_Presentxproc2_Result)">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+      <Parameter Name="CDARTI" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="TipoPrecioXPromocions" EntityType="NARGESTModel.TipoPrecioXPromocion" />
+    <EntitySet Name="TipoPagoXPromocions" EntityType="NARGESTModel.TipoPagoXPromocion" />
+    <FunctionImport Name="NSP_UPDATE_TMP_STOCKPEDIDO" ReturnType="Collection(Decimal)">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+      <Parameter Name="CORREL" Mode="In" Type="Int32" />
+      <Parameter Name="CODARTI" Mode="In" Type="String" />
+      <Parameter Name="STOCK_ACT_UND" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="SP_EXTAER_STOCK" ReturnType="Collection(Int32)">
+      <Parameter Name="cdarti" Mode="In" Type="String" />
+      <Parameter Name="CDALMA" Mode="In" Type="String" />
+      <Parameter Name="CORREL" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="TMP_STOCKPEDIDO" EntityType="NARGESTModel.TMP_STOCKPEDIDO" />
+    <EntitySet Name="ARTIDATs" EntityType="NARGESTModel.ARTIDAT" />
+    <AssociationSet Name="FK__ARTIDAT__CODALMA__7D4E87B5" Association="NARGESTModel.FK__ARTIDAT__CODALMA__7D4E87B5">
+      <End Role="ALMACEN" EntitySet="ALMACEN" />
+      <End Role="ARTIDAT" EntitySet="ARTIDATs" />
+    </AssociationSet>
+    <FunctionImport Name="SelectPRECIART_PresentxprocSUBCAT" ReturnType="Collection(NARGESTModel.SelectPRECIART_PresentxprocSUBCAT_Result)">
+      <Parameter Name="CODEMPRESA" Mode="In" Type="String" />
+      <Parameter Name="CODLINEA" Mode="In" Type="String" />
+      <Parameter Name="SUBCODLINEA" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="TipoPagoXPromocionSubs" EntityType="NARGESTModel.TipoPagoXPromocionSub" />
+    <EntitySet Name="CLIENTEXPROMOSUBCATs" EntityType="NARGESTModel.CLIENTEXPROMOSUBCAT" />
+    <EntitySet Name="TipoPrecioXPromocionSubCats" EntityType="NARGESTModel.TipoPrecioXPromocionSubCat" />
+    <EntitySet Name="LINEAs" EntityType="NARGESTModel.LINEA" />
+    <EntitySet Name="SUBLINEAs" EntityType="NARGESTModel.SUBLINEA" />
+    <EntitySet Name="CLIENTEs" EntityType="NARGESTModel.CLIENTE" />
+    <AssociationSet Name="FK_CLIENTE_CIUDAD" Association="NARGESTModel.FK_CLIENTE_CIUDAD">
+      <End Role="CIUDAD" EntitySet="CIUDAD" />
+      <End Role="CLIENTE" EntitySet="CLIENTEs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIDEP_CLIENTE" Association="NARGESTModel.FK_CLIDEP_CLIENTE">
+      <End Role="CLIENTE" EntitySet="CLIENTEs" />
+      <End Role="CLIDEP" EntitySet="CLIDEP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIE_FUERZA_CLIENTE" Association="NARGESTModel.FK_CLIE_FUERZA_CLIENTE">
+      <End Role="CLIENTE" EntitySet="CLIENTEs" />
+      <End Role="CLIE_FUERZA" EntitySet="CLIE_FUERZA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIENTE_Distrito" Association="NARGESTModel.FK_CLIENTE_Distrito">
+      <End Role="Distrito" EntitySet="Distrito" />
+      <End Role="CLIENTE" EntitySet="CLIENTEs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIENTE_PAIS" Association="NARGESTModel.FK_CLIENTE_PAIS">
+      <End Role="PAIS" EntitySet="PAIS" />
+      <End Role="CLIENTE" EntitySet="CLIENTEs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIENTE_paisdepa" Association="NARGESTModel.FK_CLIENTE_paisdepa">
+      <End Role="paisdepa" EntitySet="paisdepa" />
+      <End Role="CLIENTE" EntitySet="CLIENTEs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIENTE_RUTA" Association="NARGESTModel.FK_CLIENTE_RUTA">
+      <End Role="RUTA" EntitySet="RUTA" />
+      <End Role="CLIENTE" EntitySet="CLIENTEs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIENTE_SEGMENTO_CLIENTE" Association="NARGESTModel.FK_CLIENTE_SEGMENTO_CLIENTE">
+      <End Role="SEGMENTO_CLIENTE" EntitySet="SEGMENTO_CLIENTE" />
+      <End Role="CLIENTE" EntitySet="CLIENTEs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIENTE_TIPO_PAGO" Association="NARGESTModel.FK_CLIENTE_TIPO_PAGO">
+      <End Role="TIPO_PAGO" EntitySet="TIPO_PAGO" />
+      <End Role="CLIENTE" EntitySet="CLIENTEs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIENTE_TIPONEGOCIO" Association="NARGESTModel.FK_CLIENTE_TIPONEGOCIO">
+      <End Role="TIPONEGOCIO" EntitySet="TIPONEGOCIO" />
+      <End Role="CLIENTE" EntitySet="CLIENTEs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIENTE_TIPOPRE" Association="NARGESTModel.FK_CLIENTE_TIPOPRE">
+      <End Role="TIPOPRE" EntitySet="TIPOPRE" />
+      <End Role="CLIENTE" EntitySet="CLIENTEs" />
+    </AssociationSet>
+    <FunctionImport Name="SP_RPT_VTA_ANUL" ReturnType="Collection(NARGESTModel.SP_RPT_VTA_ANUL_Result)">
+      <Parameter Name="CORREL" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="VENTADET">
+    <Key>
+      <PropertyRef Name="CODEMPRESA" />
+      <PropertyRef Name="CODTIPODOC" />
+      <PropertyRef Name="NRODOCU" />
+      <PropertyRef Name="ITEM" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODTIPODOC" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="NRODOCU" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ITEM" Type="Decimal" Nullable="false" Precision="9" Scale="0" />
+    <Property Name="CODARTI" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DESARTI" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CODTIPOMED" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DESTIPOMED" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="CODMON" Type="String" Nullable="false" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="CODALMACEN" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ESTADO" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="CODPRES" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DESPRES" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CANTIDAD" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="PRECIO" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="PRECIOVTA" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="TOTBAS" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="TOTEXT" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="IGVBAS" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="IGVEXT" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="SUBTOTBAS" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="SUBTOTEXT" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="COSTOBAS" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="COSTOEXT" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="FECDOCUM" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="FECPROCESO" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CODIMPUESTO" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="FORMU" Type="Boolean" Nullable="false" />
+    <Property Name="cdusuario" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="CONSUMO" Type="Boolean" />
+    <Property Name="INVFISI" Type="Boolean" Nullable="false" />
+    <Property Name="MONTODESCBAS" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="PORCENDESC" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="NROPTOVTA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TIPOMEDIDA" Type="Boolean" />
+    <Property Name="NROGUIA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CODPROMO" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CODTIPOPRE" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="VENDEDOR">
+    <Key>
+      <PropertyRef Name="CODVEND" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODVEND" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DSVEND" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DNI" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="DIRECCION" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ESTADO" Type="Boolean" />
+    <Property Name="DATETRANS" Type="DateTime" Precision="3" />
+    <Property Name="trans" Type="Boolean" />
+    <Property Name="TELEFONO" Type="String" MaxLength="18" FixedLength="true" Unicode="false" />
+    <Property Name="FECHA_REF" Type="DateTime" Precision="3" />
+    <Property Name="CODZONA" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CODCIUDAD" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="COD_FV" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="COD_ZV" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NROPEDIDO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="TIPOVEND" Type="Boolean" />
+    <Property Name="LINEACRED" Type="Decimal" Precision="11" Scale="2" />
+    <Property Name="TIPOCOMISION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="SP_SELECT_FACTURAS_Result">
+    <Property Type="String" Name="cdist" Nullable="false" MaxLength="4" />
+    <Property Type="String" Name="cserie" Nullable="true" MaxLength="3" />
+    <Property Type="String" Name="ccorrelativo" Nullable="false" MaxLength="7" />
+    <Property Type="Decimal" Name="contieneItems" Nullable="false" Precision="9" Scale="0" />
+    <Property Type="String" Name="ccliente_d" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="cgruven1" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="cvendedor" Nullable="false" MaxLength="4" />
+    <Property Type="String" Name="fpedido" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="ctipdoc" Nullable="true" MaxLength="3" />
+    <Property Type="String" Name="cconpag" Nullable="true" MaxLength="4" />
+    <Property Type="String" Name="femision" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="cmotdoc" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="fentregaprog" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="cmoneda" Nullable="true" MaxLength="2" />
+    <Property Type="Decimal" Name="ivtabruto" Nullable="true" Precision="9" Scale="2" />
+    <Property Type="Decimal" Name="idsctos" Nullable="true" Precision="9" Scale="2" />
+    <Property Type="String" Name="ivtaneto" Nullable="false" MaxLength="1" />
+    <Property Type="Decimal" Name="ivtatot" Nullable="true" Precision="21" Scale="4" />
+    <Property Type="String" Name="fanula" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="flagAnula" Nullable="false" />
+    <Property Type="String" Name="fentrega" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="Npos" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="cmaterial" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="Cumv" Nullable="true" MaxLength="4" />
+    <Property Type="Decimal" Name="qpedido" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="qfactura" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="String" Name="qentrega" Nullable="false" MaxLength="1" />
+    <Property Type="Decimal" Name="ivtabruto_p" Nullable="true" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="idsctos_p" Nullable="true" Precision="20" Scale="4" />
+    <Property Type="String" Name="ivtaneto_p" Nullable="false" MaxLength="1" />
+    <Property Type="Int32" Name="Sbonif" Nullable="false" />
+    <Property Type="String" Name="Scombo" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="npos_bonif" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="ctipdoc_ref" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="cserie_ref" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="ccorrel_ref" Nullable="false" MaxLength="1" />
+    <Property Type="Decimal" Name="sum_ivtabruto" Nullable="true" Precision="16" Scale="6" />
+    <Property Type="Decimal" Name="sum_idsctos" Nullable="true" Precision="16" Scale="6" />
+  </ComplexType>
+  <ComplexType Name="BUSQ_CLIDEP_Result">
+    <Property Type="String" Name="CODEMPRESA" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="CODDEP" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="CODCLIENTE" Nullable="false" MaxLength="20" />
+    <Property Type="Boolean" Name="ACTIVO" Nullable="false" />
+    <Property Type="String" Name="CODRUTA" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CODDISTRITO" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="MPERCEP" Nullable="true" Precision="20" Scale="4" />
+    <Property Type="Boolean" Name="notapedido" Nullable="true" />
+    <Property Type="Boolean" Name="ORT" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="BUSCAPROVEEDOR_Result">
+    <Property Type="String" Name="codprove" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="Column1" Nullable="true" MaxLength="11" />
+  </ComplexType>
+  <EntityType Name="TIPOPROD">
+    <Key>
+      <PropertyRef Name="codtipopro" />
+    </Key>
+    <Property Name="codtipopro" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="descrip" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODEMPRESA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TIPODOC">
+    <Key>
+      <PropertyRef Name="CODTIPODOC" />
+    </Key>
+    <Property Name="DATETRANS" Type="DateTime" Precision="3" />
+    <Property Name="TRANS" Type="Boolean" />
+    <Property Name="ESTADO" Type="Boolean" />
+    <Property Name="NTACRE" Type="Boolean" />
+    <Property Name="DSABRV" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="DSTIPODOC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODTIPODOC" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="CODEMPRESA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="VTA" Type="Boolean" Nullable="false" />
+    <Property Name="CONTABLE" Type="Boolean" Nullable="false" />
+    <Property Name="COMPRBTECOBRO" Type="Boolean" Nullable="false" />
+    <Property Name="COMPRBTEPAGO" Type="Boolean" Nullable="false" />
+    <Property Name="PERCEP" Type="Boolean" />
+    <Property Name="PERCEPT" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="VENTACAB">
+    <Key>
+      <PropertyRef Name="CODEMPRESA" />
+      <PropertyRef Name="CODTIPODOC" />
+      <PropertyRef Name="NRODOCU" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODTIPODOC" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="NRODOCU" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CODMON" Type="String" Nullable="false" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="CAMBIO" Type="Decimal" Precision="6" Scale="4" />
+    <Property Name="CODTIPOPAGO" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODVEND" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="ESTADO" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="FECDOCUM" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="FECPROCESO" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CODIMPUESTO" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="TOTBAS" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="TOTEXT" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="SUBTOTBAS" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="SUBTOTEXT" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="IGVBAS" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="IGVEXT" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="TOTNOAFECTBAS" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="TOTNOAFECTEXT" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="PORCENDESC1" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="PORCENDESC2" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="TOTDESCBAS" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="TOTDESCEXT" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="TOTVUELTOBAS" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="TOTVUELTOEXT" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="TOTCASHBAS" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="TOTCASHEXT" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="CODCLIENTE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="RUCCLIENTE" Type="String" MaxLength="18" FixedLength="true" Unicode="false" />
+    <Property Name="DESCLIENTE" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="DIRCLIENTE" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CIERREZ" Type="Boolean" Nullable="false" />
+    <Property Name="CDUSUARIO" Type="String" Nullable="false" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="NROPTOVTA" Type="String" Nullable="false" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="FECANULA" Type="DateTime" Precision="0" />
+    <Property Name="CDTIPOANULA" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="CDZONA" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="NROGUIA" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="TSTAMP" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="CODDEP" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="OBSERV" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="POSTPAGO" Type="Boolean" />
+    <Property Name="IPERCEP" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="Hora" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DESC_FINANCIERO" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="EXISTE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ENVIO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODHASH" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NUMDOC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SERIE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NRODOC_REFACT" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TIPODOC_REFACT" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CDLIQUIDADOR" Type="Int32" />
+    <Property Name="CDREPARTIDOR" Type="Int32" />
+    <Property Name="CDTIPORECHAZO" Type="Int32" />
+  </EntityType>
+  <ComplexType Name="SP_REPORTE_PEDIDO_XVENDEDOR_Result">
+    <Property Type="String" Name="CODCLIENTE" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="DESCLIENTE" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="FECPEDIDO" Nullable="false" Precision="23" />
+    <Property Type="Decimal" Name="NUM_PEDIDO" Nullable="false" Precision="10" Scale="0" />
+    <Property Type="String" Name="CODRUTA" Nullable="false" MaxLength="15" />
+    <Property Type="Int32" Name="ITEM" Nullable="false" />
+    <Property Type="String" Name="CODARTI" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="DESARTI" Nullable="false" MaxLength="80" />
+    <Property Type="Decimal" Name="PRECIO" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="CANTIDAD" Nullable="false" Precision="9" Scale="4" />
+    <Property Type="Decimal" Name="TOTBAS" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="String" Name="CORREL" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="DESPRES" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="CODVEND" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="NOMBVEND" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="NSP_SELECT_CORRELATIVOS_Result">
+    <Property Type="Decimal" Name="NROTICKFAC" Nullable="true" Precision="10" Scale="0" />
+    <Property Type="Decimal" Name="NROTICKBOL" Nullable="true" Precision="10" Scale="0" />
+    <Property Type="Decimal" Name="NRONTACRED" Nullable="true" Precision="10" Scale="0" />
+  </ComplexType>
+  <ComplexType Name="SP_REPORTE_COBRANZA_Result">
+    <Property Type="DateTime" Name="FECDOCUM" Nullable="false" Precision="23" />
+    <Property Type="Decimal" Name="NRODOCU" Nullable="false" Precision="10" Scale="0" />
+    <Property Type="String" Name="DESCREDFAC" Nullable="true" MaxLength="8000" />
+    <Property Type="String" Name="CDCLIENTEDEP" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="NOMBREDEP" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="DIRECCIONDEP" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="TOTCREDBAS" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="PAGCREDBAS" Nullable="true" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="PLAZO" Nullable="true" Precision="10" Scale="0" />
+    <Property Type="String" Name="DISTRITO" Nullable="true" MaxLength="70" />
+    <Property Type="String" Name="CODRUTA" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CODCLIENTEPRI" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="NOMPRINCIPAL" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="CDTIPODOCUM" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="CDMONEDA" Nullable="false" MaxLength="2" />
+    <Property Type="DateTime" Name="VENCIMIENTO" Nullable="false" Precision="23" />
+    <Property Type="String" Name="ESTADO" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="CODEMPRESA" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="DSVEND" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="Nsp_Sele_banco_Result">
+    <Property Type="String" Name="codbanco" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="desbanco" Nullable="true" MaxLength="35" />
+  </ComplexType>
+  <ComplexType Name="NSP_AGRUP_FECHA_Result">
+    <Property Type="String" Name="Column1" Nullable="true" MaxLength="25" />
+    <Property Type="String" Name="Column2" Nullable="true" MaxLength="25" />
+  </ComplexType>
+  <EntityType Name="TMP_PEDIDO_XVENDEDOR">
+    <Key>
+      <PropertyRef Name="CODCLIENTE" />
+      <PropertyRef Name="DESCLIENTE" />
+      <PropertyRef Name="FECPEDIDO" />
+      <PropertyRef Name="NUM_PEDIDO" />
+      <PropertyRef Name="CODRUTA" />
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="CODARTI" />
+      <PropertyRef Name="DESARTI" />
+      <PropertyRef Name="PRECIO" />
+      <PropertyRef Name="CANTIDAD" />
+      <PropertyRef Name="TOTBAS" />
+      <PropertyRef Name="CORREL" />
+      <PropertyRef Name="DESPRES" />
+      <PropertyRef Name="CODVEND" />
+      <PropertyRef Name="NOMBVEND" />
+    </Key>
+    <Property Name="CODCLIENTE" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DESCLIENTE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FECPEDIDO" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="NUM_PEDIDO" Type="Decimal" Nullable="false" Precision="10" Scale="0" />
+    <Property Name="CODRUTA" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="ITEM" Type="Int32" Nullable="false" />
+    <Property Name="CODARTI" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DESARTI" Type="String" Nullable="false" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="PRECIO" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="CANTIDAD" Type="Decimal" Nullable="false" Precision="9" Scale="4" />
+    <Property Name="TOTBAS" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="CORREL" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DESPRES" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODVEND" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NOMBVEND" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="SP_RPT_VENTAS_DETALLE_POR_DOCU_Result">
+    <Property Type="Int32" Name="CORREL" Nullable="false" />
+    <Property Type="String" Name="TIPODOC" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="SERIE" Nullable="true" MaxLength="3" />
+    <Property Type="String" Name="NUMERODOC" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="CLIENTE_NOM" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="DIRECCION" Nullable="false" MaxLength="150" />
+    <Property Type="String" Name="DISTRITO" Nullable="false" MaxLength="100" />
+    <Property Type="Decimal" Name="TOTAL" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="String" Name="EMPLEADO" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="RUTA" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="VENDEDOR" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="CODIGO_PROD" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="NOMBRE_PROD" Nullable="false" MaxLength="150" />
+    <Property Type="Decimal" Name="CANTIDAD" Nullable="false" Precision="18" Scale="0" />
+    <Property Type="DateTime" Name="FECHA" Nullable="false" Precision="23" />
+    <Property Type="String" Name="DESSUBLINEA" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="TIPOPAGO" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="TIPONEGOCIO" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="CODCLIDEP" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="CODCLIPRIN" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="NOMCLIPRIN" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="DNI" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="RUC" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="TELEFONO" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="OD" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="precio_unit_venta" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="precio_unit_costo" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="total_costo" Nullable="false" Precision="38" Scale="4" />
+    <Property Type="Decimal" Name="descuento" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="String" Name="nro_plan_desc" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="por_cobrar" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="String" Name="OBSV" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="CODPROMO" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="PROMO" Nullable="false" />
+    <Property Type="String" Name="SUBPROMO" Nullable="false" />
+    <Property Type="String" Name="DSTIPOPRE" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="CIUDAD">
+    <Key>
+      <PropertyRef Name="CODCIUDAD" />
+    </Key>
+    <Property Name="CODCIUDAD" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DESCIUDAD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODPAIS" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="iddepa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="estado" Type="Boolean" />
+    <Property Name="datetrans" Type="DateTime" Precision="3" />
+    <Property Name="trans" Type="Boolean" />
+    <Property Name="CODEMPRESA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CLIENTEs" Relationship="NARGESTModel.FK_CLIENTE_CIUDAD" FromRole="CIUDAD" ToRole="CLIENTE" />
+  </EntityType>
+  <EntityType Name="Distrito">
+    <Key>
+      <PropertyRef Name="CodDis" />
+    </Key>
+    <Property Name="CodDis" Type="String" Nullable="false" MaxLength="5" Unicode="false" FixedLength="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="codprovi" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CODPAIS" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="iddepa" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CODEMPRESA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ubigeo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CLIDEP" Relationship="NARGESTModel.FK_CLIDEP_Distrito" FromRole="Distrito" ToRole="CLIDEP" />
+    <NavigationProperty Name="CLIENTEs" Relationship="NARGESTModel.FK_CLIENTE_Distrito" FromRole="Distrito" ToRole="CLIENTE" />
+  </EntityType>
+  <EntityType Name="PAIS">
+    <Key>
+      <PropertyRef Name="CODPAIS" />
+    </Key>
+    <Property Name="DATETRANS" Type="DateTime" Precision="3" />
+    <Property Name="TRANS" Type="Boolean" />
+    <Property Name="ESTADO" Type="Boolean" />
+    <Property Name="DESPAIS" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODPAIS" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="COD_EMPRESA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CLIENTEs" Relationship="NARGESTModel.FK_CLIENTE_PAIS" FromRole="PAIS" ToRole="CLIENTE" />
+  </EntityType>
+  <EntityType Name="TIPOPRE">
+    <Key>
+      <PropertyRef Name="CODTIPOPRE" />
+    </Key>
+    <Property Name="DATETRANS" Type="DateTime" Precision="3" />
+    <Property Name="TRANS" Type="Boolean" />
+    <Property Name="DSTIPOPRE" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CODTIPOPRE" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="codmon" Type="String" Nullable="false" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="estado" Type="Boolean" />
+    <Property Name="CODEMPRESA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="APLIOTROSCTO" Type="Boolean" />
+    <Property Name="DS" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Moneda" Relationship="NARGESTModel.FK__TIPOPRE__codmon__1249A49B" FromRole="TIPOPRE" ToRole="Moneda" />
+    <NavigationProperty Name="CLIENTEs" Relationship="NARGESTModel.FK_CLIENTE_TIPOPRE" FromRole="TIPOPRE" ToRole="CLIENTE" />
+  </EntityType>
+  <EntityType Name="RUTA">
+    <Key>
+      <PropertyRef Name="CODIGO" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODIGO" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CLIDEP" Relationship="NARGESTModel.FK_CLIDEP_RUTA" FromRole="RUTA" ToRole="CLIDEP" />
+    <NavigationProperty Name="CLIENTEs" Relationship="NARGESTModel.FK_CLIENTE_RUTA" FromRole="RUTA" ToRole="CLIENTE" />
+  </EntityType>
+  <EntityType Name="TIPO_PAGO">
+    <Key>
+      <PropertyRef Name="CODTIPOPAGO" />
+    </Key>
+    <Property Name="DATETRANS" Type="DateTime" Precision="3" />
+    <Property Name="ESTADO" Type="Boolean" />
+    <Property Name="TRANS" Type="Boolean" />
+    <Property Name="DSTIPOPAGO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODTIPOPAGO" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODEMPRESA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CLIENTEs" Relationship="NARGESTModel.FK_CLIENTE_TIPO_PAGO" FromRole="TIPO_PAGO" ToRole="CLIENTE" />
+  </EntityType>
+  <EntityType Name="Moneda">
+    <Key>
+      <PropertyRef Name="codmon" />
+    </Key>
+    <Property Name="datetrans" Type="DateTime" Precision="3" />
+    <Property Name="trans" Type="Boolean" />
+    <Property Name="simbolo" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="dsmoneda" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="codmon" Type="String" Nullable="false" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="CODEMPRESA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="estado" Type="Boolean" />
+    <NavigationProperty Name="TIPOPRE" Relationship="NARGESTModel.FK__TIPOPRE__codmon__1249A49B" FromRole="Moneda" ToRole="TIPOPRE" />
+  </EntityType>
+  <Association Name="FK__TIPOPRE__codmon__1249A49B">
+    <End Type="NARGESTModel.Moneda" Role="Moneda" Multiplicity="1" />
+    <End Type="NARGESTModel.TIPOPRE" Role="TIPOPRE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Moneda">
+        <PropertyRef Name="codmon" />
+      </Principal>
+      <Dependent Role="TIPOPRE">
+        <PropertyRef Name="codmon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="SP_LISTA_ARTICULO_FACT_Result">
+    <Property Type="String" Name="CODARTI" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="DESARTI" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="DESARTI2" Nullable="true" MaxLength="150" />
+  </ComplexType>
+  <ComplexType Name="USP_CONFIGINV_Result">
+    <Property Type="Decimal" Name="NROMOVI" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="String" Name="NROINVINI" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="CDINGTRANSF" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="CDINGCOMP" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="CDINGIMP" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="CDINGCRED" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="CDINGAJUSTOCK" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="CDINGCARGFORMU" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="CDINGTRANSSUBCAM" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="CDSALTRANSF" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="CDSALAJUSTOCK" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="CDSALDESCFORMU" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="CDSALTRANSSUBCAM" Nullable="true" MaxLength="5" />
+    <Property Type="Boolean" Name="STOCKNEG" Nullable="false" />
+    <Property Type="Decimal" Name="DECICANT" Nullable="false" Precision="10" Scale="0" />
+    <Property Type="Decimal" Name="DECICOST" Nullable="false" Precision="10" Scale="0" />
+    <Property Type="Decimal" Name="DECIPREC" Nullable="false" Precision="9" Scale="3" />
+    <Property Type="Decimal" Name="DECIRESU" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="String" Name="CDSALNTACRED" Nullable="true" MaxLength="5" />
+    <Property Type="Boolean" Name="INVFIS" Nullable="false" />
+    <Property Type="DateTime" Name="FECHA_INV" Nullable="true" Precision="16" />
+    <Property Type="String" Name="CDTIPDOCINGAJUS" Nullable="true" MaxLength="3" />
+    <Property Type="String" Name="CDTIPDOCSALAJUS" Nullable="true" MaxLength="3" />
+    <Property Type="Int32" Name="NROFECH" Nullable="true" />
+    <Property Type="String" Name="CDINVINI" Nullable="true" MaxLength="5" />
+    <Property Type="Boolean" Name="ACTIVATRANSFORM" Nullable="false" />
+    <Property Type="Boolean" Name="DESCLINTRANSFOR" Nullable="false" />
+    <Property Type="String" Name="CDINGTRANSFORM" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="CDSALTRANSFORM" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="CDALMACEN" Nullable="true" MaxLength="5" />
+    <Property Type="Binary" Name="TSTAMP" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="CDSALNTACREDESP" Nullable="true" MaxLength="5" />
+    <Property Type="Boolean" Name="TRANS" Nullable="false" />
+    <Property Type="DateTime" Name="DATETRANS" Nullable="true" Precision="23" />
+    <Property Type="Boolean" Name="ESTADO" Nullable="false" />
+    <Property Type="String" Name="CODEMPRESA" Nullable="true" MaxLength="10" />
+    <Property Type="Boolean" Name="MEDIDA" Nullable="true" />
+    <Property Type="Boolean" Name="UMEDIDA" Nullable="true" />
+    <Property Type="Decimal" Name="PORINCPESO" Nullable="true" Precision="12" Scale="2" />
+    <Property Type="Decimal" Name="INCBULTO" Nullable="true" Precision="12" Scale="2" />
+    <Property Type="Decimal" Name="NROCOMPRA" Nullable="true" Precision="20" Scale="0" />
+    <Property Type="Decimal" Name="CORRELCOSTOS" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="String" Name="CDCOMPLOCAL" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="CODSERVICIOS" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="CODPAGCRED" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="EFECTIVO" Nullable="true" MaxLength="3" />
+    <Property Type="String" Name="INGRES_X_TRANSFER" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="SALIDA_X_VENTA" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="CODIGO_DOCUMENTO_INGRESO" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="CODIGO_DOCUMENTO_SALIDA" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="ING_X_PROC_MOND" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="INGRESO_X_AJUSTE" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="CDCOMIMPORT" Nullable="true" MaxLength="3" />
+    <Property Type="String" Name="CDLETRA" Nullable="false" MaxLength="3" />
+    <Property Type="Decimal" Name="PORCENPERCEP" Nullable="true" Precision="20" Scale="4" />
+  </ComplexType>
+  <EntityType Name="TIPCREDF">
+    <Key>
+      <PropertyRef Name="TIPCREDFAC" />
+    </Key>
+    <Property Name="COD_EMPRESA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TIPCREDFAC" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="DESCREDFAC" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+    <Property Name="NRDIAS" Type="Int32" />
+    <Property Name="TRANS" Type="Boolean" />
+    <Property Name="DATETRANS" Type="DateTime" Precision="3" />
+    <Property Name="estado" Type="Boolean" />
+  </EntityType>
+  <ComplexType Name="SP_EXTRAER_AÑO_MES_Result">
+    <Property Type="String" Name="año" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="MES" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="SP_BUSQUEDA_CLIENTE_VTA_Result">
+    <Property Type="String" Name="CODEMPRESA" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="CODTIPODOC" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="NRODOCU" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="CODMON" Nullable="false" MaxLength="2" />
+    <Property Type="Decimal" Name="CAMBIO" Nullable="true" Precision="6" Scale="4" />
+    <Property Type="String" Name="CODTIPOPAGO" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="CODVEND" Nullable="false" MaxLength="4" />
+    <Property Type="String" Name="ESTADO" Nullable="true" MaxLength="1" />
+    <Property Type="DateTime" Name="FECDOCUM" Nullable="false" Precision="16" />
+    <Property Type="DateTime" Name="FECPROCESO" Nullable="false" Precision="23" />
+    <Property Type="String" Name="CODIMPUESTO" Nullable="true" MaxLength="5" />
+    <Property Type="Decimal" Name="TOTBAS" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="TOTEXT" Nullable="true" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="SUBTOTBAS" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="SUBTOTEXT" Nullable="true" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="IGVBAS" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="IGVEXT" Nullable="true" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="TOTNOAFECTBAS" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="TOTNOAFECTEXT" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="PORCENDESC1" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="PORCENDESC2" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="TOTDESCBAS" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="TOTDESCEXT" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="TOTVUELTOBAS" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="TOTVUELTOEXT" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="TOTCASHBAS" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="TOTCASHEXT" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="String" Name="CODCLIENTE" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="RUCCLIENTE" Nullable="true" MaxLength="18" />
+    <Property Type="String" Name="DESCLIENTE" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="DIRCLIENTE" Nullable="true" MaxLength="200" />
+    <Property Type="Boolean" Name="CIERREZ" Nullable="false" />
+    <Property Type="String" Name="CDUSUARIO" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="NROPTOVTA" Nullable="false" MaxLength="80" />
+    <Property Type="DateTime" Name="FECANULA" Nullable="true" Precision="16" />
+    <Property Type="String" Name="CDTIPOANULA" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="CDZONA" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="NROGUIA" Nullable="false" MaxLength="500" />
+    <Property Type="Binary" Name="TSTAMP" Nullable="true" MaxLength="8" />
+    <Property Type="String" Name="CODDEP" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="OBSERV" Nullable="false" MaxLength="200" />
+    <Property Type="Boolean" Name="POSTPAGO" Nullable="true" />
+    <Property Type="Decimal" Name="IPERCEP" Nullable="true" Precision="20" Scale="4" />
+    <Property Type="String" Name="Hora" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="DESC_FINANCIERO" Nullable="true" Precision="20" Scale="4" />
+    <Property Type="String" Name="EXISTE" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ENVIO" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CODHASH" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="NUMDOC" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="SERIE" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="ALMACEN">
+    <Key>
+      <PropertyRef Name="CODALMACEN" />
+    </Key>
+    <Property Name="codempresa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODALMACEN" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DATETRANS" Type="DateTime" Precision="3" />
+    <Property Name="TRANS" Type="Boolean" />
+    <Property Name="ESTADO" Type="Boolean" />
+    <Property Name="AJUSTESTOCK" Type="Boolean" />
+    <Property Name="FECTOMAINV" Type="DateTime" Precision="3" />
+    <Property Name="TERMINAL" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ACTIVO" Type="Boolean" />
+    <Property Name="DESALMACEN" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="direccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CDTIPO" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="TIPO" Type="Boolean" />
+    <NavigationProperty Name="ARTIDATs" Relationship="NARGESTModel.FK__ARTIDAT__CODALMA__7D4E87B5" FromRole="ALMACEN" ToRole="ARTIDAT" />
+  </EntityType>
+  <EntityType Name="CATEGORIA_CLIENTE">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODEMPRESA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="SEGMENTO_CLIENTE">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODEMPRESA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CLIENTEs" Relationship="NARGESTModel.FK_CLIENTE_SEGMENTO_CLIENTE" FromRole="SEGMENTO_CLIENTE" ToRole="CLIENTE" />
+  </EntityType>
+  <EntityType Name="TIPONEGOCIO">
+    <Key>
+      <PropertyRef Name="CODIGO" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODIGO" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CLIENTEs" Relationship="NARGESTModel.FK_CLIENTE_TIPONEGOCIO" FromRole="TIPONEGOCIO" ToRole="CLIENTE" />
+  </EntityType>
+  <EntityType Name="paisdepa">
+    <Key>
+      <PropertyRef Name="iddepa" />
+    </Key>
+    <Property Name="iddepa" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="depa" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="codpais" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="codempresa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="trans" Type="Boolean" />
+    <Property Name="datetrans" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="CLIENTEs" Relationship="NARGESTModel.FK_CLIENTE_paisdepa" FromRole="paisdepa" ToRole="CLIENTE" />
+  </EntityType>
+  <EntityType Name="CLIE_FUERZA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODCLIE" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CODFUERZA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CREDITO_F" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="SALDO_CREDF" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="FUERZAVENTA" Relationship="NARGESTModel.FK_CLIE_FUERZA_FUERZAVENTA" FromRole="CLIE_FUERZA" ToRole="FUERZAVENTA" />
+    <NavigationProperty Name="CLIENTE" Relationship="NARGESTModel.FK_CLIE_FUERZA_CLIENTE" FromRole="CLIE_FUERZA" ToRole="CLIENTE" />
+  </EntityType>
+  <EntityType Name="FUERZAVENTA">
+    <Key>
+      <PropertyRef Name="CODIGO" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODIGO" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CLIE_FUERZA" Relationship="NARGESTModel.FK_CLIE_FUERZA_FUERZAVENTA" FromRole="FUERZAVENTA" ToRole="CLIE_FUERZA" />
+  </EntityType>
+  <Association Name="FK_CLIE_FUERZA_FUERZAVENTA">
+    <End Type="NARGESTModel.FUERZAVENTA" Role="FUERZAVENTA" Multiplicity="0..1" />
+    <End Type="NARGESTModel.CLIE_FUERZA" Role="CLIE_FUERZA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUERZAVENTA">
+        <PropertyRef Name="CODIGO" />
+      </Principal>
+      <Dependent Role="CLIE_FUERZA">
+        <PropertyRef Name="CODFUERZA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CONFIGSIS">
+    <Key>
+      <PropertyRef Name="COD_EMPRESA" />
+    </Key>
+    <Property Name="COD_EMPRESA" Type="String" Nullable="false" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="CDMONBASE" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="CDMONEXTR" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="FECHAPROC" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DECICANT" Type="Decimal" Nullable="false" Precision="10" Scale="0" />
+    <Property Name="DECICOST" Type="Decimal" Nullable="false" Precision="10" Scale="0" />
+    <Property Name="DECIPREC" Type="Decimal" Nullable="false" Precision="9" Scale="3" />
+    <Property Name="DECIRESU" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="PORCENIGV" Type="Decimal" Nullable="false" Precision="5" Scale="2" />
+    <Property Name="UNICNROFACBOL" Type="Boolean" Nullable="false" />
+    <Property Name="EMPRESA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PTOCIERREFINDIA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SALIDAIMP" Type="Boolean" Nullable="false" />
+    <Property Name="TSTAMP" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="TRANS" Type="Boolean" Nullable="false" />
+    <Property Name="DATETRANS" Type="DateTime" Precision="3" />
+    <Property Name="ESTADO" Type="Boolean" />
+    <Property Name="CODPAIS" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODTIPOPAGO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="codclie" Type="Boolean" />
+    <Property Name="MULT_NTACRED_X_NROREF" Type="Boolean" Nullable="false" />
+    <Property Name="NRODESPACHO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="NROVENTA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="NROCOBRANZA" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="ACTIVABD" Type="Boolean" />
+    <Property Name="ACTICAJA" Type="Boolean" />
+    <Property Name="LIMCREDTO" Type="Int32" />
+    <Property Name="coeficiente" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="PREC_BOLETA" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="PREC_FACTURA" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="PREC_NOTAPEDIDO" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="PORCDESCUENTO" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="CodAlmacen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NPTIENDA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NROCOTIZACION" Type="Int32" />
+    <Property Name="MARGENMIN" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="TIPODESC" Type="Boolean" />
+    <Property Name="DiaCStk" Type="Int32" />
+    <Property Name="CORREO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="URL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UBIGEO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CERTELECT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DIRECCION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EMIFACT" Type="Boolean" />
+    <Property Name="resolucion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="consulta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CodHash" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TipoOperacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODDOMFISCAL" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="RUTA_ARCHIVO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="MARGENMIN_PD" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="nropedido" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NOSERIE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CodClienteDep" Type="Int32" />
+    <Property Name="CodLocal" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CodClientePri" Type="Int32" />
+    <Property Name="DiasAdelantado" Type="Int32" />
+    <Property Name="FACTPTOVTA" Type="Boolean" />
+    <Property Name="FACTLINEA" Type="Boolean" />
+    <Property Name="FACTSUBEMP" Type="Boolean" />
+    <Property Name="tiempo" Type="Int32" />
+    <Property Name="ULTIMACARGACLIENT" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ULTIMACARGAPROD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ULTIMACARGATIPOPRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CONFIGVTA">
+    <Key>
+      <PropertyRef Name="CODEMPRESA" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="INCLUYE_SERV" Type="Boolean" Nullable="false" />
+    <Property Name="PORCENSERV" Type="Decimal" Nullable="false" Precision="5" Scale="2" />
+    <Property Name="IDIMPIGV" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="IDIMPISC" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="NRORESERVA" Type="Decimal" Nullable="false" Precision="10" Scale="0" />
+    <Property Name="NROCONSUMO" Type="Decimal" Nullable="false" Precision="10" Scale="0" />
+    <Property Name="NRORECPEND" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="NROPAGOCTACTE" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="NROPAGPROV" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="EDITPRECIO" Type="Boolean" Nullable="false" />
+    <Property Name="CDTICKET" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="CDFACTURA" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="CDBOLETA" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="CDGUIATRANSFER" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="CDNTACREDP" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="CDNTAPEDIDO" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="CDBALANZA" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="CDNTADEBITO" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="CDGUIA" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="CDGUIAVENTA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CDGUIAREMISION" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="CODCLIVARIOS" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="IDSOCIO" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="ACT_PRE_OFER" Type="Boolean" Nullable="false" />
+    <Property Name="ACT_PRE_ADI" Type="Boolean" Nullable="false" />
+    <Property Name="ACT_PRE_EXT" Type="Boolean" Nullable="false" />
+    <Property Name="DESCXCAT" Type="Boolean" Nullable="false" />
+    <Property Name="IMPCUPONES" Type="Boolean" Nullable="false" />
+    <Property Name="MONTO_CUPON" Type="Byte" />
+    <Property Name="NUM_CUPON" Type="Byte" />
+    <Property Name="ACTBONUS" Type="Boolean" Nullable="false" />
+    <Property Name="TSTAMP" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="TRANS" Type="Boolean" Nullable="false" />
+    <Property Name="DATETRANS" Type="DateTime" Precision="3" />
+    <Property Name="codgenclie" Type="Boolean" />
+    <Property Name="ITEMDEGUIA" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="ITEMDENOTACRED" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="ITEMDEBOLETA" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="ITEMDEFACT" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="ITEMDENTAPEDIDO" Type="Int32" Nullable="false" />
+    <Property Name="IDNOIMPIGV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="codvend" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="montoboleta" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DIGITOSRUC" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DIGITOSDNI" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="UIT" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CORRELNROPAGO" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DESCARGA_ALMACEN" Type="Boolean" />
+    <Property Name="CODARTISERV" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="DURACION_PEDIDO" Type="Int32" />
+    <Property Name="NTACRED_INS_CUENTA_CLIE" Type="Boolean" Nullable="false" />
+    <Property Name="CAMBFECFACT" Type="Boolean" />
+    <Property Name="PRECIO_CONIGV" Type="Boolean" Nullable="false" />
+    <Property Name="CDPAGEFECTIVO" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CDPAGCREDITO" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="NRODESPACHO" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="NROVENTA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="NROCOBRANZA" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="CODRETENCION" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CODPERCEPCION" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CODNEXTEL" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="MONTFACTURA" Type="Int32" />
+    <Property Name="MONTBOLETA" Type="Int32" />
+    <Property Name="MONTNTACREDP" Type="Int32" />
+  </EntityType>
+  <ComplexType Name="SP_RPT_CLIENTE_Result">
+    <Property Type="String" Name="direccion" Nullable="true" />
+    <Property Type="String" Name="codcliente" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="DATOADJUNTO" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="ruc" Nullable="true" MaxLength="11" />
+  </ComplexType>
+  <ComplexType Name="SP_REPORTE_CLIENTEDEP_PERCEP_Result">
+    <Property Type="String" Name="CODEMPRESA" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="CODCLIENTE" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="DATOADJUNTO" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="RUC" Nullable="true" MaxLength="11" />
+    <Property Type="String" Name="DIRECCION" Nullable="true" />
+    <Property Type="String" Name="RUTA" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="TIPCREDFAC" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="CODTIPOPAGO" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="CODTIPCLI" Nullable="false" MaxLength="4" />
+    <Property Type="String" Name="CODCIUDAD" Nullable="false" MaxLength="4" />
+    <Property Type="String" Name="codzona" Nullable="false" MaxLength="4" />
+    <Property Type="Boolean" Name="EMPLEADO" Nullable="true" />
+    <Property Type="String" Name="coddis" Nullable="true" MaxLength="70" />
+    <Property Type="Decimal" Name="MPERCEP" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="String" Name="CODVENDEDOR" Nullable="false" MaxLength="4" />
+  </ComplexType>
+  <EntityType Name="ACCESO">
+    <Key>
+      <PropertyRef Name="cdmodulo" />
+      <PropertyRef Name="activo" />
+    </Key>
+    <Property Name="CodEmpresa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="cdnivel" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="cdmodulo" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="activo" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CIERRE_MES_INVENTARIO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="AÑO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MES" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ARTICULO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="STOCK" Type="Int32" />
+    <Property Name="ALMACEN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA" Type="DateTime" Precision="3" />
+    <Property Name="TSTAMP" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="ACCESOPROC">
+    <Key>
+      <PropertyRef Name="CodEmpresa" />
+      <PropertyRef Name="activo" />
+    </Key>
+    <Property Name="CodEmpresa" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="cdnivel" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="cdproceso" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="activo" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ACTIVO">
+    <Key>
+      <PropertyRef Name="IDACTIVO" />
+      <PropertyRef Name="DATETRANS" />
+    </Key>
+    <Property Name="IDACTIVO" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ACTIVO1" Type="String" Nullable="false" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="IDDEPA" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="CODEMPRESA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TRANS" Type="Boolean" />
+    <Property Name="DATETRANS" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="HP" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="KW" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="PUKW" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="CostHor" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+  </EntityType>
+  <EntityType Name="rsyssegment">
+    <Key>
+      <PropertyRef Name="NRODOCU" />
+      <PropertyRef Name="CODARTI" />
+      <PropertyRef Name="CODLINEA" />
+      <PropertyRef Name="CODSUBLINEA" />
+      <PropertyRef Name="CANTIDAD" />
+      <PropertyRef Name="IGVBAS" />
+      <PropertyRef Name="SUBTOTBAS" />
+      <PropertyRef Name="FECDOCUM" />
+      <PropertyRef Name="TOTBAS" />
+    </Key>
+    <Property Name="RAZONSOCIAL" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="DSTIPODOC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NRODOCU" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CODARTI" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DESARTI" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CODLINEA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DESLINEA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODSUBLINEA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DESSUBLINEA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODPRES" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DESPRES" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CANTIDAD" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="IGVBAS" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="SUBTOTBAS" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="FECDOCUM" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="cdusuario" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="usuario" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="NROPTOVTA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ESTADO" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="TOTBAS" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+  </EntityType>
+  <EntityType Name="rsyssegmentC">
+    <Key>
+      <PropertyRef Name="NRODOC" />
+      <PropertyRef Name="DSTIPOMOV" />
+      <PropertyRef Name="CDARTICULO" />
+      <PropertyRef Name="CODPRES" />
+      <PropertyRef Name="despres" />
+      <PropertyRef Name="CODLINEA" />
+      <PropertyRef Name="DESPROVEEDOR" />
+      <PropertyRef Name="cdusuario" />
+      <PropertyRef Name="ESTADO" />
+      <PropertyRef Name="COSTOBAS" />
+      <PropertyRef Name="CANTIDAD" />
+    </Key>
+    <Property Name="FECDOCUM" Type="DateTime" Precision="3" />
+    <Property Name="DSTIPODOC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NRODOC" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="DSTIPOMOV" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DESALMACEN" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="CDARTICULO" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DESARTI" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="CODPRES" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="despres" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODLINEA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DESLINEA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODSUBLINEA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DESSUBLINEA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CDPROVEE" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="DESPROVEEDOR" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="cdusuario" Type="String" Nullable="false" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="usuario" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ESTADO" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="COSTOBAS" Type="Decimal" Nullable="false" Precision="20" Scale="5" />
+    <Property Name="CANTIDAD" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="CANTXUNI" Type="Decimal" Precision="30" Scale="7" />
+    <Property Name="TOTAL" Type="Decimal" Precision="38" Scale="6" />
+  </EntityType>
+  <EntityType Name="syssegments">
+    <Key>
+      <PropertyRef Name="CODEMPRESA" />
+      <PropertyRef Name="codcliente" />
+      <PropertyRef Name="Expr1" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="codcliente" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DATOADJUNTO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Expr1" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DSVEND" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Expr2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="test">
+    <Key>
+      <PropertyRef Name="xstatus" />
+      <PropertyRef Name="xdate1" />
+      <PropertyRef Name="xdate2" />
+      <PropertyRef Name="dbid" />
+    </Key>
+    <Property Name="srvid" Type="Int16" />
+    <Property Name="sid" Type="Binary" MaxLength="85" FixedLength="false" />
+    <Property Name="xstatus" Type="Int16" Nullable="false" />
+    <Property Name="xdate1" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="xdate2" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="Binary" MaxLength="256" FixedLength="false" />
+    <Property Name="dbid" Type="Int16" Nullable="false" />
+    <Property Name="language" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="isrpcinmap" Type="Int16" />
+    <Property Name="ishqoutmap" Type="Int16" />
+    <Property Name="selfoutmap" Type="Int16" />
+  </EntityType>
+  <EntityType Name="CLIDEP">
+    <Key>
+      <PropertyRef Name="CODCLIENTE" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODDEP" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CODCLIENTE" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ACTIVO" Type="Boolean" Nullable="false" />
+    <Property Name="CODRUTA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CODDISTRITO" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="MPERCEP" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="notapedido" Type="Boolean" />
+    <Property Name="ORT" Type="Boolean" />
+    <NavigationProperty Name="Distrito" Relationship="NARGESTModel.FK_CLIDEP_Distrito" FromRole="CLIDEP" ToRole="Distrito" />
+    <NavigationProperty Name="RUTA" Relationship="NARGESTModel.FK_CLIDEP_RUTA" FromRole="CLIDEP" ToRole="RUTA" />
+    <NavigationProperty Name="CLIENTE" Relationship="NARGESTModel.FK_CLIDEP_CLIENTE" FromRole="CLIDEP" ToRole="CLIENTE" />
+  </EntityType>
+  <Association Name="FK_CLIDEP_Distrito">
+    <End Type="NARGESTModel.Distrito" Role="Distrito" Multiplicity="0..1" />
+    <End Type="NARGESTModel.CLIDEP" Role="CLIDEP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Distrito">
+        <PropertyRef Name="CodDis" />
+      </Principal>
+      <Dependent Role="CLIDEP">
+        <PropertyRef Name="CODDISTRITO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIDEP_RUTA">
+    <End Type="NARGESTModel.RUTA" Role="RUTA" Multiplicity="0..1" />
+    <End Type="NARGESTModel.CLIDEP" Role="CLIDEP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RUTA">
+        <PropertyRef Name="CODIGO" />
+      </Principal>
+      <Dependent Role="CLIDEP">
+        <PropertyRef Name="CODRUTA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ACTIVO_FIJO">
+    <Key>
+      <PropertyRef Name="CODACT" />
+      <PropertyRef Name="CODEMPRESA" />
+    </Key>
+    <Property Name="CODACT" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DESCACT" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="CODDEP" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODEMPRESA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TASDEPCONT" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="TASDEPTRIB" Type="Decimal" Precision="9" Scale="4" />
+    <Property Name="TASDEPDOL" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="VIDUTIL" Type="Decimal" Precision="9" Scale="2" />
+    <Property Name="CORRELATIVO" Type="Decimal" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="ALMAZON">
+    <Key>
+      <PropertyRef Name="CDZONA" />
+      <PropertyRef Name="CDALMACEN" />
+      <PropertyRef Name="TRANS" />
+      <PropertyRef Name="CODEMPRESA" />
+    </Key>
+    <Property Name="CDZONA" Type="String" Nullable="false" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="CDALMACEN" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="USERID" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="TSTAMP" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="TRANS" Type="Boolean" Nullable="false" />
+    <Property Name="DATETRANS" Type="DateTime" Precision="3" />
+    <Property Name="CODEMPRESA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="NSP_RPT_EQUIPOVENTAS_Result">
+    <Property Type="String" Name="CodVend" Nullable="true" MaxLength="4" />
+    <Property Type="String" Name="dsvend" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="CodJefe" Nullable="false" />
+    <Property Type="String" Name="nombreJefe" Nullable="true" />
+    <Property Type="String" Name="codequipovend" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="nombequipovend" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="NSP_RPT_DESCEXT_Result">
+    <Property Type="DateTime" Name="FECPEDIDO" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="FECPEDIDO2" Nullable="true" Precision="23" />
+    <Property Type="String" Name="CODTIPODOC" Nullable="false" MaxLength="2" />
+    <Property Type="Decimal" Name="NUM_PEDIDO" Nullable="false" Precision="10" Scale="0" />
+    <Property Type="Decimal" Name="TOTBAS" Nullable="true" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="DESCEXT" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="TDESCEXT" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="String" Name="CODARTI" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="DESARTI" Nullable="true" MaxLength="80" />
+    <Property Type="String" Name="DESCLIENTE" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="DSVEND" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <EntityType Name="ADUANA">
+    <Key>
+      <PropertyRef Name="ADU_CODIGO" />
+      <PropertyRef Name="ADU_NOMBRE" />
+    </Key>
+    <Property Name="COD_EMPRESA" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="ADU_CODIGO" Type="String" Nullable="false" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="ADU_NOMBRE" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="ZSP_RPT_DESCEXT_Result">
+    <Property Type="String" Name="FECPEDIDO" Nullable="true" MaxLength="103" />
+    <Property Type="String" Name="FECPEDIDO2" Nullable="true" MaxLength="103" />
+    <Property Type="String" Name="CODTIPODOC" Nullable="true" MaxLength="11" />
+    <Property Type="Decimal" Name="NUM_PEDIDO" Nullable="false" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="TOTBAS" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="DESCEXT" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="TDESCEXT" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="String" Name="CODARTI" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="DESARTI" Nullable="true" MaxLength="80" />
+    <Property Type="String" Name="DESCLIENTE" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="DSVEND" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="NRODESPACHO" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <EntityType Name="Zona">
+    <Key>
+      <PropertyRef Name="codzona" />
+    </Key>
+    <Property Name="datetrans" Type="DateTime" Precision="3" />
+    <Property Name="trans" Type="Boolean" />
+    <Property Name="estado" Type="Boolean" />
+    <Property Name="deszona" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="codzona" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CODEMPRESA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="SP_LISTA_ARTICULO_FACT_FILTRO_Result">
+    <Property Type="String" Name="CODARTI" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="DESARTI" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="DESARTI2" Nullable="true" MaxLength="150" />
+  </ComplexType>
+  <ComplexType Name="SelectPRECIART_Presentxproc2_Result">
+    <Property Type="String" Name="CODPRES" Nullable="false" MaxLength="4" />
+    <Property Type="String" Name="DESPRES" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="EQUIVALENCIA" Nullable="false" Precision="20" Scale="4" />
+  </ComplexType>
+  <EntityType Name="TipoPrecioXPromocion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODPROMO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODTIPOPRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DSTIPOPRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODIGO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="TipoPagoXPromocion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="CODPROMO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODTIPOPAGO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="TMP_STOCKPEDIDO">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="CORREL" Type="Int32" Nullable="false" />
+    <Property Name="CODEMPRESA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODARTI" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DESARTI" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="STOCK_PEDIDO_UND" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="STOCK_ACT_UND" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="STOCK_FALT_UND" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="STOCK_FALT_PAQ" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="CODPRESM" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CODPRESU" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DESPRESU" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DESPRESM" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NUM_PEDIDO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="ARTIDAT">
+    <Key>
+      <PropertyRef Name="CODALMACEN" />
+      <PropertyRef Name="CODARTI" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODALMACEN" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CODARTI" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DATETRANS" Type="DateTime" Precision="3" />
+    <Property Name="TRANS" Type="Boolean" />
+    <Property Name="ESTADO" Type="Boolean" />
+    <Property Name="ULTSAL" Type="DateTime" Precision="3" />
+    <Property Name="ULTING" Type="DateTime" Precision="3" />
+    <Property Name="COSTEXTRM" Type="Decimal" Precision="20" Scale="5" />
+    <Property Name="COSTEXTRU" Type="Decimal" Precision="20" Scale="5" />
+    <Property Name="COSTBASEM" Type="Decimal" Precision="20" Scale="5" />
+    <Property Name="COSTBASEU" Type="Decimal" Precision="20" Scale="5" />
+    <Property Name="STKINIM" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="STKINIU" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="STKACTM" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="STKACTU" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="STKMAXM" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="STKMAXU" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="STKMINM" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="STKMINU" Type="Decimal" Precision="20" Scale="4" />
+    <Property Name="UBICAJE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NROING" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NROSAL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FECH_COMP" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="ALMACEN" Relationship="NARGESTModel.FK__ARTIDAT__CODALMA__7D4E87B5" FromRole="ARTIDAT" ToRole="ALMACEN" />
+  </EntityType>
+  <Association Name="FK__ARTIDAT__CODALMA__7D4E87B5">
+    <End Type="NARGESTModel.ALMACEN" Role="ALMACEN" Multiplicity="1" />
+    <End Type="NARGESTModel.ARTIDAT" Role="ARTIDAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ALMACEN">
+        <PropertyRef Name="CODALMACEN" />
+      </Principal>
+      <Dependent Role="ARTIDAT">
+        <PropertyRef Name="CODALMACEN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="SelectPRECIART_PresentxprocSUBCAT_Result">
+    <Property Type="String" Name="CODPRES" Nullable="false" MaxLength="4" />
+    <Property Type="String" Name="DESPRES" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="EQUIVALENCIA" Nullable="true" Precision="20" Scale="4" />
+  </ComplexType>
+  <EntityType Name="TipoPagoXPromocionSub">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="CODPROMO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODTIPOPAGO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="CLIENTEXPROMOSUBCAT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="CODPROMO" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CODCLIENTE" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="RAZONSOCIAL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CODSUBLINEA" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="TipoPrecioXPromocionSubCat">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODPROMO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODTIPOPRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DSTIPOPRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CODIGO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="LINEA">
+    <Key>
+      <PropertyRef Name="CODLINEA" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODLINEA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DESLINEA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ESTADO" Type="Boolean" />
+    <Property Name="TRANS" Type="Boolean" />
+    <Property Name="DATETRANS" Type="DateTime" Precision="3" />
+    <Property Name="CODTIPOPROD" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CORRELATIVO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="SUBLINEA">
+    <Key>
+      <PropertyRef Name="CODSUBLINEA" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODSUBLINEA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DESSUBLINEA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ESTADO" Type="Boolean" />
+    <Property Name="TRANS" Type="Boolean" />
+    <Property Name="DATETRANS" Type="DateTime" Precision="3" />
+    <Property Name="CODLINEA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="PLCODI" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="CLIENTE">
+    <Key>
+      <PropertyRef Name="codcliente" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="codcliente" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DATETRANS" Type="DateTime" Precision="3" />
+    <Property Name="TRANS" Type="Boolean" />
+    <Property Name="ESTADO" Type="Boolean" />
+    <Property Name="DESCUENTO" Type="Decimal" Precision="9" Scale="3" />
+    <Property Name="CTA_LET" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="CTA_ANT" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="CTA_VTA" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="SALDODISPONIBLE" Type="Decimal" Precision="11" Scale="2" />
+    <Property Name="MTOLIMCRED" Type="Decimal" Precision="11" Scale="2" />
+    <Property Name="telefono" Type="String" Nullable="false" MaxLength="18" FixedLength="true" Unicode="false" />
+    <Property Name="ruc" Type="String" Nullable="false" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="direccion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CODTIPOPAGO" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CODTIPCLI" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CODCIUDAD" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="codvend" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CuotaT" Type="Decimal" Precision="9" Scale="4" />
+    <Property Name="CuotaS" Type="Decimal" Precision="9" Scale="2" />
+    <Property Name="cuotaD" Type="Decimal" Precision="9" Scale="2" />
+    <Property Name="dni" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="razonsocial" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="materno" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="paterno" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="nombres" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="codzona" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="TIPCREDFAC" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="MONEDACRED" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="pais" Type="String" Nullable="false" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="contacto" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="telecont" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="celucont" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="emailcont" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="faxcliente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DATOADJUNTO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="coddis" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="iddepa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="tipo" Type="Boolean" />
+    <Property Name="creacion" Type="DateTime" Precision="3" />
+    <Property Name="empleado" Type="Boolean" />
+    <Property Name="RUTA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TIPONEGOCIO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CODTIPOPRE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="imagen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="imagen2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="MPERCEP" Type="Decimal" Nullable="false" Precision="20" Scale="4" />
+    <Property Name="ORT" Type="Boolean" />
+    <Property Name="CODSegCliente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CodCatCliente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Visicoolers" Type="Int32" />
+    <Property Name="Cantidad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Observacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CoordenadasX" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CoordenadasY" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DiasVisita" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Ubigeo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IdClasif1" Type="Int32" />
+    <Property Name="IdClasif2" Type="Int32" />
+    <Property Name="IdClasif3" Type="Int32" />
+    <NavigationProperty Name="CIUDAD" Relationship="NARGESTModel.FK_CLIENTE_CIUDAD" FromRole="CLIENTE" ToRole="CIUDAD" />
+    <NavigationProperty Name="CLIDEPs" Relationship="NARGESTModel.FK_CLIDEP_CLIENTE" FromRole="CLIENTE" ToRole="CLIDEP" />
+    <NavigationProperty Name="CLIE_FUERZA" Relationship="NARGESTModel.FK_CLIE_FUERZA_CLIENTE" FromRole="CLIENTE" ToRole="CLIE_FUERZA" />
+    <NavigationProperty Name="Distrito" Relationship="NARGESTModel.FK_CLIENTE_Distrito" FromRole="CLIENTE" ToRole="Distrito" />
+    <NavigationProperty Name="PAI" Relationship="NARGESTModel.FK_CLIENTE_PAIS" FromRole="CLIENTE" ToRole="PAIS" />
+    <NavigationProperty Name="paisdepa" Relationship="NARGESTModel.FK_CLIENTE_paisdepa" FromRole="CLIENTE" ToRole="paisdepa" />
+    <NavigationProperty Name="RUTA1" Relationship="NARGESTModel.FK_CLIENTE_RUTA" FromRole="CLIENTE" ToRole="RUTA" />
+    <NavigationProperty Name="SEGMENTO_CLIENTE" Relationship="NARGESTModel.FK_CLIENTE_SEGMENTO_CLIENTE" FromRole="CLIENTE" ToRole="SEGMENTO_CLIENTE" />
+    <NavigationProperty Name="TIPO_PAGO" Relationship="NARGESTModel.FK_CLIENTE_TIPO_PAGO" FromRole="CLIENTE" ToRole="TIPO_PAGO" />
+    <NavigationProperty Name="TIPONEGOCIO1" Relationship="NARGESTModel.FK_CLIENTE_TIPONEGOCIO" FromRole="CLIENTE" ToRole="TIPONEGOCIO" />
+    <NavigationProperty Name="TIPOPRE" Relationship="NARGESTModel.FK_CLIENTE_TIPOPRE" FromRole="CLIENTE" ToRole="TIPOPRE" />
+  </EntityType>
+  <Association Name="FK_CLIENTE_CIUDAD">
+    <End Type="NARGESTModel.CIUDAD" Role="CIUDAD" Multiplicity="1" />
+    <End Type="NARGESTModel.CLIENTE" Role="CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CIUDAD">
+        <PropertyRef Name="CODCIUDAD" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="CODCIUDAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIDEP_CLIENTE">
+    <End Type="NARGESTModel.CLIENTE" Role="CLIENTE" Multiplicity="1" />
+    <End Type="NARGESTModel.CLIDEP" Role="CLIDEP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTE">
+        <PropertyRef Name="codcliente" />
+      </Principal>
+      <Dependent Role="CLIDEP">
+        <PropertyRef Name="CODDEP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIE_FUERZA_CLIENTE">
+    <End Type="NARGESTModel.CLIENTE" Role="CLIENTE" Multiplicity="1" />
+    <End Type="NARGESTModel.CLIE_FUERZA" Role="CLIE_FUERZA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTE">
+        <PropertyRef Name="codcliente" />
+      </Principal>
+      <Dependent Role="CLIE_FUERZA">
+        <PropertyRef Name="CODCLIE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIENTE_Distrito">
+    <End Type="NARGESTModel.Distrito" Role="Distrito" Multiplicity="0..1" />
+    <End Type="NARGESTModel.CLIENTE" Role="CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Distrito">
+        <PropertyRef Name="CodDis" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="coddis" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIENTE_PAIS">
+    <End Type="NARGESTModel.PAIS" Role="PAIS" Multiplicity="1" />
+    <End Type="NARGESTModel.CLIENTE" Role="CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PAIS">
+        <PropertyRef Name="CODPAIS" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="pais" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIENTE_paisdepa">
+    <End Type="NARGESTModel.paisdepa" Role="paisdepa" Multiplicity="0..1" />
+    <End Type="NARGESTModel.CLIENTE" Role="CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="paisdepa">
+        <PropertyRef Name="iddepa" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="iddepa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIENTE_RUTA">
+    <End Type="NARGESTModel.RUTA" Role="RUTA" Multiplicity="0..1" />
+    <End Type="NARGESTModel.CLIENTE" Role="CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RUTA">
+        <PropertyRef Name="CODIGO" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="RUTA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIENTE_SEGMENTO_CLIENTE">
+    <End Type="NARGESTModel.SEGMENTO_CLIENTE" Role="SEGMENTO_CLIENTE" Multiplicity="0..1" />
+    <End Type="NARGESTModel.CLIENTE" Role="CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SEGMENTO_CLIENTE">
+        <PropertyRef Name="codigo" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="CODSegCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIENTE_TIPO_PAGO">
+    <End Type="NARGESTModel.TIPO_PAGO" Role="TIPO_PAGO" Multiplicity="1" />
+    <End Type="NARGESTModel.CLIENTE" Role="CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPO_PAGO">
+        <PropertyRef Name="CODTIPOPAGO" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="CODTIPOPAGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIENTE_TIPONEGOCIO">
+    <End Type="NARGESTModel.TIPONEGOCIO" Role="TIPONEGOCIO" Multiplicity="0..1" />
+    <End Type="NARGESTModel.CLIENTE" Role="CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPONEGOCIO">
+        <PropertyRef Name="CODIGO" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="TIPONEGOCIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIENTE_TIPOPRE">
+    <End Type="NARGESTModel.TIPOPRE" Role="TIPOPRE" Multiplicity="0..1" />
+    <End Type="NARGESTModel.CLIENTE" Role="CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPOPRE">
+        <PropertyRef Name="CODTIPOPRE" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="CODTIPOPRE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="SP_RPT_VTA_ANUL_Result">
+    <Property Type="DateTime" Name="FECHA" Nullable="false" Precision="23" />
+    <Property Type="DateTime" Name="FECHAP" Nullable="false" Precision="23" />
+    <Property Type="String" Name="TIPODOC" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="SERIE" Nullable="true" MaxLength="4" />
+    <Property Type="String" Name="NUMERO" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="RUC" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="RAZONSOCIAL" Nullable="true" MaxLength="200" />
+    <Property Type="Decimal" Name="VALORVTA" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="IGV" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="TOTAL" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="IPERCEP" Nullable="false" Precision="20" Scale="8" />
+    <Property Type="String" Name="TDOC_IDENT" Nullable="true" MaxLength="2" />
+    <Property Type="String" Name="nose" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="ap" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="am" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="nomb" Nullable="true" MaxLength="500" />
+    <Property Type="Decimal" Name="AFECTO" Nullable="true" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="INAFECTO" Nullable="true" Precision="20" Scale="4" />
+    <Property Type="String" Name="COD_TIPO_DOC" Nullable="true" MaxLength="2" />
+    <Property Type="String" Name="CP" Nullable="true" MaxLength="1" />
+    <Property Type="Int32" Name="NA" Nullable="false" />
+    <Property Type="Decimal" Name="CPERCEP" Nullable="true" Precision="9" Scale="2" />
+    <Property Type="String" Name="DNI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="DESTIPOANULA" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CODCLIENTE" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="DSDISTRITO" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="RUTACODIGO" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="RUTANOMBRE" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CODPROD" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="NOMBPROD" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="NROGUIA" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="DSTIPOPRE" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MONTO_RECHAZO" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="OBSV" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="NOMBVEND" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="CAT_ABC" Nullable="false" />
+    <Property Type="String" Name="hora" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="CDTIPORECHAZO" Nullable="true" />
+    <Property Type="String" Name="DESTIPORECHAZO" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="CDLIQUIDADOR" Nullable="true" />
+    <Property Type="String" Name="DESLIQUIDADOR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ESTLIQUIDADOR" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="CDREPARTIDOR" Nullable="true" />
+    <Property Type="String" Name="DESREPARTIDOR" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ESTREPARTIDOR" Nullable="true" MaxLength="50" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="ds_gridclie2" targetNamespace="http://tempuri.org/ds_gridclie2.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/ds_gridclie2.xsd" xmlns:mstns="http://tempuri.org/ds_gridclie2.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="ds_gridclie2" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="cliente">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="codigo" type="xs:string" minOccurs="0" />
+							<xs:element name="apellidop" type="xs:string" minOccurs="0" />
+							<xs:element name="razon" type="xs:string" minOccurs="0" />
+							<xs:element name="ruc" type="xs:int" minOccurs="0" />
+							<xs:element name="apellidom" type="xs:string" minOccurs="0" />
+							<xs:element name="nombre" type="xs:string" minOccurs="0" />
+							<xs:element name="costo" minOccurs="0" type="xs:decimal" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsgridclie" targetNamespace="http://tempuri.org/dsgridclie.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/dsgridclie.xsd" xmlns:mstns="http://tempuri.org/dsgridclie.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="dsgridclie" msdata:IsDataSet="true">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="cliente">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="codigo" type="xs:string" minOccurs="0" />
+                            <xs:element name="apellidop" type="xs:string" minOccurs="0" />
+                            <xs:element name="razon" type="xs:string" minOccurs="0" />
+                            <xs:element name="ruc" type="xs:string" minOccurs="0" />
+                            <xs:element name="apellidom" type="xs:string" minOccurs="0" />
+                            <xs:element name="nombre" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

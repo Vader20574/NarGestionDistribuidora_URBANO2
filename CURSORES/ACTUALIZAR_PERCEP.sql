@@ -1,0 +1,43 @@
+select * from dbo.CLIENTE$
+
+select * from dbo.PRODUCTO$
+
+SELECT * FROM NARGEST.DBO.CLIENTE  WHERE MPERCEP =2
+
+WHERE CODCLIENTE = '02740001'
+
+
+UPDATE NARGEST.DBO.CLIENTE SET MPERCEP=0 
+WHERE MPERCEP IS NULL
+
+HHH
+
+
+ALTER  PROCEDURE HHH
+AS
+DECLARE @CODARTI  varchar(255) 
+-- Declaración del cursor
+DECLARE cClientes CURSOR FOR
+
+
+select [CODIGO CLIENTE DEPENDIENTE] from dbo.CLIENTE$ 
+
+
+OPEN cClientes
+FETCH cClientes INTO @CODARTI
+WHILE (@@FETCH_STATUS = 0 )
+
+BEGIN
+    -- Lectura de la siguiente fila del cursor
+   UPDATE NARGEST.DBO.CLIENTE  SET MPERCEP =2
+   WHERE CODCLIENTE = @CODARTI 
+FETCH cClientes INTO  @CODARTI
+END
+
+-- Cierre del cursor
+
+CLOSE cClientes
+
+-- Liberar los recursos
+
+DEALLOCATE cClientes

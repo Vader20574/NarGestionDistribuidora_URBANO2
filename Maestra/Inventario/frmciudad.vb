@@ -1,0 +1,481 @@
+Public Class frmciudad
+    Inherits System.Windows.Forms.Form
+    Dim FLAG As Integer
+
+#Region " Código generado por el Diseñador de Windows Forms "
+
+    Public Sub New()
+        MyBase.New()
+
+        'El Diseñador de Windows Forms requiere esta llamada.
+        InitializeComponent()
+
+        'Agregar cualquier inicialización después de la llamada a InitializeComponent()
+
+    End Sub
+
+    'Form reemplaza a Dispose para limpiar la lista de componentes.
+    Protected Overloads Overrides Sub Dispose(ByVal disposing As Boolean)
+        If disposing Then
+            If Not (components Is Nothing) Then
+                components.Dispose()
+            End If
+        End If
+        MyBase.Dispose(disposing)
+    End Sub
+
+    'Requerido por el Diseñador de Windows Forms
+    Private components As System.ComponentModel.IContainer
+
+    'NOTA: el Diseñador de Windows Forms requiere el siguiente procedimiento
+    'Puede modificarse utilizando el Diseñador de Windows Forms. 
+    'No lo modifique con el editor de código.
+    Friend WithEvents ImageList1 As System.Windows.Forms.ImageList
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents BTNCANCELAR As System.Windows.Forms.Button
+    Friend WithEvents BTNCERRAR As System.Windows.Forms.Button
+    Friend WithEvents BTNMODIFICAR As System.Windows.Forms.Button
+    Friend WithEvents BTNELIMINAR As System.Windows.Forms.Button
+    Friend WithEvents BTNNUEVO As System.Windows.Forms.Button
+    Friend WithEvents BTNGUARDAR As System.Windows.Forms.Button
+    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents btnbuscar As System.Windows.Forms.Button
+    Friend WithEvents txtdesciud As System.Windows.Forms.TextBox
+    Friend WithEvents txtcodciud As System.Windows.Forms.TextBox
+    Friend WithEvents cbopais As System.Windows.Forms.ComboBox
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents cdepa As System.Windows.Forms.ComboBox
+    <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container
+        Dim resources As System.Resources.ResourceManager = New System.Resources.ResourceManager(GetType(frmciudad))
+        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox
+        Me.BTNCANCELAR = New System.Windows.Forms.Button
+        Me.BTNCERRAR = New System.Windows.Forms.Button
+        Me.BTNMODIFICAR = New System.Windows.Forms.Button
+        Me.BTNELIMINAR = New System.Windows.Forms.Button
+        Me.BTNNUEVO = New System.Windows.Forms.Button
+        Me.BTNGUARDAR = New System.Windows.Forms.Button
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox
+        Me.cdepa = New System.Windows.Forms.ComboBox
+        Me.Label4 = New System.Windows.Forms.Label
+        Me.cbopais = New System.Windows.Forms.ComboBox
+        Me.btnbuscar = New System.Windows.Forms.Button
+        Me.txtdesciud = New System.Windows.Forms.TextBox
+        Me.txtcodciud = New System.Windows.Forms.TextBox
+        Me.Label3 = New System.Windows.Forms.Label
+        Me.Label2 = New System.Windows.Forms.Label
+        Me.Label1 = New System.Windows.Forms.Label
+        Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'ImageList1
+        '
+        Me.ImageList1.ImageSize = New System.Drawing.Size(18, 18)
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.BTNCANCELAR)
+        Me.GroupBox1.Controls.Add(Me.BTNCERRAR)
+        Me.GroupBox1.Controls.Add(Me.BTNMODIFICAR)
+        Me.GroupBox1.Controls.Add(Me.BTNELIMINAR)
+        Me.GroupBox1.Controls.Add(Me.BTNNUEVO)
+        Me.GroupBox1.Controls.Add(Me.BTNGUARDAR)
+        Me.GroupBox1.Location = New System.Drawing.Point(376, 11)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(109, 192)
+        Me.GroupBox1.TabIndex = 15
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Mantenimiento "
+        '
+        'BTNCANCELAR
+        '
+        Me.BTNCANCELAR.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.BTNCANCELAR.ImageIndex = 6
+        Me.BTNCANCELAR.ImageList = Me.ImageList1
+        Me.BTNCANCELAR.Location = New System.Drawing.Point(17, 130)
+        Me.BTNCANCELAR.Name = "BTNCANCELAR"
+        Me.BTNCANCELAR.Size = New System.Drawing.Size(75, 22)
+        Me.BTNCANCELAR.TabIndex = 9
+        Me.BTNCANCELAR.Text = "&Cancelar"
+        Me.BTNCANCELAR.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'BTNCERRAR
+        '
+        Me.BTNCERRAR.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.BTNCERRAR.ImageIndex = 4
+        Me.BTNCERRAR.ImageList = Me.ImageList1
+        Me.BTNCERRAR.Location = New System.Drawing.Point(17, 158)
+        Me.BTNCERRAR.Name = "BTNCERRAR"
+        Me.BTNCERRAR.Size = New System.Drawing.Size(75, 22)
+        Me.BTNCERRAR.TabIndex = 11
+        Me.BTNCERRAR.Text = "&Cerrar"
+        Me.BTNCERRAR.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'BTNMODIFICAR
+        '
+        Me.BTNMODIFICAR.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.BTNMODIFICAR.ImageIndex = 2
+        Me.BTNMODIFICAR.ImageList = Me.ImageList1
+        Me.BTNMODIFICAR.Location = New System.Drawing.Point(17, 74)
+        Me.BTNMODIFICAR.Name = "BTNMODIFICAR"
+        Me.BTNMODIFICAR.Size = New System.Drawing.Size(75, 22)
+        Me.BTNMODIFICAR.TabIndex = 7
+        Me.BTNMODIFICAR.Text = "&Modificar"
+        Me.BTNMODIFICAR.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'BTNELIMINAR
+        '
+        Me.BTNELIMINAR.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.BTNELIMINAR.ImageIndex = 3
+        Me.BTNELIMINAR.ImageList = Me.ImageList1
+        Me.BTNELIMINAR.Location = New System.Drawing.Point(17, 102)
+        Me.BTNELIMINAR.Name = "BTNELIMINAR"
+        Me.BTNELIMINAR.Size = New System.Drawing.Size(75, 22)
+        Me.BTNELIMINAR.TabIndex = 8
+        Me.BTNELIMINAR.Text = "&Eliminar"
+        Me.BTNELIMINAR.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'BTNNUEVO
+        '
+        Me.BTNNUEVO.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.BTNNUEVO.ImageIndex = 0
+        Me.BTNNUEVO.ImageList = Me.ImageList1
+        Me.BTNNUEVO.Location = New System.Drawing.Point(17, 18)
+        Me.BTNNUEVO.Name = "BTNNUEVO"
+        Me.BTNNUEVO.Size = New System.Drawing.Size(75, 22)
+        Me.BTNNUEVO.TabIndex = 5
+        Me.BTNNUEVO.Text = "&Nuevo"
+        Me.BTNNUEVO.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'BTNGUARDAR
+        '
+        Me.BTNGUARDAR.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.BTNGUARDAR.ImageIndex = 1
+        Me.BTNGUARDAR.ImageList = Me.ImageList1
+        Me.BTNGUARDAR.Location = New System.Drawing.Point(17, 46)
+        Me.BTNGUARDAR.Name = "BTNGUARDAR"
+        Me.BTNGUARDAR.Size = New System.Drawing.Size(75, 22)
+        Me.BTNGUARDAR.TabIndex = 6
+        Me.BTNGUARDAR.Text = "&Guardar"
+        Me.BTNGUARDAR.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.cdepa)
+        Me.GroupBox2.Controls.Add(Me.Label4)
+        Me.GroupBox2.Controls.Add(Me.cbopais)
+        Me.GroupBox2.Controls.Add(Me.btnbuscar)
+        Me.GroupBox2.Controls.Add(Me.txtdesciud)
+        Me.GroupBox2.Controls.Add(Me.txtcodciud)
+        Me.GroupBox2.Controls.Add(Me.Label3)
+        Me.GroupBox2.Controls.Add(Me.Label2)
+        Me.GroupBox2.Controls.Add(Me.Label1)
+        Me.GroupBox2.Location = New System.Drawing.Point(15, 41)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(352, 133)
+        Me.GroupBox2.TabIndex = 16
+        Me.GroupBox2.TabStop = False
+        '
+        'cdepa
+        '
+        Me.cdepa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cdepa.Location = New System.Drawing.Point(102, 74)
+        Me.cdepa.Name = "cdepa"
+        Me.cdepa.Size = New System.Drawing.Size(230, 21)
+        Me.cdepa.TabIndex = 7
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(13, 76)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(87, 17)
+        Me.Label4.TabIndex = 6
+        Me.Label4.Text = "Departamento : "
+        '
+        'cbopais
+        '
+        Me.cbopais.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cbopais.Location = New System.Drawing.Point(102, 48)
+        Me.cbopais.Name = "cbopais"
+        Me.cbopais.Size = New System.Drawing.Size(230, 21)
+        Me.cbopais.TabIndex = 5
+        '
+        'btnbuscar
+        '
+        Me.btnbuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnbuscar.ImageIndex = 5
+        Me.btnbuscar.ImageList = Me.ImageList1
+        Me.btnbuscar.Location = New System.Drawing.Point(217, 22)
+        Me.btnbuscar.Name = "btnbuscar"
+        Me.btnbuscar.Size = New System.Drawing.Size(41, 23)
+        Me.btnbuscar.TabIndex = 2
+        Me.btnbuscar.Text = "..."
+        Me.btnbuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'txtdesciud
+        '
+        Me.txtdesciud.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtdesciud.Location = New System.Drawing.Point(102, 98)
+        Me.txtdesciud.Name = "txtdesciud"
+        Me.txtdesciud.Size = New System.Drawing.Size(229, 21)
+        Me.txtdesciud.TabIndex = 4
+        Me.txtdesciud.Text = ""
+        '
+        'txtcodciud
+        '
+        Me.txtcodciud.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtcodciud.Location = New System.Drawing.Point(102, 23)
+        Me.txtcodciud.Name = "txtcodciud"
+        Me.txtcodciud.Size = New System.Drawing.Size(110, 21)
+        Me.txtcodciud.TabIndex = 1
+        Me.txtcodciud.Text = ""
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(51, 100)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(49, 17)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "Ciudad : "
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(65, 50)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(35, 17)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Pais : "
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(54, 25)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(46, 17)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Codigo :"
+        '
+        'frmciudad
+        '
+        Me.AutoScaleBaseSize = New System.Drawing.Size(5, 14)
+        Me.ClientSize = New System.Drawing.Size(500, 207)
+        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(506, 239)
+        Me.Name = "frmciudad"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Mantenimiento de Ciudad"
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox2.ResumeLayout(False)
+        Me.ResumeLayout(False)
+
+    End Sub
+
+#End Region
+
+    Private Sub frmciudad_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+       Call bloqueatextbox(Me)
+
+        Call BOTONES(True, False, False, False, True)
+        Call cargadatos()
+        CBOPAIS.Enabled = False
+    End Sub
+    Private Sub BTNGUARDAR_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BTNGUARDAR.Click
+        Dim sql As String
+        Dim PROCESO As Boolean
+        Call formatotextbox(Me)
+        If txtcodciud.Text = "" Or txtdesciud.Text = "" Or CBOPAIS.Text = "" Then
+            MessageBox.Show("Complete los Campos Para Realizar el Proceso", DesEmpresa, MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Exit Sub
+        End If
+
+        If FLAG = 0 Then
+
+            If TmpListarDatos("select * from ciudad    WHERE  CODEMPRESA='" & codempresa & "'  AND  CODCIUDAD='" & txtcodciud.Text.Trim & "'").Rows.Count > 0 Then
+                MsgBox("El código ya exite en la base de datos... " & Chr(13) & " Intente con un codigo nuevo Gracias....", MsgBoxStyle.Information, " NAR SISTEMAS")
+                Exit Sub
+            End If
+
+            If TmpListarDatos("select * from ciudad    WHERE  CODEMPRESA='" & codempresa & "'  AND  codpais='" & cbopais.SelectedValue & "'  AND  iddepa ='" & cdepa.SelectedValue & "'  AND  desciudad='" & txtdesciud.Text.Trim & "'").Rows.Count > 0 Then
+                MsgBox("La ciudad del pais y departamento ya exite en la base de datos... " & Chr(13) & " Intente con una ciudad nuevo Gracias....", MsgBoxStyle.Information, " NAR SISTEMAS")
+                Exit Sub
+            End If
+
+
+            sql = "nsp_inst_ciudad '" & txtcodciud.Text & "','" & txtdesciud.Text & "','" & cbopais.SelectedValue.ToString & "','" & cdepa.SelectedValue.ToString & "','" & codempresa & "'"
+            PROCESO = TmpInsertDatos(sql)
+            If PROCESO = True Then
+                TmpInsertDatos("SP_REGISTRA_AUDITORIA '" & txtcodciud.Text & "','INSERT','CUIDAD','" & Format(System.DateTime.Now, "MM/dd/yyyy hh:mm:ss tt") & "','" & CodUsuario & "','" & codempresa & "'")
+            End If
+        End If
+        If FLAG = 1 Then
+
+            If TmpListarDatos("select * from ciudad    WHERE  CODEMPRESA='" & codempresa & "'  AND  codpais='" & cbopais.SelectedValue & "'  AND  iddepa ='" & cdepa.SelectedValue & "'  AND  desciudad='" & txtdesciud.Text.Trim & "'  AND  codciudad <> '" & txtcodciud.Text.Trim & "'").Rows.Count > 0 Then
+                MsgBox("La ciudad del pais y departamento ya exite en la base de datos... " & Chr(13) & " Intente con una ciudad nuevo Gracias....", MsgBoxStyle.Information, " NAR SISTEMAS")
+                Exit Sub
+            End If
+
+
+            sql = "nsp_upda_ciudad '" & txtcodciud.Text & "','" & txtdesciud.Text & "','" & cbopais.SelectedValue.ToString & "','" & cdepa.SelectedValue.ToString & "','" & codempresa & "'"
+            PROCESO = TmpInsertDatos(sql)
+            If PROCESO = True Then
+                TmpInsertDatos("SP_REGISTRA_AUDITORIA '" & txtcodciud.Text & "','UDPATE','CIUDAD','" & Format(System.DateTime.Now, "MM/dd/yyyy hh:mm:ss tt") & "','" & CodUsuario & "','" & codempresa & "'")
+            End If
+        End If
+        If PROCESO = False Then
+            Exit Sub
+        Else
+            MsgBox("EL REGISTRO SE GRABO CORRECTAMENTE...", MsgBoxStyle.Information, "NAR SISTEMAS S.A.C.")
+        End If
+        Call BOTONES(True, False, False, False, True)
+        cbopais.Enabled = False
+        Call Bloqueatextbox(Me)
+        Call Limpiatextbox(Me)
+        BTNNUEVO.Focus()
+    End Sub
+    Private Sub BTNNUEVO_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BTNNUEVO.Click
+        Dim RESPUESTA As Boolean
+        RESPUESTA = mensaje_ingreso()
+        If RESPUESTA = False Then Exit Sub
+        Call Limpiatextbox(Me)
+        Call desbloqueatextbox(Me)
+        Call BOTONES(False, True, False, False, False)
+        FLAG = 0
+        cbopais.Enabled = True
+        txtcodciud.Focus()
+
+    End Sub
+    Private Sub BTNCANCELAR_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BTNCANCELAR.Click
+        Dim RESPUESTA As Boolean
+        RESPUESTA = mensaje_cancelar()
+        If RESPUESTA = False Then Exit Sub
+        Call Limpiatextbox(Me)
+        Call BOTONES(True, False, False, False, True)
+        Call Bloqueatextbox(Me)
+        cbopais.Enabled = False
+    End Sub
+    Private Sub btnbuscar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnbuscar.Click
+        Dim FRMX As New frmgridciudad
+        FRMX.VIE = Me
+        FRMX.ShowDialog()
+
+        Call BOTONES(True, False, True, True, True)
+        txtcodciud.ReadOnly = True
+    End Sub
+    Public Sub mostrar()
+        txtcodciud.Text = VAR1
+        txtdesciud.Text = VAR2
+        cbopais.Text = VAR3
+
+    End Sub
+    Private Sub BTNMODIFICAR_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BTNMODIFICAR.Click
+        Call desbloqueatextbox(Me)
+        txtcodciud.ReadOnly = True
+        Call BOTONES(False, True, False, False, True)
+        FLAG = 1
+        cbopais.Enabled = True
+        cbopais.Focus()
+    End Sub
+    Sub BOTONES(ByVal NUEVO As Boolean, ByVal GUARDAR As Boolean, ByVal MODIFICAR As Boolean, ByVal ELIMINAR As Boolean, ByVal BUSCAR As Boolean)
+        BTNNUEVO.Enabled = NUEVO
+        BTNGUARDAR.Enabled = GUARDAR
+        BTNMODIFICAR.Enabled = MODIFICAR
+        BTNELIMINAR.Enabled = ELIMINAR
+        btnbuscar.Enabled = BUSCAR
+    End Sub
+    Private Sub BTNELIMINAR_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BTNELIMINAR.Click
+
+        If MsgBox("Desea Eliminar Este Registro que Selecciono", MsgBoxStyle.Exclamation + MsgBoxStyle.YesNo, "NAR SISTEMAS S.A.C") = MsgBoxResult.Yes Then
+
+            Dim PROCESO As Boolean
+            Dim sql As String
+            sql = "nsp_dele_ciudad '" & txtcodciud.Text & "','" & codempresa & "'"
+            PROCESO = TmpInsertDatos(sql)
+            If PROCESO = True Then
+                TmpInsertDatos("SP_REGISTRA_AUDITORIA '" & txtcodciud.Text & "','DELETE','CIUDAD','" & Format(System.DateTime.Now, "MM/dd/yyyy hh:mm:ss tt") & "','" & CodUsuario & "','" & codempresa & "'")
+            End If
+            If PROCESO = False Then
+                Exit Sub
+            Else
+                MsgBox("SE ELIMINO CORRECTAMENTE ...", MsgBoxStyle.Information, "NAR SISTEMAS S.A.C.")
+            End If
+            BOTONES(True, False, False, False, True)
+            Call Bloqueatextbox(Me)
+            Call Limpiatextbox(Me)
+
+        End If
+
+
+    End Sub
+    Sub cargadatos()
+        CAyuda.CargarDataCombo(cbopais, "Nsp_sele_pais '','','" & codempresa & "'", "Codigo", "Pais")
+    End Sub
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+        Dim N As String
+        N = cbopais.SelectedValue.ToString()
+        MsgBox(N)
+    End Sub
+
+    Private Sub BTNCERRAR_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BTNCERRAR.Click
+        Me.Close()
+    End Sub
+
+    Private Sub frmciudad_Activated(ByVal sender As Object, ByVal e As System.EventArgs) Handles MyBase.Activated
+        BTNNUEVO.Focus()
+    End Sub
+
+    Private Sub txtcodciud_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtcodciud.KeyPress
+        Dim Keyascii As Short = CShort(Asc(e.KeyChar))
+        If Keyascii = 13 Then
+            cbopais.Focus()
+        End If
+    End Sub
+
+    Private Sub CBOPAIS_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles cbopais.KeyPress
+        Dim Keyascii As Short = CShort(Asc(e.KeyChar))
+        If Keyascii = 13 Then
+            cdepa.Focus()
+        End If
+    End Sub
+
+    Private Sub txtdesciud_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtdesciud.KeyPress
+        Dim Keyascii As Short = CShort(Asc(e.KeyChar))
+        If Keyascii = 13 Then
+            BTNGUARDAR.Focus()
+        End If
+    End Sub
+
+    Private Sub txtcodciud_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles txtcodciud.KeyDown
+        If e.KeyCode = Keys.F2 Then
+            btnbuscar_Click(sender, e)
+        End If
+    End Sub
+
+    Private Sub cbopais_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cbopais.SelectedIndexChanged
+        Try
+            CAyuda.CargarDataCombo(cdepa, "sele_depa '" & cbopais.SelectedValue.ToString & "','" & codempresa & "'", "iddepa", "depa")
+        Catch x As Exception
+        End Try
+    End Sub
+
+
+    Private Sub cdepa_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles cdepa.KeyPress
+        If Asc(e.KeyChar) = 13 Then
+            txtdesciud.Focus()
+            txtdesciud.SelectAll()
+        End If
+    End Sub
+End Class

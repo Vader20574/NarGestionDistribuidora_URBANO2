@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<dsgridbanco xmlns="http://tempuri.org/dsgridbanco.xsd">
+  <ini>
+    <server>SERVIDORWEB\SQL2000</server>
+    <bd>NARGEST</bd>
+    <usuario>sa</usuario>
+    <password>301102</password>
+    <Reporte>C:\Reportes_Inv\</Reporte>
+    <ReporteInv>C:\Reportes_Inv\</ReporteInv>
+    <ReporteVta>C:\FUENTES\NarGestionDistribuidora\Inventario\Reportes\</ReporteVta>
+
+    <server2>SERVIDORWEB\SQL2000</server2>
+    <bd2>NEXTEL_T</bd2>
+   
+  </ini>
+</dsgridbanco>

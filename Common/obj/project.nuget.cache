@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "owmHT0qGwdeHmpIqMtNBe2lx8YyQ1ora4wO1ca5ub6k4ed4v0aGgq9qDFxOen06jI5hYkjhrtuJWuOl0cJ6xaA==",
+  "success": true,
+  "projectFilePath": "D:\\NarURBAA\\NarGestionDistribuidora_URBANO\\Common\\Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\georg\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\georg\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\georg\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

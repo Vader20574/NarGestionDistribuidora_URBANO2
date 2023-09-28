@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsfinanza" targetNamespace="http://tempuri.org/dsfinanza.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/dsfinanza.xsd" xmlns:mstns="http://tempuri.org/dsfinanza.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsfinanza" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="dsbanco">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="codigo" type="xs:string" minOccurs="0" />
+							<xs:element name="banco" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dscliente">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="codigo" type="xs:string" minOccurs="0" />
+							<xs:element name="apellidop" type="xs:string" minOccurs="0" />
+							<xs:element name="apellidom" type="xs:string" minOccurs="0" />
+							<xs:element name="nombre" type="xs:string" minOccurs="0" />
+							<xs:element name="razon" type="xs:string" minOccurs="0" />
+							<xs:element name="ruc" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="dsdocumento">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="codigo" type="xs:string" minOccurs="0" />
+							<xs:element name="descripcion" type="xs:string" minOccurs="0" />
+							<xs:element name="abreviatura" type="xs:string" minOccurs="0" />
+							<xs:element name="nota_de_credito" type="xs:boolean" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ctabanco">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="banco" type="xs:string" minOccurs="0" />
+							<xs:element name="ctacte" type="xs:string" minOccurs="0" />
+							<xs:element name="moneda" type="xs:string" minOccurs="0" />
+							<xs:element name="saldo" type="xs:decimal" minOccurs="0" />
+							<xs:element name="saldoext" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="cambio">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="fecha" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="compra" type="xs:double" minOccurs="0" />
+							<xs:element name="venta" type="xs:double" minOccurs="0" />
+							<xs:element name="mon1" type="xs:string" minOccurs="0" />
+							<xs:element name="mon2" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="compcaja">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nrocomp" type="xs:string" minOccurs="0" />
+							<xs:element name="desptovta" type="xs:string" minOccurs="0" />
+							<xs:element name="movcaja" type="xs:string" minOccurs="0" />
+							<xs:element name="fecha" type="xs:date" minOccurs="0" />
+							<xs:element name="mon" type="xs:string" minOccurs="0" />
+							<xs:element name="monto" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="pagoprov">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="tipodoc" type="xs:string" minOccurs="0" />
+							<xs:element name="destipodoc" type="xs:string" minOccurs="0" />
+							<xs:element name="idprov" type="xs:string" minOccurs="0" />
+							<xs:element name="proveedor" type="xs:string" minOccurs="0" />
+							<xs:element name="fechadoc" type="xs:date" minOccurs="0" />
+							<xs:element name="fechavenc" type="xs:date" minOccurs="0" />
+							<xs:element name="monto" type="xs:decimal" minOccurs="0" />
+							<xs:element name="importe" type="xs:decimal" minOccurs="0" />
+							<xs:element name="saldo" type="xs:decimal" minOccurs="0" />
+							<xs:element name="desalmacen" type="xs:string" minOccurs="0" />
+							<xs:element name="nrodoc" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="excel">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BANCO" type="xs:string" minOccurs="0" />
+							<xs:element name="NROCUENTA" type="xs:string" minOccurs="0" />
+							<xs:element name="FOPERACION" type="xs:date" minOccurs="0" />
+							<xs:element name="SUCURSAL-AGENCIA" type="xs:string" minOccurs="0" />
+							<xs:element name="NROOPERACION_x0020_-_x0020_MOVIMIENTO" type="xs:ID" minOccurs="0" />
+							<xs:element name="CONCEPTO" type="xs:string" minOccurs="0" />
+							<xs:element name="MON" type="xs:string" minOccurs="0" />
+							<xs:element name="MONto" type="xs:decimal" minOccurs="0" />
+							<xs:element name="SALDO" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

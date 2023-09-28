@@ -1,0 +1,63 @@
+C:\NarGestionDistribuidora_URBANO-master\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\NarGestionDistribuidora_URBANO-master\Common\bin\Debug\netstandard2.0\Common.dll
+C:\NarGestionDistribuidora_URBANO-master\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+C:\NarGestionDistribuidora_URBANO-master\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\NarGestionDistribuidora_URBANO-master\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\NarGestionDistribuidora_URBANO-master\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\NarGestionDistribuidora_URBANO-master\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\NarGestionDistribuidora_URBANO-master\Common\obj\Debug\netstandard2.0\Common.dll
+C:\NarGestionDistribuidora_URBANO-master\Common\obj\Debug\netstandard2.0\Common.pdb
+D:\NarGestionDistribuidora_URBANO-master\Common\bin\Debug\netstandard2.0\Common.deps.json
+D:\NarGestionDistribuidora_URBANO-master\Common\bin\Debug\netstandard2.0\Common.dll
+D:\NarGestionDistribuidora_URBANO-master\Common\bin\Debug\netstandard2.0\Common.pdb
+D:\NarGestionDistribuidora_URBANO-master\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+D:\NarGestionDistribuidora_URBANO-master\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+D:\NarGestionDistribuidora_URBANO-master\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+D:\NarGestionDistribuidora_URBANO-master\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+D:\NarGestionDistribuidora_URBANO-master\Common\obj\Debug\netstandard2.0\Common.dll
+D:\NarGestionDistribuidora_URBANO-master\Common\obj\Debug\netstandard2.0\Common.pdb
+D:\NarGestionDistribuidora_URBANO\Common\bin\Debug\netstandard2.0\Common.deps.json
+D:\NarGestionDistribuidora_URBANO\Common\bin\Debug\netstandard2.0\Common.dll
+D:\NarGestionDistribuidora_URBANO\Common\bin\Debug\netstandard2.0\Common.pdb
+D:\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+D:\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+D:\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+D:\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+D:\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.dll
+D:\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.pdb
+D:\XX\NarGestionDistribuidora_URBANO\Common\bin\Debug\netstandard2.0\Common.deps.json
+D:\XX\NarGestionDistribuidora_URBANO\Common\bin\Debug\netstandard2.0\Common.dll
+D:\XX\NarGestionDistribuidora_URBANO\Common\bin\Debug\netstandard2.0\Common.pdb
+D:\XX\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+D:\XX\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+D:\XX\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+D:\XX\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+D:\XX\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.dll
+D:\XX\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.pdb
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Common\bin\Debug\netstandard2.0\Common.deps.json
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Common\bin\Debug\netstandard2.0\Common.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Common\bin\Debug\netstandard2.0\Common.pdb
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.csprojAssemblyReference.cache
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.pdb
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Common\bin\Debug\netstandard2.0\Common.deps.json
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Common\bin\Debug\netstandard2.0\Common.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Common\bin\Debug\netstandard2.0\Common.pdb
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.pdb
+D:\FFFF\NarGestionDistribuidora_URBANO\Common\bin\Debug\netstandard2.0\Common.deps.json
+D:\FFFF\NarGestionDistribuidora_URBANO\Common\bin\Debug\netstandard2.0\Common.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Common\bin\Debug\netstandard2.0\Common.pdb
+D:\FFFF\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.csproj.AssemblyReference.cache
+D:\FFFF\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\FFFF\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+D:\FFFF\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+D:\FFFF\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+D:\FFFF\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Common\obj\Debug\netstandard2.0\Common.pdb

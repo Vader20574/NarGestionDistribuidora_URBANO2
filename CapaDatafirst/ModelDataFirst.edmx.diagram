@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0a598393f57e405dbd3333eb0de6796e" Name="Diagram1" ZoomLevel="49">
+        <EntityTypeShape EntityType="NARGESTModel.VENTA_X_COBRAR" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NARGESTModel.VENTADET" Width="1.5" PointX="5.375" PointY="10.75" />
+        <EntityTypeShape EntityType="NARGESTModel.VENDEDOR" Width="1.5" PointX="10.375" PointY="7.75" />
+        <EntityTypeShape EntityType="NARGESTModel.TIPOPROD" Width="1.5" PointX="8.375" PointY="4.75" />
+        <EntityTypeShape EntityType="NARGESTModel.TIPODOC" Width="1.5" PointX="12.375" PointY="0.75" />
+        <EntityTypeShape EntityType="NARGESTModel.VENTACAB" Width="1.5" PointX="0.75" PointY="7.75" />
+        <EntityTypeShape EntityType="NARGESTModel.TMP_PEDIDO_XVENDEDOR" Width="1.5" PointX="12.375" PointY="5.75" />
+        <EntityTypeShape EntityType="NARGESTModel.CIUDAD" Width="1.5" PointX="14.25" PointY="21" />
+        <EntityTypeShape EntityType="NARGESTModel.Distrito" Width="1.5" PointX="36.25" PointY="12.5" />
+        <EntityTypeShape EntityType="NARGESTModel.PAIS" Width="1.5" PointX="28.875" PointY="8.875" />
+        <EntityTypeShape EntityType="NARGESTModel.TIPOPRE" Width="1.5" PointX="13.75" PointY="13.625" />
+        <EntityTypeShape EntityType="NARGESTModel.RUTA" Width="1.5" PointX="37.5" PointY="27.125" />
+        <EntityTypeShape EntityType="NARGESTModel.TIPO_PAGO" Width="1.5" PointX="20.75" PointY="12.875" />
+        <EntityTypeShape EntityType="NARGESTModel.Moneda" Width="1.5" PointX="11.875" PointY="18.375" />
+        <AssociationConnector Association="NARGESTModel.FK__TIPOPRE__codmon__1249A49B" />
+        <EntityTypeShape EntityType="NARGESTModel.TIPCREDF" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="NARGESTModel.ALMACEN" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="NARGESTModel.SEGMENTO_CLIENTE" Width="1.5" PointX="15.125" PointY="17.75" />
+        <EntityTypeShape EntityType="NARGESTModel.TIPONEGOCIO" Width="1.5" PointX="15.125" PointY="28.25" />
+        <EntityTypeShape EntityType="NARGESTModel.paisdepa" Width="1.5" PointX="15.125" PointY="24.625" />
+        <EntityTypeShape EntityType="NARGESTModel.CLIE_FUERZA" Width="1.5" PointX="20" PointY="21.125" />
+        <EntityTypeShape EntityType="NARGESTModel.FUERZAVENTA" Width="1.5" PointX="23.25" PointY="21.25" />
+        <AssociationConnector Association="NARGESTModel.FK_CLIE_FUERZA_FUERZAVENTA" />
+        <EntityTypeShape EntityType="NARGESTModel.CONFIGSIS" Width="1.5" PointX="7.375" PointY="7.75" />
+        <EntityTypeShape EntityType="NARGESTModel.CONFIGVTA" Width="1.5" PointX="0.75" PointY="19.75" />
+        <EntityTypeShape EntityType="NARGESTModel.ACCESO" Width="1.5" PointX="12.375" PointY="10.75" />
+        <EntityTypeShape EntityType="NARGESTModel.CIERRE_MES_INVENTARIO" Width="1.5" PointX="3.375" PointY="5.75" />
+        <EntityTypeShape EntityType="NARGESTModel.ACCESOPROC" Width="1.5" PointX="9.375" PointY="13.75" />
+        <EntityTypeShape EntityType="NARGESTModel.ACTIVO" Width="1.5" PointX="14.375" PointY="0.75" />
+        <EntityTypeShape EntityType="NARGESTModel.rsyssegment" Width="1.5" PointX="14.375" PointY="4.75" />
+        <EntityTypeShape EntityType="NARGESTModel.rsyssegmentC" Width="1.5" PointX="16.375" PointY="0.75" />
+        <EntityTypeShape EntityType="NARGESTModel.syssegments" Width="1.5" PointX="16.375" PointY="6.75" />
+        <EntityTypeShape EntityType="NARGESTModel.test" Width="1.5" PointX="18.375" PointY="0.75" />
+        <EntityTypeShape EntityType="NARGESTModel.CLIDEP" Width="1.5" PointX="39.75" PointY="19.25" />
+        <AssociationConnector Association="NARGESTModel.FK_CLIDEP_Distrito" />
+        <AssociationConnector Association="NARGESTModel.FK_CLIDEP_RUTA" />
+        <EntityTypeShape EntityType="NARGESTModel.ACTIVO_FIJO" Width="1.5" PointX="16.375" PointY="10.75" />
+        <EntityTypeShape EntityType="NARGESTModel.ALMAZON" Width="1.5" PointX="17.375" PointY="14.75" />
+        <EntityTypeShape EntityType="NARGESTModel.ADUANA" Width="1.5" PointX="18.375" PointY="5.75" />
+        <EntityTypeShape EntityType="NARGESTModel.Zona" Width="1.5" PointX="18.375" PointY="8.75" />
+        <EntityTypeShape EntityType="NARGESTModel.TipoPrecioXPromocion" Width="1.5" PointX="19.375" PointY="16.75" />
+        <EntityTypeShape EntityType="NARGESTModel.TipoPagoXPromocion" Width="1.5" PointX="20.375" PointY="0.75" />
+        <EntityTypeShape EntityType="NARGESTModel.TMP_STOCKPEDIDO" Width="1.5" PointX="20.375" PointY="3.75" />
+        <EntityTypeShape EntityType="NARGESTModel.ARTIDAT" Width="1.5" PointX="7.625" PointY="21.125" />
+        <AssociationConnector Association="NARGESTModel.FK__ARTIDAT__CODALMA__7D4E87B5" />
+        <EntityTypeShape EntityType="NARGESTModel.TipoPagoXPromocionSub" Width="1.5" PointX="16.375" PointY="20.75" />
+        <EntityTypeShape EntityType="NARGESTModel.CLIENTEXPROMOSUBCAT" Width="1.5" PointX="20.375" PointY="8.75" />
+        <EntityTypeShape EntityType="NARGESTModel.TipoPrecioXPromocionSubCat" Width="1.5" PointX="10.375" PointY="21.75" />
+        <EntityTypeShape EntityType="NARGESTModel.LINEA" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="NARGESTModel.SUBLINEA" Width="1.5" PointX="9.375" PointY="0.75" />
+        <EntityTypeShape EntityType="NARGESTModel.CLIENTE" Width="1.5" PointX="42.75" PointY="12" />
+        <AssociationConnector Association="NARGESTModel.FK_CLIENTE_CIUDAD" />
+        <AssociationConnector Association="NARGESTModel.FK_CLIDEP_CLIENTE" />
+        <AssociationConnector Association="NARGESTModel.FK_CLIE_FUERZA_CLIENTE" />
+        <AssociationConnector Association="NARGESTModel.FK_CLIENTE_Distrito" />
+        <AssociationConnector Association="NARGESTModel.FK_CLIENTE_PAIS" />
+        <AssociationConnector Association="NARGESTModel.FK_CLIENTE_paisdepa" />
+        <AssociationConnector Association="NARGESTModel.FK_CLIENTE_RUTA" />
+        <AssociationConnector Association="NARGESTModel.FK_CLIENTE_SEGMENTO_CLIENTE" />
+        <AssociationConnector Association="NARGESTModel.FK_CLIENTE_TIPO_PAGO" />
+        <AssociationConnector Association="NARGESTModel.FK_CLIENTE_TIPONEGOCIO" />
+        <AssociationConnector Association="NARGESTModel.FK_CLIENTE_TIPOPRE" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

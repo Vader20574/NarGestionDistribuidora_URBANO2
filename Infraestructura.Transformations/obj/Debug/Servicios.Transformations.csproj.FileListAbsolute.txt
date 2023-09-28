@@ -1,0 +1,70 @@
+C:\PTO\Servicios.Transformations\bin\Debug\Servicios.Transformations.dll
+C:\PTO\Servicios.Transformations\bin\Debug\Servicios.Transformations.pdb
+C:\PTO\Servicios.Transformations\bin\Debug\CapaDatos.exe
+C:\PTO\Servicios.Transformations\bin\Debug\CapaNegocio.dll
+C:\PTO\Servicios.Transformations\bin\Debug\InterfacesFacturacionElectronica.dll
+C:\PTO\Servicios.Transformations\bin\Debug\EntityFramework.dll
+C:\PTO\Servicios.Transformations\bin\Debug\CapaDatafirst.dll
+C:\PTO\Servicios.Transformations\bin\Debug\CapaDatos.pdb
+C:\PTO\Servicios.Transformations\bin\Debug\CapaNegocio.pdb
+C:\PTO\Servicios.Transformations\bin\Debug\InterfacesFacturacionElectronica.pdb
+C:\PTO\Servicios.Transformations\bin\Debug\EntityFramework.xml
+C:\PTO\Servicios.Transformations\bin\Debug\CapaDatafirst.pdb
+C:\PTO\Servicios.Transformations\bin\Debug\es\EntityFramework.resources.dll
+C:\PTO\Servicios.Transformations\obj\Debug\Servicios.Transformations.csprojResolveAssemblyReference.cache
+C:\PTO\Servicios.Transformations\obj\Debug\Servicios.Transformations.dll
+C:\PTO\Servicios.Transformations\obj\Debug\Servicios.Transformations.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\obj\Debug\Servicios.Transformations.csprojResolveAssemblyReference.cache
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\obj\Debug\Servicios.Transformations.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\obj\Debug\Servicios.Transformations.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\bin\Debug\Servicios.Transformations.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\bin\Debug\Servicios.Transformations.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\bin\Debug\CapaNegocio.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\bin\Debug\Dominio.Entidades.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\bin\Debug\InterfacesFacturacionElectronica.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\bin\Debug\Dominio.Contextos.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\bin\Debug\CapaDatafirst.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\bin\Debug\EntityFramework.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\bin\Debug\Dominio.Entidades.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\bin\Debug\InterfacesFacturacionElectronica.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\bin\Debug\CapaNegocio.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\bin\Debug\Dominio.Contextos.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\bin\Debug\CapaDatafirst.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\bin\Debug\EntityFramework.xml
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Transformations\bin\Debug\es\EntityFramework.resources.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\Servicios.Transformations.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\Servicios.Transformations.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\CapaNegocio.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\Dominio.Entidades.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\InterfacesFacturacionElectronica.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\Dominio.Contextos.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\CapaDatafirst.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\EntityFramework.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\Dominio.Entidades.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\InterfacesFacturacionElectronica.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\CapaNegocio.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\Dominio.Contextos.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\CapaDatafirst.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\EntityFramework.xml
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\es\EntityFramework.resources.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\obj\Debug\Servicios.Transformations.csprojResolveAssemblyReference.cache
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\obj\Debug\Servicios.Transformations.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\obj\Debug\Servicios.Transformations.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\Servicios.Transformations.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\Servicios.Transformations.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\CapaNegocio.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\Dominio.Entidades.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\InterfacesFacturacionElectronica.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\Dominio.Contextos.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\EntityFramework.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\Dominio.Entidades.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\InterfacesFacturacionElectronica.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\CapaNegocio.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\Dominio.Contextos.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\EntityFramework.xml
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\bin\Debug\es\EntityFramework.resources.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\obj\Debug\Servicios.Transformations.csprojResolveAssemblyReference.cache
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\obj\Debug\Servicios.Transformations.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Transformations\obj\Debug\Servicios.Transformations.pdb

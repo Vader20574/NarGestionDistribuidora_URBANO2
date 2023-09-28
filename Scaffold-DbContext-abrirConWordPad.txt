@@ -1,0 +1,11 @@
+
+agregando Microsoft.EntityFrameworkCore.Tools 3.1.0 y
+Microsoft.EntityFrameworkCore.SqlServer 3.1.0 
+
+agregando Microsoft.EntityFrameworkCore a Servicios.Implementacion
+
+agregando Microsoft.EntityFrameworkCore y Microsoft.EntityFrameworkCore.SqlServer version 3.1.0  a pto   vb NarGestionDistribuidora para q reconosca en CapaCliente 
+
+
+Scaffold-DbContext "Server=.;Database=NARGEST230223;User Id=sa;pwd=301102" Microsoft.EntityFrameworkCore.SqlServer  -OutputDir Models -Context micontext -tables  SUPERVISOR,SUPERVISOR_VENDEDOR -force
+

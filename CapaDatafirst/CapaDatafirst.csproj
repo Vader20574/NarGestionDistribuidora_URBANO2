@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F09E4F4E-976F-4148-A5A3-EFC349784B8D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaDatafirst</RootNamespace>
+    <AssemblyName>CapaDatafirst</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CRVsPackageLib, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.TemplateEngine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Viewing.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommLayer, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonControls, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonObjectModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Controllers, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CubeDefModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataDefModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.DataSetConversion, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportAppServer.ObjectFactory, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Prompting, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ReportDefModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.XmlSerialize, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.VSDesigner, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\NarGestionDistribuidora_actualizando_VS2015GLORIA\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\NarGestionDistribuidora_actualizando_VS2015GLORIA\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACCESO.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ACCESOPROC.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ACTIVO.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ACTIVO_FIJO.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADUANA.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ALMACEN.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ALMAZON.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ARTIDAT.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BUSCAPROVEEDOR_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BUSQ_CLIDEP_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CATEGORIA_CLIENTE.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CIERRE_MES_INVENTARIO.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CIUDAD.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="CLIDEP.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIENTE.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIENTEXPROMOSUBCAT.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIE_FUERZA.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CONFIGSIS.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CONFIGVTA.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Distrito.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FUERZAVENTA.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LINEA.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelDataFirst.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelDataFirst.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelDataFirst.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelDataFirst.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelDataFirst.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Moneda.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NSP_AGRUP_FECHA_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NSP_RPT_DESCEXT_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NSP_RPT_EQUIPOVENTAS_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NSP_SELECT_CORRELATIVOS_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Nsp_Sele_banco_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PAIS.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="paisdepa.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reportes\FrmRpt_ClienteDepPer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmRpt_ClienteDepPer.Designer.cs">
+      <DependentUpon>FrmRpt_ClienteDepPer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\FrmRpt_Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmRpt_Clientes.Designer.cs">
+      <DependentUpon>FrmRpt_Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\FrmRpt_DescExt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmRpt_DescExt.Designer.cs">
+      <DependentUpon>FrmRpt_DescExt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\FrmRpt_EquipoVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmRpt_EquipoVentas.Designer.cs">
+      <DependentUpon>FrmRpt_EquipoVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\RptEquipoVentas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptEquipoVentas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Rpt_ClienteDepPer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_ClienteDepPer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Rpt_Clientes.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_Clientes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\Rpt_DescExt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rpt_DescExt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rsyssegment.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="rsyssegmentC.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RUTA.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SEGMENTO_CLIENTE.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SelectPRECIART_Presentxproc2_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SelectPRECIART_PresentxprocSUBCAT_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_BUSQUEDA_CLIENTE_VTA_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_EXTRAER_AÑO_MES_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_LISTA_ARTICULO_FACT_FILTRO_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_LISTA_ARTICULO_FACT_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_REPORTE_CLIENTEDEP_PERCEP_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_REPORTE_COBRANZA_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_REPORTE_PEDIDO_XVENDEDOR_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_RPT_CLIENTE_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_RPT_VENTAS_DETALLE_POR_DOCU_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_RPT_VTA_ANUL_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SP_SELECT_FACTURAS_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SUBLINEA.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="syssegments.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="test.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TIPCREDF.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TIPODOC.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TIPONEGOCIO.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoPagoXPromocion.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoPagoXPromocionSub.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TIPOPRE.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoPrecioXPromocion.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoPrecioXPromocionSubCat.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TIPOPROD.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TIPO_PAGO.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TMP_PEDIDO_XVENDEDOR.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TMP_STOCKPEDIDO.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="USP_CONFIGINV_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VENDEDOR.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VENTACAB.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VENTADET.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VENTA_X_COBRAR.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zona.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ZSP_RPT_DESCEXT_Result.cs">
+      <DependentUpon>ModelDataFirst.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="ModelDataFirst.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelDataFirst.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ModelDataFirst.edmx.diagram">
+      <DependentUpon>ModelDataFirst.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ModelDataFirst.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelDataFirst.edmx</DependentUpon>
+      <LastGenOutput>ModelDataFirst.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ModelDataFirst.edmx.sql" />
+    <Content Include="ModelDataFirst.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelDataFirst.edmx</DependentUpon>
+      <LastGenOutput>ModelDataFirst.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Reportes\FrmRpt_ClienteDepPer.resx">
+      <DependentUpon>FrmRpt_ClienteDepPer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FrmRpt_Clientes.resx">
+      <DependentUpon>FrmRpt_Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FrmRpt_DescExt.resx">
+      <DependentUpon>FrmRpt_DescExt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FrmRpt_EquipoVentas.resx">
+      <DependentUpon>FrmRpt_EquipoVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\RptEquipoVentas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptEquipoVentas.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Rpt_ClienteDepPer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_ClienteDepPer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Rpt_Clientes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_Clientes.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Rpt_DescExt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Rpt_DescExt.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

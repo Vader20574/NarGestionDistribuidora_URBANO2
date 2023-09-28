@@ -1,0 +1,62 @@
+select * from dbo.hoja3$
+
+
+SELECT SUBSTRING ( SERIE ,1 , 2 )+ NUMERO FROM dbo.Hoja3$
+
+
+select * from NARGEST.dbo.VENTACAB where SUBSTRING ( NRODOCU ,1 , 2 )='10'
+
+
+select * from NARGEST.dbo.VENTACAB where nrodocu='10000705'
+
+select * from NARGEST.dbo.VENTACAB where nrodocu IN (SELECT (SUBSTRING ( SERIE ,1 , 2 ) + SUBSTRING ( NUMERO ,2 ,6 )) FROM dbo.HOJA3$)
+
+SELECT (SUBSTRING ( SERIE ,1 , 2 ) + SUBSTRING ( NUMERO ,2 ,6 )) FROM dbo.HOJA3$
+
+
+select * from NARGEST.dbo.VENTACAB
+ where nrodocu IN (SELECT (SUBSTRING ( SERIE ,1 , 2 ) + SUBSTRING ( NUMERO ,2 ,6 )) FROM NUEVO.dbo.HOJA3$)
+
+
+select * from NARGEST.dbo.VENTADET
+ where nrodocu IN (SELECT (SUBSTRING ( SERIE ,1 , 2 ) + SUBSTRING ( NUMERO ,2 ,6 )) FROM NUEVO.dbo.HOJA3$)
+
+SELECT  *  FROM    NARGEST.dbo.VENTADET  
+
+SELECT  CODARTI,CODPRES,SUM(CANTIDAD) AS CANTIDAD,0  FROM    NARGEST.dbo.VENTADET         
+WHERE [CODEMPRESA]=@CODEMPRESA  AND CODALMACEN='03' AND NRODOCFACT=@NRODOCFACT          
+GROUP BY CODARTI,CODPRES     
+    
+
+SELECT (SUBSTRING ( SERIE ,1 , 2 ) + SUBSTRING ( NUMERO ,2 ,6 )) FROM NUEVO.dbo.HOJA3$
+
+HHH3
+
+
+ALTER  PROCEDURE HHH3
+AS
+DECLARE @CODARTI  varchar(255) 
+-- Declaración del cursor
+DECLARE cClientes CURSOR FOR
+
+SELECT (SUBSTRING ( SERIE ,1 , 2 ) + SUBSTRING ( NUMERO ,2 ,6 )) FROM NUEVO.dbo.HOJA3$
+WHERE (SUBSTRING ( SERIE ,1 , 2 ) + SUBSTRING ( NUMERO ,2 ,6 ))<> '10000692'
+
+OPEN cClientes
+FETCH cClientes INTO @CODARTI
+WHILE (@@FETCH_STATUS = 0 )
+
+BEGIN
+    -- Lectura de la siguiente fila del cursor
+EXEC NSP_ACTUALIZA_STOCK_FACTACT_VD '01',0,0,@CODARTI        
+
+FETCH cClientes INTO  @CODARTI
+END
+
+-- Cierre del cursor
+
+CLOSE cClientes
+
+-- Liberar los recursos
+
+DEALLOCATE cClientes

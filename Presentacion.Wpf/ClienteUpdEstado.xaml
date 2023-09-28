@@ -1,0 +1,20 @@
+﻿<Window x:Class="Presentacion.Wpf.ClienteUpdEstado"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentacion.Wpf"
+        mc:Ignorable="d"
+        Title="Cambiar Estado de Cliente" Height="500" Width="990">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="47*"/>
+            <ColumnDefinition Width="943*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="dgvDatos" HorizontalAlignment="Left" Height="338" Margin="37,70,0,0" VerticalAlignment="Top" Width="923" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnImportar" Content="Cargar Excel" HorizontalAlignment="Left" Height="30" Margin="418,19,0,0" VerticalAlignment="Top" Width="103" Click="btnImportar_Click" Grid.Column="1"/>
+        <TextBox x:Name="txtRuta" HorizontalAlignment="Left" Height="20" Margin="37,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnMigrar" Content="Cambiar" HorizontalAlignment="Left" Height="27" Margin="352,427,0,0" VerticalAlignment="Top" Width="117" Click="btnMigrar_Click" Grid.Column="1"/>
+
+    </Grid>
+</Window>

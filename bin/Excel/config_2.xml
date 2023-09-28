@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<dsgridbanco xmlns="http://tempuri.org/dsgridbanco.xsd">
+  <ini>
+    <server>.</server>
+    <bd>BDURBA5</bd>
+    <usuario>SA</usuario>
+    <password></password>
+    <Reporte>C:\Reportes_Inv\</Reporte>
+    <ReporteInv>C:\Reportes_Inv\</ReporteInv>
+    <ReporteVta>C:\FUENTES\NarGestionDistribuidora\Inventario\Reportes\</ReporteVta>
+
+    <server2>190.41.58.57</server2>
+    <bd2>nextel</bd2>
+    <usuario2>nar</usuario2>
+    <password2>301102</password2>
+   
+  </ini>
+</dsgridbanco>

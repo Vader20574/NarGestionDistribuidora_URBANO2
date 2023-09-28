@@ -1,0 +1,514 @@
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\InterfacesFacturacionElectronica\bin\Debug\InterfacesFacturacionElectronica.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\InterfacesFacturacionElectronica\bin\Debug\InterfacesFacturacionElectronica.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\InterfacesFacturacionElectronica\obj\Debug\Servicios.Interfaces.csprojResolveAssemblyReference.cache
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\InterfacesFacturacionElectronica\obj\Debug\InterfacesFacturacionElectronica.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\InterfacesFacturacionElectronica\obj\Debug\InterfacesFacturacionElectronica.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\InterfacesFacturacionElectronica\bin\Debug\InterfacesFacturacionElectronica.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\InterfacesFacturacionElectronica\bin\Debug\InterfacesFacturacionElectronica.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\InterfacesFacturacionElectronica\obj\Debug\Servicios.Interfaces.csprojResolveAssemblyReference.cache
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\InterfacesFacturacionElectronica\obj\Debug\InterfacesFacturacionElectronica.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\InterfacesFacturacionElectronica\obj\Debug\InterfacesFacturacionElectronica.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\InterfacesFacturacionElectronica\bin\Debug\InterfacesFacturacionElectronica.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\InterfacesFacturacionElectronica\bin\Debug\InterfacesFacturacionElectronica.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\InterfacesFacturacionElectronica\obj\Debug\Servicios.Interfaces.csprojResolveAssemblyReference.cache
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\InterfacesFacturacionElectronica\obj\Debug\InterfacesFacturacionElectronica.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\InterfacesFacturacionElectronica\obj\Debug\InterfacesFacturacionElectronica.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\EntityFramework.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll.config
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CopyComplete
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll.config
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CopyComplete
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\EntityFramework.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.Shared.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\FlashControlV71.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\ShockwaveFlashObjects.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\stdole.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\EntityFramework.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.Shared.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\FlashControlV71.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\ShockwaveFlashObjects.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\stdole.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.pdb
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll.config
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CopyComplete
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\EntityFramework.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.Shared.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\FlashControlV71.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\ShockwaveFlashObjects.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\stdole.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll.config
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CopyComplete
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\EntityFramework.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.Shared.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\FlashControlV71.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\ShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\stdole.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll.config
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CopyComplete
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\EntityFramework.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CrystalDecisions.Shared.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\FlashControlV71.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\ShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\stdole.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll.config
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CopyComplete
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\EntityFramework.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CrystalDecisions.Shared.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\FlashControlV71.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\ShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\stdole.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll.config
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CopyComplete
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - NEW\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\EntityFramework.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.Shared.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\FlashControlV71.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\ShockwaveFlashObjects.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\stdole.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.pdb
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll.config
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CopyComplete
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\Newtonsoft.Json.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\EntityFramework.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.Shared.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\FlashControlV71.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\ShockwaveFlashObjects.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\stdole.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CapaDatafirst.pdb
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll.config
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\Newtonsoft.Json.xml
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CopyComplete
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+C:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\Newtonsoft.Json.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\EntityFramework.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.Shared.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll.config
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\Newtonsoft.Json.xml
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CopyComplete
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\ShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\stdole.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\AxShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\NarGestionDistribuidora_URBANO-master\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\Newtonsoft.Json.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\EntityFramework.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CrystalDecisions.Shared.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\AxShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\ShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\stdole.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll.config
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\bin\Debug\Newtonsoft.Json.xml
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CopyComplete
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Newtonsoft.Json.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\EntityFramework.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.Shared.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\AxShockwaveFlashObjects.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\ShockwaveFlashObjects.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\stdole.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CapaDatafirst.pdb
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll.config
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Newtonsoft.Json.xml
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CopyComplete
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+D:\XX\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Newtonsoft.Json.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\EntityFramework.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.Shared.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\AxShockwaveFlashObjects.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\ShockwaveFlashObjects.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\stdole.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CapaDatafirst.pdb
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll.config
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Newtonsoft.Json.xml
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CopyComplete
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Newtonsoft.Json.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\EntityFramework.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.Shared.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\AxShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\ShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\stdole.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll.config
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Newtonsoft.Json.xml
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CopyComplete
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Newtonsoft.Json.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\EntityFramework.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.Shared.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\AxShockwaveFlashObjects.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\ShockwaveFlashObjects.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\stdole.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CapaDatafirst.pdb
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll.config
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Newtonsoft.Json.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojAssemblyReference.cache
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CopyComplete
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Newtonsoft.Json.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\EntityFramework.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.Shared.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\AxShockwaveFlashObjects.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\ShockwaveFlashObjects.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\stdole.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CapaDatafirst.pdb
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\CapaDatafirst.dll.config
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\bin\Debug\Newtonsoft.Json.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.AssemblyReference.cache
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CopyComplete
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb

@@ -1,0 +1,9 @@
+
+EntityFramework\enable-migrations
+EntityFramework\add-migration -name "aqui pones un nombre"
+EntityFramework\Update-Database
+
+EntityFramework\update-database -verbose para ver el query en la base de datos
+
+
+EntityFramework\add-migration -name "creando tabla Supervisor y SupervisorVendedor"

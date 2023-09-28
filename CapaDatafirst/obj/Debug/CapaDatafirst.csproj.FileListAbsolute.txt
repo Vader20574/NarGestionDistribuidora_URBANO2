@@ -1,0 +1,694 @@
+C:\PTO\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+C:\PTO\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+C:\PTO\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+C:\PTO\CapaDatafirst\bin\Debug\EntityFramework.dll
+C:\PTO\CapaDatafirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\PTO\CapaDatafirst\bin\Debug\EntityFramework.xml
+C:\PTO\CapaDatafirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\PTO\CapaDatafirst\bin\Debug\es\EntityFramework.resources.dll
+C:\PTO\CapaDatafirst\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\PTO\CapaDatafirst\obj\Debug\CapaDatafirst.csprojResolveAssemblyReference.cache
+C:\PTO\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+C:\PTO\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\EntityFramework.xml
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\es\EntityFramework.resources.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\obj\Debug\CapaDatafirst.csprojResolveAssemblyReference.cache
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+C:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia (2)\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia (2)\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia (2)\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia (2)\CapaDatafirst\obj\Debug\CapaDatafirst.csprojResolveAssemblyReference.cache
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia (2)\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia (2)\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\stdole.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\stdole.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\obj\Debug\CapaDatafirst.csprojResolveAssemblyReference.cache
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\FlashControlV71.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - copia\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\FlashControlV71.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\stdole.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+E:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA\CapaDatafirst\bin\Debug\FlashControlV71.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\FlashControlV71.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\bin\Debug\stdole.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#2\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\FlashControlV71.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\stdole.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_actualizando_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\FlashControlV71.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\stdole.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_Clientes.resources
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.GenerateResource.cache
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_ClienteDepPer.resources
+D:\PTO\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\FlashControlV71.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\bin\Debug\stdole.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_ClienteDepPer.resources
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_Clientes.resources
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.GenerateResource.cache
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\PTO\PtoFacturacionDirectaElectronica\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\FlashControlV71.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\bin\Debug\stdole.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_ClienteDepPer.resources
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_Clientes.resources
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.GenerateResource.cache
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_EquipoVentas.resources
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_DescExt.resources
+C:\NarGestionDistribuidora_VS2015GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\FlashControlV71.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\stdole.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_ClienteDepPer.resources
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_Clientes.resources
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_DescExt.resources
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_EquipoVentas.resources
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.GenerateResource.cache
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\PTO\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_ClienteDepPer.resources
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_Clientes.resources
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_DescExt.resources
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_EquipoVentas.resources
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.GenerateResource.cache
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\FlashControlV71.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\stdole.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\FlashControlV71.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\bin\Debug\stdole.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_ClienteDepPer.resources
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_Clientes.resources
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_DescExt.resources
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_EquipoVentas.resources
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.GenerateResource.cache
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - 201119\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\FlashControlV71.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\bin\Debug\stdole.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_ClienteDepPer.resources
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_Clientes.resources
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_DescExt.resources
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_EquipoVentas.resources
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.GenerateResource.cache
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_VS2017GLORIA - C# - new\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\FlashControlV71.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\bin\Debug\stdole.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_ClienteDepPer.resources
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_Clientes.resources
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_DescExt.resources
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_EquipoVentas.resources
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.GenerateResource.cache
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+C:\NarGestionDistribuidora_VS2017GLORIA - C#\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\FlashControlV71.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\stdole.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_ClienteDepPer.resources
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_Clientes.resources
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_DescExt.resources
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_EquipoVentas.resources
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.GenerateResource.cache
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+C:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_ClienteDepPer.resources
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_Clientes.resources
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_DescExt.resources
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_EquipoVentas.resources
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.GenerateResource.cache
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\stdole.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\EnvDTE.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\VSLangProj.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\VsWebSite.Interop.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\EnvDTE80.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\AxShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.VSDesigner.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.Web.dll
+D:\NarGestionDistribuidora_URBANO-master\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\CrystalDecisions.VSDesigner.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\CrystalDecisions.Web.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\EnvDTE.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\VSLangProj.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\VsWebSite.Interop.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\EnvDTE80.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\AxShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\stdole.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_ClienteDepPer.resources
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_Clientes.resources
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_DescExt.resources
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_EquipoVentas.resources
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.GenerateResource.cache
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_URBANO-master - copia (3)\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.VSDesigner.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Web.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\EnvDTE.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\VSLangProj.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\VsWebSite.Interop.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\EnvDTE80.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\AxShockwaveFlashObjects.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\stdole.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_ClienteDepPer.resources
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_Clientes.resources
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_DescExt.resources
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_EquipoVentas.resources
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.GenerateResource.cache
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\XX\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.VSDesigner.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Web.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\EnvDTE.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\VSLangProj.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\VsWebSite.Interop.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\EnvDTE80.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\AxShockwaveFlashObjects.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\stdole.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_ClienteDepPer.resources
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_Clientes.resources
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_DescExt.resources
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_EquipoVentas.resources
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.GenerateResource.cache
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\Nueva carpeta\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.VSDesigner.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Web.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\EnvDTE.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\VSLangProj.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\VsWebSite.Interop.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\EnvDTE80.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\AxShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\stdole.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csprojAssemblyReference.cache
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_ClienteDepPer.resources
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_Clientes.resources
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_DescExt.resources
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_EquipoVentas.resources
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.GenerateResource.cache
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_URBANO_\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.VSDesigner.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Web.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\EnvDTE.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\VSLangProj.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\VsWebSite.Interop.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\EnvDTE80.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\AxShockwaveFlashObjects.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\stdole.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_ClienteDepPer.resources
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_Clientes.resources
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_DescExt.resources
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_EquipoVentas.resources
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.GenerateResource.cache
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.pdb
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CapaDatafirst.dll.config
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CapaDatafirst.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CapaDatafirst.pdb
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Shared.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.VSDesigner.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Web.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\EnvDTE.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\VSLangProj.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\VsWebSite.Interop.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\EnvDTE80.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\AxShockwaveFlashObjects.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\ShockwaveFlashObjects.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\stdole.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.AssemblyReference.cache
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_ClienteDepPer.resources
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_Clientes.resources
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_DescExt.resources
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.Reportes.FrmRpt_EquipoVentas.resources
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.GenerateResource.cache
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CoreCompileInputs.cache
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.csproj.CopyComplete
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\CapaDatafirst\obj\Debug\CapaDatafirst.pdb

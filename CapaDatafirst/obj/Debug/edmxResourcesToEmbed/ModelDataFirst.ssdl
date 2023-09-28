@@ -1,0 +1,1569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NARGESTModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'NARGEST060123.dbo.ACCESO' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="ACCESO">
+    <Key>
+      <PropertyRef Name="cdmodulo" />
+      <PropertyRef Name="activo" />
+    </Key>
+    <Property Name="CodEmpresa" Type="varchar" MaxLength="10" />
+    <Property Name="cdnivel" Type="char" MaxLength="10" />
+    <Property Name="cdmodulo" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'NARGEST060123.dbo.ACCESOPROC' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="ACCESOPROC">
+    <Key>
+      <PropertyRef Name="CodEmpresa" />
+      <PropertyRef Name="activo" />
+    </Key>
+    <Property Name="CodEmpresa" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="cdnivel" Type="char" MaxLength="10" />
+    <Property Name="cdproceso" Type="varchar" MaxLength="20" />
+    <Property Name="activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ACTIVO">
+    <Key>
+      <PropertyRef Name="IDACTIVO" />
+      <PropertyRef Name="DATETRANS" />
+    </Key>
+    <Property Name="IDACTIVO" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="ACTIVO" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="IDDEPA" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="TRANS" Type="bit" />
+    <Property Name="DATETRANS" Type="datetime" Nullable="false" />
+    <Property Name="HP" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="KW" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="PUKW" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="CostHor" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ACTIVO_FIJO">
+    <Key>
+      <PropertyRef Name="CODACT" />
+      <PropertyRef Name="CODEMPRESA" />
+    </Key>
+    <Property Name="CODACT" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="DESCACT" Type="char" MaxLength="50" />
+    <Property Name="CODDEP" Type="varchar" MaxLength="10" />
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="TASDEPCONT" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="TASDEPTRIB" Type="numeric" Precision="9" Scale="4" />
+    <Property Name="TASDEPDOL" Type="char" MaxLength="2" />
+    <Property Name="VIDUTIL" Type="numeric" Precision="9" Scale="2" />
+    <Property Name="CORRELATIVO" Type="numeric" Precision="38" Scale="0" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'NARGEST060123.dbo.ADUANA' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="ADUANA">
+    <Key>
+      <PropertyRef Name="ADU_CODIGO" />
+      <PropertyRef Name="ADU_NOMBRE" />
+    </Key>
+    <Property Name="COD_EMPRESA" Type="varchar" MaxLength="2" />
+    <Property Name="ADU_CODIGO" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="ADU_NOMBRE" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ALMACEN">
+    <Key>
+      <PropertyRef Name="CODALMACEN" />
+    </Key>
+    <Property Name="codempresa" Type="varchar" MaxLength="10" />
+    <Property Name="CODALMACEN" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DATETRANS" Type="datetime" />
+    <Property Name="TRANS" Type="bit" />
+    <Property Name="ESTADO" Type="bit" />
+    <Property Name="AJUSTESTOCK" Type="bit" />
+    <Property Name="FECTOMAINV" Type="datetime" />
+    <Property Name="TERMINAL" Type="varchar" MaxLength="20" />
+    <Property Name="ACTIVO" Type="bit" />
+    <Property Name="DESALMACEN" Type="varchar" MaxLength="60" />
+    <Property Name="direccion" Type="varchar" MaxLength="100" />
+    <Property Name="CDTIPO" Type="char" MaxLength="1" />
+    <Property Name="TIPO" Type="bit" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'NARGEST060123.dbo.ALMAZON' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="ALMAZON">
+    <Key>
+      <PropertyRef Name="CDZONA" />
+      <PropertyRef Name="CDALMACEN" />
+      <PropertyRef Name="TRANS" />
+      <PropertyRef Name="CODEMPRESA" />
+    </Key>
+    <Property Name="CDZONA" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="CDALMACEN" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="USERID" Type="char" MaxLength="20" />
+    <Property Name="TSTAMP" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="TRANS" Type="bit" Nullable="false" />
+    <Property Name="DATETRANS" Type="datetime" />
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ARTIDAT">
+    <Key>
+      <PropertyRef Name="CODALMACEN" />
+      <PropertyRef Name="CODARTI" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" />
+    <Property Name="CODALMACEN" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="CODARTI" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DATETRANS" Type="datetime" />
+    <Property Name="TRANS" Type="bit" />
+    <Property Name="ESTADO" Type="bit" />
+    <Property Name="ULTSAL" Type="datetime" />
+    <Property Name="ULTING" Type="datetime" />
+    <Property Name="COSTEXTRM" Type="numeric" Precision="20" Scale="5" />
+    <Property Name="COSTEXTRU" Type="numeric" Precision="20" Scale="5" />
+    <Property Name="COSTBASEM" Type="numeric" Precision="20" Scale="5" />
+    <Property Name="COSTBASEU" Type="numeric" Precision="20" Scale="5" />
+    <Property Name="STKINIM" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="STKINIU" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="STKACTM" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="STKACTU" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="STKMAXM" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="STKMAXU" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="STKMINM" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="STKMINU" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="UBICAJE" Type="varchar" MaxLength="50" />
+    <Property Name="NROING" Type="varchar" MaxLength="50" />
+    <Property Name="NROSAL" Type="varchar" MaxLength="50" />
+    <Property Name="FECH_COMP" Type="datetime" />
+  </EntityType>
+  <EntityType Name="CATEGORIA_CLIENTE">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="50" />
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CIERRE_MES_INVENTARIO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="AÑO" Type="varchar" MaxLength="50" />
+    <Property Name="MES" Type="varchar" MaxLength="50" />
+    <Property Name="ARTICULO" Type="varchar" MaxLength="50" />
+    <Property Name="STOCK" Type="int" />
+    <Property Name="ALMACEN" Type="varchar" MaxLength="50" />
+    <Property Name="FECHA" Type="datetime" />
+    <Property Name="TSTAMP" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CIUDAD">
+    <Key>
+      <PropertyRef Name="CODCIUDAD" />
+    </Key>
+    <Property Name="CODCIUDAD" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="DESCIUDAD" Type="varchar" MaxLength="50" />
+    <Property Name="CODPAIS" Type="varchar" MaxLength="4" />
+    <Property Name="iddepa" Type="varchar" MaxLength="10" />
+    <Property Name="estado" Type="bit" />
+    <Property Name="datetrans" Type="datetime" />
+    <Property Name="trans" Type="bit" />
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="CLIDEP">
+    <Key>
+      <PropertyRef Name="CODCLIENTE" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="CODDEP" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="CODCLIENTE" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="ACTIVO" Type="bit" Nullable="false" />
+    <Property Name="CODRUTA" Type="varchar" MaxLength="20" />
+    <Property Name="CODDISTRITO" Type="varchar" MaxLength="5" />
+    <Property Name="MPERCEP" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="notapedido" Type="bit" />
+    <Property Name="ORT" Type="bit" />
+  </EntityType>
+  <EntityType Name="CLIE_FUERZA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" />
+    <Property Name="CODCLIE" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="CODFUERZA" Type="varchar" MaxLength="20" />
+    <Property Name="CREDITO_F" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="SALDO_CREDF" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CLIENTE">
+    <Key>
+      <PropertyRef Name="codcliente" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="codcliente" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DATETRANS" Type="datetime" />
+    <Property Name="TRANS" Type="bit" />
+    <Property Name="ESTADO" Type="bit" />
+    <Property Name="DESCUENTO" Type="numeric" Precision="9" Scale="3" />
+    <Property Name="CTA_LET" Type="varchar" MaxLength="15" />
+    <Property Name="CTA_ANT" Type="varchar" MaxLength="15" />
+    <Property Name="CTA_VTA" Type="varchar" MaxLength="15" />
+    <Property Name="SALDODISPONIBLE" Type="decimal" Precision="11" Scale="2" />
+    <Property Name="MTOLIMCRED" Type="decimal" Precision="11" Scale="2" />
+    <Property Name="telefono" Type="char" MaxLength="18" Nullable="false" />
+    <Property Name="ruc" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="direccion" Type="nvarchar(max)" />
+    <Property Name="CODTIPOPAGO" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="CODTIPCLI" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="CODCIUDAD" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="codvend" Type="varchar" MaxLength="4" />
+    <Property Name="CuotaT" Type="numeric" Precision="9" Scale="4" />
+    <Property Name="CuotaS" Type="numeric" Precision="9" Scale="2" />
+    <Property Name="cuotaD" Type="numeric" Precision="9" Scale="2" />
+    <Property Name="dni" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="razonsocial" Type="varchar" MaxLength="150" />
+    <Property Name="materno" Type="varchar" MaxLength="30" />
+    <Property Name="paterno" Type="varchar" MaxLength="30" />
+    <Property Name="nombres" Type="varchar" MaxLength="150" />
+    <Property Name="codzona" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="30" />
+    <Property Name="TIPCREDFAC" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="MONEDACRED" Type="char" MaxLength="2" />
+    <Property Name="pais" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="contacto" Type="varchar" MaxLength="150" />
+    <Property Name="telecont" Type="varchar" MaxLength="50" />
+    <Property Name="celucont" Type="varchar" MaxLength="50" />
+    <Property Name="emailcont" Type="varchar" MaxLength="50" />
+    <Property Name="faxcliente" Type="varchar" MaxLength="50" />
+    <Property Name="DATOADJUNTO" Type="varchar" MaxLength="500" />
+    <Property Name="coddis" Type="varchar" MaxLength="5" />
+    <Property Name="iddepa" Type="varchar" MaxLength="10" />
+    <Property Name="tipo" Type="bit" />
+    <Property Name="creacion" Type="datetime" />
+    <Property Name="empleado" Type="bit" />
+    <Property Name="RUTA" Type="varchar" MaxLength="20" />
+    <Property Name="TIPONEGOCIO" Type="varchar" MaxLength="20" />
+    <Property Name="CODTIPOPRE" Type="varchar" MaxLength="20" />
+    <Property Name="imagen" Type="varchar" MaxLength="50" />
+    <Property Name="imagen2" Type="varchar" MaxLength="100" />
+    <Property Name="MPERCEP" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="ORT" Type="bit" />
+    <Property Name="CODSegCliente" Type="varchar" MaxLength="50" />
+    <Property Name="CodCatCliente" Type="varchar" MaxLength="50" />
+    <Property Name="Visicoolers" Type="int" />
+    <Property Name="Cantidad" Type="varchar" MaxLength="50" />
+    <Property Name="Observacion" Type="varchar" MaxLength="50" />
+    <Property Name="CoordenadasX" Type="varchar" MaxLength="50" />
+    <Property Name="CoordenadasY" Type="varchar" MaxLength="50" />
+    <Property Name="DiasVisita" Type="varchar" MaxLength="50" />
+    <Property Name="Ubigeo" Type="varchar" MaxLength="50" />
+    <Property Name="IdClasif1" Type="int" />
+    <Property Name="IdClasif2" Type="int" />
+    <Property Name="IdClasif3" Type="int" />
+  </EntityType>
+  <EntityType Name="CLIENTEXPROMOSUBCAT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="CODPROMO" Type="nvarchar(max)" />
+    <Property Name="CODCLIENTE" Type="nvarchar(max)" />
+    <Property Name="RAZONSOCIAL" Type="nvarchar(max)" />
+    <Property Name="CODSUBLINEA" Type="nvarchar(max)" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CONFIGSIS">
+    <Key>
+      <PropertyRef Name="COD_EMPRESA" />
+    </Key>
+    <Property Name="COD_EMPRESA" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="CDMONBASE" Type="char" MaxLength="2" />
+    <Property Name="CDMONEXTR" Type="char" MaxLength="2" />
+    <Property Name="FECHAPROC" Type="datetime" Nullable="false" />
+    <Property Name="DECICANT" Type="numeric" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="DECICOST" Type="numeric" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="DECIPREC" Type="numeric" Precision="9" Scale="3" Nullable="false" />
+    <Property Name="DECIRESU" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="PORCENIGV" Type="numeric" Precision="5" Scale="2" Nullable="false" />
+    <Property Name="UNICNROFACBOL" Type="bit" Nullable="false" />
+    <Property Name="EMPRESA" Type="varchar" MaxLength="50" />
+    <Property Name="PTOCIERREFINDIA" Type="varchar" MaxLength="50" />
+    <Property Name="SALIDAIMP" Type="bit" Nullable="false" />
+    <Property Name="TSTAMP" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="TRANS" Type="bit" Nullable="false" />
+    <Property Name="DATETRANS" Type="datetime" />
+    <Property Name="ESTADO" Type="bit" />
+    <Property Name="CODPAIS" Type="varchar" MaxLength="50" />
+    <Property Name="CODTIPOPAGO" Type="varchar" MaxLength="10" />
+    <Property Name="codclie" Type="bit" />
+    <Property Name="MULT_NTACRED_X_NROREF" Type="bit" Nullable="false" />
+    <Property Name="NRODESPACHO" Type="numeric" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NROVENTA" Type="numeric" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NROCOBRANZA" Type="numeric" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ACTIVABD" Type="bit" />
+    <Property Name="ACTICAJA" Type="bit" />
+    <Property Name="LIMCREDTO" Type="int" />
+    <Property Name="coeficiente" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="PREC_BOLETA" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="PREC_FACTURA" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="PREC_NOTAPEDIDO" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="PORCDESCUENTO" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="CodAlmacen" Type="varchar" MaxLength="50" />
+    <Property Name="NPTIENDA" Type="varchar" MaxLength="50" />
+    <Property Name="NROCOTIZACION" Type="int" />
+    <Property Name="MARGENMIN" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="TIPODESC" Type="bit" />
+    <Property Name="DiaCStk" Type="int" />
+    <Property Name="CORREO" Type="varchar" MaxLength="50" />
+    <Property Name="URL" Type="varchar" MaxLength="50" />
+    <Property Name="UBIGEO" Type="varchar" MaxLength="50" />
+    <Property Name="CERTELECT" Type="varchar" MaxLength="50" />
+    <Property Name="DIRECCION" Type="varchar" MaxLength="50" />
+    <Property Name="EMIFACT" Type="bit" />
+    <Property Name="resolucion" Type="varchar" MaxLength="50" />
+    <Property Name="consulta" Type="varchar" MaxLength="50" />
+    <Property Name="CodHash" Type="varchar" MaxLength="50" />
+    <Property Name="TipoOperacion" Type="varchar" MaxLength="50" />
+    <Property Name="CODDOMFISCAL" Type="varchar" MaxLength="500" />
+    <Property Name="RUTA_ARCHIVO" Type="varchar" MaxLength="500" />
+    <Property Name="MARGENMIN_PD" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="nropedido" Type="varchar" MaxLength="50" />
+    <Property Name="NOSERIE" Type="varchar" MaxLength="50" />
+    <Property Name="CodClienteDep" Type="int" />
+    <Property Name="CodLocal" Type="varchar" MaxLength="50" />
+    <Property Name="CodClientePri" Type="int" />
+    <Property Name="DiasAdelantado" Type="int" />
+    <Property Name="FACTPTOVTA" Type="bit" />
+    <Property Name="FACTLINEA" Type="bit" />
+    <Property Name="FACTSUBEMP" Type="bit" />
+    <Property Name="tiempo" Type="int" />
+    <Property Name="ULTIMACARGACLIENT" Type="varchar" MaxLength="50" />
+    <Property Name="ULTIMACARGAPROD" Type="varchar" MaxLength="50" />
+    <Property Name="ULTIMACARGATIPOPRE" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="CONFIGVTA">
+    <Key>
+      <PropertyRef Name="CODEMPRESA" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="INCLUYE_SERV" Type="bit" Nullable="false" />
+    <Property Name="PORCENSERV" Type="numeric" Precision="5" Scale="2" Nullable="false" />
+    <Property Name="IDIMPIGV" Type="varchar" MaxLength="5" />
+    <Property Name="IDIMPISC" Type="varchar" MaxLength="5" />
+    <Property Name="NRORESERVA" Type="numeric" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="NROCONSUMO" Type="numeric" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="NRORECPEND" Type="numeric" Precision="10" Scale="0" />
+    <Property Name="NROPAGOCTACTE" Type="numeric" Precision="10" Scale="0" />
+    <Property Name="NROPAGPROV" Type="numeric" Precision="10" Scale="0" />
+    <Property Name="EDITPRECIO" Type="bit" Nullable="false" />
+    <Property Name="CDTICKET" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="CDFACTURA" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="CDBOLETA" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="CDGUIATRANSFER" Type="char" MaxLength="3" />
+    <Property Name="CDNTACREDP" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="CDNTAPEDIDO" Type="char" MaxLength="3" />
+    <Property Name="CDBALANZA" Type="varchar" MaxLength="2" />
+    <Property Name="CDNTADEBITO" Type="char" MaxLength="3" />
+    <Property Name="CDGUIA" Type="char" MaxLength="3" />
+    <Property Name="CDGUIAVENTA" Type="varchar" MaxLength="20" />
+    <Property Name="CDGUIAREMISION" Type="char" MaxLength="3" />
+    <Property Name="CODCLIVARIOS" Type="varchar" MaxLength="20" />
+    <Property Name="IDSOCIO" Type="numeric" Precision="10" Scale="0" />
+    <Property Name="ACT_PRE_OFER" Type="bit" Nullable="false" />
+    <Property Name="ACT_PRE_ADI" Type="bit" Nullable="false" />
+    <Property Name="ACT_PRE_EXT" Type="bit" Nullable="false" />
+    <Property Name="DESCXCAT" Type="bit" Nullable="false" />
+    <Property Name="IMPCUPONES" Type="bit" Nullable="false" />
+    <Property Name="MONTO_CUPON" Type="tinyint" />
+    <Property Name="NUM_CUPON" Type="tinyint" />
+    <Property Name="ACTBONUS" Type="bit" Nullable="false" />
+    <Property Name="TSTAMP" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="TRANS" Type="bit" Nullable="false" />
+    <Property Name="DATETRANS" Type="datetime" />
+    <Property Name="codgenclie" Type="bit" />
+    <Property Name="ITEMDEGUIA" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="ITEMDENOTACRED" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="ITEMDEBOLETA" Type="numeric" Precision="10" Scale="0" />
+    <Property Name="ITEMDEFACT" Type="numeric" Precision="10" Scale="0" />
+    <Property Name="ITEMDENTAPEDIDO" Type="int" Nullable="false" />
+    <Property Name="IDNOIMPIGV" Type="varchar" MaxLength="50" />
+    <Property Name="codvend" Type="varchar" MaxLength="10" />
+    <Property Name="montoboleta" Type="money" />
+    <Property Name="DIGITOSRUC" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="DIGITOSDNI" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="UIT" Type="money" />
+    <Property Name="CORRELNROPAGO" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="DESCARGA_ALMACEN" Type="bit" />
+    <Property Name="CODARTISERV" Type="varchar" MaxLength="8" />
+    <Property Name="DURACION_PEDIDO" Type="int" />
+    <Property Name="NTACRED_INS_CUENTA_CLIE" Type="bit" Nullable="false" />
+    <Property Name="CAMBFECFACT" Type="bit" />
+    <Property Name="PRECIO_CONIGV" Type="bit" Nullable="false" />
+    <Property Name="CDPAGEFECTIVO" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="CDPAGCREDITO" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="NRODESPACHO" Type="numeric" Precision="38" Scale="0" />
+    <Property Name="NROVENTA" Type="numeric" Precision="38" Scale="0" />
+    <Property Name="NROCOBRANZA" Type="numeric" Precision="38" Scale="0" />
+    <Property Name="CODRETENCION" Type="varchar" MaxLength="20" />
+    <Property Name="CODPERCEPCION" Type="varchar" MaxLength="20" />
+    <Property Name="CODNEXTEL" Type="varchar" MaxLength="20" />
+    <Property Name="MONTFACTURA" Type="int" />
+    <Property Name="MONTBOLETA" Type="int" />
+    <Property Name="MONTNTACREDP" Type="int" />
+  </EntityType>
+  <EntityType Name="Distrito">
+    <Key>
+      <PropertyRef Name="CodDis" />
+    </Key>
+    <Property Name="CodDis" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="70" />
+    <Property Name="codprovi" Type="varchar" MaxLength="4" />
+    <Property Name="CODPAIS" Type="nvarchar" MaxLength="255" />
+    <Property Name="iddepa" Type="varchar" MaxLength="4" />
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="ubigeo" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="FUERZAVENTA">
+    <Key>
+      <PropertyRef Name="CODIGO" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" />
+    <Property Name="CODIGO" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="LINEA">
+    <Key>
+      <PropertyRef Name="CODLINEA" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="CODLINEA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="DESLINEA" Type="varchar" MaxLength="50" />
+    <Property Name="ESTADO" Type="bit" />
+    <Property Name="TRANS" Type="bit" />
+    <Property Name="DATETRANS" Type="datetime" />
+    <Property Name="CODTIPOPROD" Type="varchar" MaxLength="10" />
+    <Property Name="CORRELATIVO" Type="numeric" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Moneda">
+    <Key>
+      <PropertyRef Name="codmon" />
+    </Key>
+    <Property Name="datetrans" Type="datetime" />
+    <Property Name="trans" Type="bit" />
+    <Property Name="simbolo" Type="char" MaxLength="3" />
+    <Property Name="dsmoneda" Type="varchar" MaxLength="30" />
+    <Property Name="codmon" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="estado" Type="bit" />
+  </EntityType>
+  <EntityType Name="PAIS">
+    <Key>
+      <PropertyRef Name="CODPAIS" />
+    </Key>
+    <Property Name="DATETRANS" Type="datetime" />
+    <Property Name="TRANS" Type="bit" />
+    <Property Name="ESTADO" Type="bit" />
+    <Property Name="DESPAIS" Type="varchar" MaxLength="50" />
+    <Property Name="CODPAIS" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="COD_EMPRESA" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="paisdepa">
+    <Key>
+      <PropertyRef Name="iddepa" />
+    </Key>
+    <Property Name="iddepa" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="depa" Type="varchar" MaxLength="30" />
+    <Property Name="codpais" Type="varchar" MaxLength="4" />
+    <Property Name="codempresa" Type="varchar" MaxLength="10" />
+    <Property Name="trans" Type="bit" />
+    <Property Name="datetrans" Type="datetime" />
+  </EntityType>
+  <EntityType Name="RUTA">
+    <Key>
+      <PropertyRef Name="CODIGO" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" />
+    <Property Name="CODIGO" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SEGMENTO_CLIENTE">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="codigo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="50" />
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SUBLINEA">
+    <Key>
+      <PropertyRef Name="CODSUBLINEA" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="CODSUBLINEA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="DESSUBLINEA" Type="varchar" MaxLength="50" />
+    <Property Name="ESTADO" Type="bit" />
+    <Property Name="TRANS" Type="bit" />
+    <Property Name="DATETRANS" Type="datetime" />
+    <Property Name="CODLINEA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="PLCODI" Type="varchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="TIPCREDF">
+    <Key>
+      <PropertyRef Name="TIPCREDFAC" />
+    </Key>
+    <Property Name="COD_EMPRESA" Type="varchar" MaxLength="10" />
+    <Property Name="TIPCREDFAC" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="DESCREDFAC" Type="varchar" MaxLength="8000" />
+    <Property Name="NRDIAS" Type="int" />
+    <Property Name="TRANS" Type="bit" />
+    <Property Name="DATETRANS" Type="datetime" />
+    <Property Name="estado" Type="bit" />
+  </EntityType>
+  <EntityType Name="TIPO_PAGO">
+    <Key>
+      <PropertyRef Name="CODTIPOPAGO" />
+    </Key>
+    <Property Name="DATETRANS" Type="datetime" />
+    <Property Name="ESTADO" Type="bit" />
+    <Property Name="TRANS" Type="bit" />
+    <Property Name="DSTIPOPAGO" Type="varchar" MaxLength="50" />
+    <Property Name="CODTIPOPAGO" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TIPODOC">
+    <Key>
+      <PropertyRef Name="CODTIPODOC" />
+    </Key>
+    <Property Name="DATETRANS" Type="datetime" />
+    <Property Name="TRANS" Type="bit" />
+    <Property Name="ESTADO" Type="bit" />
+    <Property Name="NTACRE" Type="bit" />
+    <Property Name="DSABRV" Type="char" MaxLength="5" />
+    <Property Name="DSTIPODOC" Type="varchar" MaxLength="50" />
+    <Property Name="CODTIPODOC" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="VTA" Type="bit" Nullable="false" />
+    <Property Name="CONTABLE" Type="bit" Nullable="false" />
+    <Property Name="COMPRBTECOBRO" Type="bit" Nullable="false" />
+    <Property Name="COMPRBTEPAGO" Type="bit" Nullable="false" />
+    <Property Name="PERCEP" Type="bit" />
+    <Property Name="PERCEPT" Type="bit" />
+  </EntityType>
+  <EntityType Name="TIPONEGOCIO">
+    <Key>
+      <PropertyRef Name="CODIGO" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" />
+    <Property Name="CODIGO" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TipoPagoXPromocion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="CODPROMO" Type="varchar" MaxLength="50" />
+    <Property Name="CODTIPOPAGO" Type="varchar" MaxLength="50" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TipoPagoXPromocionSub">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="CODPROMO" Type="varchar" MaxLength="50" />
+    <Property Name="CODTIPOPAGO" Type="varchar" MaxLength="50" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TIPOPRE">
+    <Key>
+      <PropertyRef Name="CODTIPOPRE" />
+    </Key>
+    <Property Name="DATETRANS" Type="datetime" />
+    <Property Name="TRANS" Type="bit" />
+    <Property Name="DSTIPOPRE" Type="varchar" MaxLength="30" />
+    <Property Name="CODTIPOPRE" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="codmon" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="estado" Type="bit" />
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" />
+    <Property Name="APLIOTROSCTO" Type="bit" />
+    <Property Name="DS" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TipoPrecioXPromocion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="50" />
+    <Property Name="CODPROMO" Type="varchar" MaxLength="50" />
+    <Property Name="CODTIPOPRE" Type="varchar" MaxLength="50" />
+    <Property Name="DSTIPOPRE" Type="varchar" MaxLength="50" />
+    <Property Name="CODIGO" Type="varchar" MaxLength="50" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TipoPrecioXPromocionSubCat">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="50" />
+    <Property Name="CODPROMO" Type="varchar" MaxLength="50" />
+    <Property Name="CODTIPOPRE" Type="varchar" MaxLength="50" />
+    <Property Name="DSTIPOPRE" Type="varchar" MaxLength="50" />
+    <Property Name="CODIGO" Type="varchar" MaxLength="50" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TIPOPROD">
+    <Key>
+      <PropertyRef Name="codtipopro" />
+    </Key>
+    <Property Name="codtipopro" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="descrip" Type="varchar" MaxLength="50" />
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'NARGEST060123.dbo.TMP_PEDIDO_XVENDEDOR' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="TMP_PEDIDO_XVENDEDOR">
+    <Key>
+      <PropertyRef Name="CODCLIENTE" />
+      <PropertyRef Name="DESCLIENTE" />
+      <PropertyRef Name="FECPEDIDO" />
+      <PropertyRef Name="NUM_PEDIDO" />
+      <PropertyRef Name="CODRUTA" />
+      <PropertyRef Name="ITEM" />
+      <PropertyRef Name="CODARTI" />
+      <PropertyRef Name="DESARTI" />
+      <PropertyRef Name="PRECIO" />
+      <PropertyRef Name="CANTIDAD" />
+      <PropertyRef Name="TOTBAS" />
+      <PropertyRef Name="CORREL" />
+      <PropertyRef Name="DESPRES" />
+      <PropertyRef Name="CODVEND" />
+      <PropertyRef Name="NOMBVEND" />
+    </Key>
+    <Property Name="CODCLIENTE" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DESCLIENTE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FECPEDIDO" Type="datetime" Nullable="false" />
+    <Property Name="NUM_PEDIDO" Type="numeric" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="CODRUTA" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="ITEM" Type="int" Nullable="false" />
+    <Property Name="CODARTI" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DESARTI" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="PRECIO" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="CANTIDAD" Type="numeric" Precision="9" Scale="4" Nullable="false" />
+    <Property Name="TOTBAS" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="CORREL" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DESPRES" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CODVEND" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="NOMBVEND" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TMP_STOCKPEDIDO">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="CORREL" Type="int" Nullable="false" />
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="CODARTI" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DESARTI" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="STOCK_PEDIDO_UND" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="STOCK_ACT_UND" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="STOCK_FALT_UND" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="STOCK_FALT_PAQ" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="CODPRESM" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="CODPRESU" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="DESPRESU" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DESPRESM" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="NUM_PEDIDO" Type="varchar" MaxLength="50" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VENDEDOR">
+    <Key>
+      <PropertyRef Name="CODVEND" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="CODVEND" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="DSVEND" Type="varchar" MaxLength="50" />
+    <Property Name="DNI" Type="varchar" MaxLength="8" />
+    <Property Name="DIRECCION" Type="varchar" MaxLength="100" />
+    <Property Name="ESTADO" Type="bit" />
+    <Property Name="DATETRANS" Type="datetime" />
+    <Property Name="trans" Type="bit" />
+    <Property Name="TELEFONO" Type="char" MaxLength="18" />
+    <Property Name="FECHA_REF" Type="datetime" />
+    <Property Name="CODZONA" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="CODCIUDAD" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="COD_FV" Type="varchar" MaxLength="20" />
+    <Property Name="COD_ZV" Type="varchar" MaxLength="20" />
+    <Property Name="NROPEDIDO" Type="numeric" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="TIPOVEND" Type="bit" />
+    <Property Name="LINEACRED" Type="numeric" Precision="11" Scale="2" />
+    <Property Name="TIPOCOMISION" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="VENTA_X_COBRAR">
+    <Key>
+      <PropertyRef Name="CDTIPODOCUM" />
+      <PropertyRef Name="NRODOCU" />
+    </Key>
+    <Property Name="CDTIPODOCUM" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="NRODOCU" Type="numeric" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="CDMONEDA" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="CDCLIENTE" Type="varchar" MaxLength="20" />
+    <Property Name="TOTCREDBAS" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="TOTCREDEXT" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="FECDOCUM" Type="datetime" Nullable="false" />
+    <Property Name="PLAZO" Type="numeric" Precision="10" Scale="0" />
+    <Property Name="VENCIMIENTO" Type="datetime" Nullable="false" />
+    <Property Name="ESTADO" Type="char" MaxLength="20" />
+    <Property Name="PAGCREDBAS" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="PAGCREDEXT" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="TIPCREDFAC" Type="char" MaxLength="3" />
+    <Property Name="TRANS" Type="bit" />
+    <Property Name="DATETRANS" Type="datetime" />
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" />
+    <Property Name="CDCLIENTEDEP" Type="varchar" MaxLength="20" />
+    <Property Name="PTOVTA" Type="varchar" MaxLength="50" />
+    <Property Name="DOCUREF" Type="varchar" MaxLength="50" />
+    <Property Name="fproceso" Type="datetime" />
+    <Property Name="PAG" Type="bit" />
+    <Property Name="DSCLIENTE" Type="varchar" MaxLength="200" />
+    <Property Name="EXISTE" Type="varchar" MaxLength="50" />
+    <Property Name="marca" Type="bit" />
+    <Property Name="PPAGO" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="codvend" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="VENTACAB">
+    <Key>
+      <PropertyRef Name="CODEMPRESA" />
+      <PropertyRef Name="CODTIPODOC" />
+      <PropertyRef Name="NRODOCU" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="CODTIPODOC" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="NRODOCU" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="CODMON" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="CAMBIO" Type="numeric" Precision="6" Scale="4" />
+    <Property Name="CODTIPOPAGO" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="CODVEND" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="ESTADO" Type="char" MaxLength="1" />
+    <Property Name="FECDOCUM" Type="smalldatetime" Nullable="false" />
+    <Property Name="FECPROCESO" Type="datetime" Nullable="false" />
+    <Property Name="CODIMPUESTO" Type="varchar" MaxLength="5" />
+    <Property Name="TOTBAS" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="TOTEXT" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="SUBTOTBAS" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="SUBTOTEXT" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="IGVBAS" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="IGVEXT" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="TOTNOAFECTBAS" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="TOTNOAFECTEXT" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="PORCENDESC1" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="PORCENDESC2" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="TOTDESCBAS" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="TOTDESCEXT" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="TOTVUELTOBAS" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="TOTVUELTOEXT" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="TOTCASHBAS" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="TOTCASHEXT" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="CODCLIENTE" Type="varchar" MaxLength="20" />
+    <Property Name="RUCCLIENTE" Type="char" MaxLength="18" />
+    <Property Name="DESCLIENTE" Type="varchar" MaxLength="200" />
+    <Property Name="DIRCLIENTE" Type="nvarchar" MaxLength="200" />
+    <Property Name="CIERREZ" Type="bit" Nullable="false" />
+    <Property Name="CDUSUARIO" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="NROPTOVTA" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="FECANULA" Type="smalldatetime" />
+    <Property Name="CDTIPOANULA" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="CDZONA" Type="char" MaxLength="5" />
+    <Property Name="NROGUIA" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="TSTAMP" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="CODDEP" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="OBSERV" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="POSTPAGO" Type="bit" />
+    <Property Name="IPERCEP" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="Hora" Type="varchar" MaxLength="50" />
+    <Property Name="DESC_FINANCIERO" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="EXISTE" Type="varchar" MaxLength="50" />
+    <Property Name="ENVIO" Type="varchar" MaxLength="50" />
+    <Property Name="CODHASH" Type="varchar" MaxLength="50" />
+    <Property Name="NUMDOC" Type="varchar" MaxLength="50" />
+    <Property Name="SERIE" Type="varchar" MaxLength="50" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NRODOC_REFACT" Type="varchar" MaxLength="20" />
+    <Property Name="TIPODOC_REFACT" Type="varchar" MaxLength="20" />
+    <Property Name="CDLIQUIDADOR" Type="int" />
+    <Property Name="CDREPARTIDOR" Type="int" />
+    <Property Name="CDTIPORECHAZO" Type="int" />
+  </EntityType>
+  <EntityType Name="VENTADET">
+    <Key>
+      <PropertyRef Name="CODEMPRESA" />
+      <PropertyRef Name="CODTIPODOC" />
+      <PropertyRef Name="NRODOCU" />
+      <PropertyRef Name="ITEM" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="CODTIPODOC" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="NRODOCU" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="ITEM" Type="numeric" Precision="9" Scale="0" Nullable="false" />
+    <Property Name="CODARTI" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DESARTI" Type="nvarchar(max)" />
+    <Property Name="CODTIPOMED" Type="varchar" MaxLength="10" />
+    <Property Name="DESTIPOMED" Type="varchar" MaxLength="80" />
+    <Property Name="CODMON" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="CODALMACEN" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="ESTADO" Type="char" MaxLength="2" />
+    <Property Name="CODPRES" Type="varchar" MaxLength="4" />
+    <Property Name="DESPRES" Type="varchar" MaxLength="50" />
+    <Property Name="CANTIDAD" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="PRECIO" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="PRECIOVTA" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="TOTBAS" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="TOTEXT" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="IGVBAS" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="IGVEXT" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="SUBTOTBAS" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="SUBTOTEXT" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="COSTOBAS" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="COSTOEXT" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="FECDOCUM" Type="smalldatetime" Nullable="false" />
+    <Property Name="FECPROCESO" Type="datetime" Nullable="false" />
+    <Property Name="CODIMPUESTO" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="FORMU" Type="bit" Nullable="false" />
+    <Property Name="cdusuario" Type="char" MaxLength="20" />
+    <Property Name="CONSUMO" Type="bit" />
+    <Property Name="INVFISI" Type="bit" Nullable="false" />
+    <Property Name="MONTODESCBAS" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="PORCENDESC" Type="numeric" Precision="20" Scale="4" />
+    <Property Name="NROPTOVTA" Type="varchar" MaxLength="20" />
+    <Property Name="TIPOMEDIDA" Type="bit" />
+    <Property Name="NROGUIA" Type="varchar" MaxLength="20" />
+    <Property Name="CODPROMO" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="CODTIPOPRE" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Zona">
+    <Key>
+      <PropertyRef Name="codzona" />
+    </Key>
+    <Property Name="datetrans" Type="datetime" />
+    <Property Name="trans" Type="bit" />
+    <Property Name="estado" Type="bit" />
+    <Property Name="deszona" Type="varchar" MaxLength="15" />
+    <Property Name="codzona" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'NARGEST060123.dbo.rsyssegment' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="rsyssegment">
+    <Key>
+      <PropertyRef Name="NRODOCU" />
+      <PropertyRef Name="CODARTI" />
+      <PropertyRef Name="CODLINEA" />
+      <PropertyRef Name="CODSUBLINEA" />
+      <PropertyRef Name="CANTIDAD" />
+      <PropertyRef Name="IGVBAS" />
+      <PropertyRef Name="SUBTOTBAS" />
+      <PropertyRef Name="FECDOCUM" />
+      <PropertyRef Name="TOTBAS" />
+    </Key>
+    <Property Name="RAZONSOCIAL" Type="varchar" MaxLength="150" />
+    <Property Name="DSTIPODOC" Type="varchar" MaxLength="50" />
+    <Property Name="NRODOCU" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="CODARTI" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DESARTI" Type="nvarchar(max)" />
+    <Property Name="CODLINEA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="DESLINEA" Type="varchar" MaxLength="50" />
+    <Property Name="CODSUBLINEA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="DESSUBLINEA" Type="varchar" MaxLength="50" />
+    <Property Name="CODPRES" Type="varchar" MaxLength="4" />
+    <Property Name="DESPRES" Type="varchar" MaxLength="50" />
+    <Property Name="CANTIDAD" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="IGVBAS" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="SUBTOTBAS" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="FECDOCUM" Type="smalldatetime" Nullable="false" />
+    <Property Name="cdusuario" Type="char" MaxLength="20" />
+    <Property Name="usuario" Type="varchar" MaxLength="30" />
+    <Property Name="NROPTOVTA" Type="varchar" MaxLength="20" />
+    <Property Name="ESTADO" Type="char" MaxLength="2" />
+    <Property Name="TOTBAS" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'NARGEST060123.dbo.rsyssegmentC' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="rsyssegmentC">
+    <Key>
+      <PropertyRef Name="NRODOC" />
+      <PropertyRef Name="DSTIPOMOV" />
+      <PropertyRef Name="CDARTICULO" />
+      <PropertyRef Name="CODPRES" />
+      <PropertyRef Name="despres" />
+      <PropertyRef Name="CODLINEA" />
+      <PropertyRef Name="DESPROVEEDOR" />
+      <PropertyRef Name="cdusuario" />
+      <PropertyRef Name="ESTADO" />
+      <PropertyRef Name="COSTOBAS" />
+      <PropertyRef Name="CANTIDAD" />
+    </Key>
+    <Property Name="FECDOCUM" Type="datetime" />
+    <Property Name="DSTIPODOC" Type="varchar" MaxLength="50" />
+    <Property Name="NRODOC" Type="char" MaxLength="15" Nullable="false" />
+    <Property Name="DSTIPOMOV" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DESALMACEN" Type="varchar" MaxLength="60" />
+    <Property Name="CDARTICULO" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DESARTI" Type="varchar" MaxLength="150" />
+    <Property Name="CODPRES" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="despres" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="CODLINEA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="DESLINEA" Type="varchar" MaxLength="50" />
+    <Property Name="CODSUBLINEA" Type="varchar" MaxLength="10" />
+    <Property Name="DESSUBLINEA" Type="varchar" MaxLength="50" />
+    <Property Name="CDPROVEE" Type="char" MaxLength="20" />
+    <Property Name="DESPROVEEDOR" Type="char" MaxLength="50" Nullable="false" />
+    <Property Name="cdusuario" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="usuario" Type="varchar" MaxLength="30" />
+    <Property Name="ESTADO" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="COSTOBAS" Type="numeric" Precision="20" Scale="5" Nullable="false" />
+    <Property Name="CANTIDAD" Type="numeric" Precision="20" Scale="4" Nullable="false" />
+    <Property Name="CANTXUNI" Type="numeric" Precision="30" Scale="7" />
+    <Property Name="TOTAL" Type="numeric" Precision="38" Scale="6" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'NARGEST060123.dbo.syssegments' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="syssegments">
+    <Key>
+      <PropertyRef Name="CODEMPRESA" />
+      <PropertyRef Name="codcliente" />
+      <PropertyRef Name="Expr1" />
+    </Key>
+    <Property Name="CODEMPRESA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="codcliente" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DATOADJUNTO" Type="varchar" MaxLength="500" />
+    <Property Name="Expr1" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DESCRIPCION" Type="varchar" MaxLength="50" />
+    <Property Name="DSVEND" Type="varchar" MaxLength="50" />
+    <Property Name="Expr2" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'NARGEST060123.dbo.test' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="test">
+    <Key>
+      <PropertyRef Name="xstatus" />
+      <PropertyRef Name="xdate1" />
+      <PropertyRef Name="xdate2" />
+      <PropertyRef Name="dbid" />
+    </Key>
+    <Property Name="srvid" Type="smallint" />
+    <Property Name="sid" Type="varbinary" MaxLength="85" />
+    <Property Name="xstatus" Type="smallint" Nullable="false" />
+    <Property Name="xdate1" Type="datetime" Nullable="false" />
+    <Property Name="xdate2" Type="datetime" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="128" />
+    <Property Name="password" Type="varbinary" MaxLength="256" />
+    <Property Name="dbid" Type="smallint" Nullable="false" />
+    <Property Name="language" Type="nvarchar" MaxLength="128" />
+    <Property Name="isrpcinmap" Type="smallint" />
+    <Property Name="ishqoutmap" Type="smallint" />
+    <Property Name="selfoutmap" Type="smallint" />
+  </EntityType>
+  <Association Name="FK__ARTIDAT__CODALMA__7D4E87B5">
+    <End Role="ALMACEN" Type="Self.ALMACEN" Multiplicity="1" />
+    <End Role="ARTIDAT" Type="Self.ARTIDAT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ALMACEN">
+        <PropertyRef Name="CODALMACEN" />
+      </Principal>
+      <Dependent Role="ARTIDAT">
+        <PropertyRef Name="CODALMACEN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TIPOPRE__codmon__1249A49B">
+    <End Role="Moneda" Type="Self.Moneda" Multiplicity="1" />
+    <End Role="TIPOPRE" Type="Self.TIPOPRE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Moneda">
+        <PropertyRef Name="codmon" />
+      </Principal>
+      <Dependent Role="TIPOPRE">
+        <PropertyRef Name="codmon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIDEP_CLIENTE">
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="1" />
+    <End Role="CLIDEP" Type="Self.CLIDEP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTE">
+        <PropertyRef Name="codcliente" />
+      </Principal>
+      <Dependent Role="CLIDEP">
+        <PropertyRef Name="CODDEP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIDEP_Distrito">
+    <End Role="Distrito" Type="Self.Distrito" Multiplicity="0..1" />
+    <End Role="CLIDEP" Type="Self.CLIDEP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Distrito">
+        <PropertyRef Name="CodDis" />
+      </Principal>
+      <Dependent Role="CLIDEP">
+        <PropertyRef Name="CODDISTRITO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIDEP_RUTA">
+    <End Role="RUTA" Type="Self.RUTA" Multiplicity="0..1" />
+    <End Role="CLIDEP" Type="Self.CLIDEP" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RUTA">
+        <PropertyRef Name="CODIGO" />
+      </Principal>
+      <Dependent Role="CLIDEP">
+        <PropertyRef Name="CODRUTA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIE_FUERZA_CLIENTE">
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="1" />
+    <End Role="CLIE_FUERZA" Type="Self.CLIE_FUERZA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTE">
+        <PropertyRef Name="codcliente" />
+      </Principal>
+      <Dependent Role="CLIE_FUERZA">
+        <PropertyRef Name="CODCLIE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIE_FUERZA_FUERZAVENTA">
+    <End Role="FUERZAVENTA" Type="Self.FUERZAVENTA" Multiplicity="0..1" />
+    <End Role="CLIE_FUERZA" Type="Self.CLIE_FUERZA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FUERZAVENTA">
+        <PropertyRef Name="CODIGO" />
+      </Principal>
+      <Dependent Role="CLIE_FUERZA">
+        <PropertyRef Name="CODFUERZA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIENTE_CIUDAD">
+    <End Role="CIUDAD" Type="Self.CIUDAD" Multiplicity="1" />
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CIUDAD">
+        <PropertyRef Name="CODCIUDAD" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="CODCIUDAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIENTE_Distrito">
+    <End Role="Distrito" Type="Self.Distrito" Multiplicity="0..1" />
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Distrito">
+        <PropertyRef Name="CodDis" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="coddis" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIENTE_PAIS">
+    <End Role="PAIS" Type="Self.PAIS" Multiplicity="1" />
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PAIS">
+        <PropertyRef Name="CODPAIS" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="pais" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIENTE_paisdepa">
+    <End Role="paisdepa" Type="Self.paisdepa" Multiplicity="0..1" />
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="paisdepa">
+        <PropertyRef Name="iddepa" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="iddepa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIENTE_RUTA">
+    <End Role="RUTA" Type="Self.RUTA" Multiplicity="0..1" />
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RUTA">
+        <PropertyRef Name="CODIGO" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="RUTA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIENTE_SEGMENTO_CLIENTE">
+    <End Role="SEGMENTO_CLIENTE" Type="Self.SEGMENTO_CLIENTE" Multiplicity="0..1" />
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SEGMENTO_CLIENTE">
+        <PropertyRef Name="codigo" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="CODSegCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIENTE_TIPO_PAGO">
+    <End Role="TIPO_PAGO" Type="Self.TIPO_PAGO" Multiplicity="1" />
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPO_PAGO">
+        <PropertyRef Name="CODTIPOPAGO" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="CODTIPOPAGO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIENTE_TIPONEGOCIO">
+    <End Role="TIPONEGOCIO" Type="Self.TIPONEGOCIO" Multiplicity="0..1" />
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPONEGOCIO">
+        <PropertyRef Name="CODIGO" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="TIPONEGOCIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CLIENTE_TIPOPRE">
+    <End Role="TIPOPRE" Type="Self.TIPOPRE" Multiplicity="0..1" />
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPOPRE">
+        <PropertyRef Name="CODTIPOPRE" />
+      </Principal>
+      <Dependent Role="CLIENTE">
+        <PropertyRef Name="CODTIPOPRE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="BORRA_TEMPORALES" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="PTOVTA" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BORRAR_VENTA_X_COBRAR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CORRNBR" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BUSCA_FECHA" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+    <Parameter Name="PTOVTA" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BUSCAPROVEEDOR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NROPEDIDO" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BUSCAR_CORREL_LINEA" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODLINEA" Type="varchar" Mode="In" />
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BUSQ_CLIDEP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+    <Parameter Name="CODCLIENTE" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="CUR_TMP_ARTIDEV_HISTO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+    <Parameter Name="VENTADETHIST" Type="varchar" Mode="In" />
+    <Parameter Name="CORREL" Type="int" Mode="In" />
+  </Function>
+  <Function Name="CUR_TMP_ARTIDEV_HISTO2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+    <Parameter Name="CORREL" Type="int" Mode="In" />
+  </Function>
+  <Function Name="CUR_TMP_ARTIDEV_HISTO3" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+    <Parameter Name="CORREL" Type="int" Mode="In" />
+  </Function>
+  <Function Name="CUR_TMP_DATOSPROD_HISTO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+    <Parameter Name="VENTADETHIST" Type="varchar" Mode="In" />
+    <Parameter Name="HISTO" Type="int" Mode="In" />
+    <Parameter Name="CORREL" Type="int" Mode="In" />
+  </Function>
+  <Function Name="DEL_SEGUROS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODSEG" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="NSP_AGRUP_FECHA" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="NSP_RPT_EQUIPOVENTAS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Nsp_Sele_banco" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="codempresa" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="NSP_SELECT_CORRELATIVOS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="PTOVTA" Type="varchar" Mode="In" />
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="NSP_UPDATE_TMP_STOCKPEDIDO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+    <Parameter Name="CORREL" Type="int" Mode="In" />
+    <Parameter Name="CODARTI" Type="varchar" Mode="In" />
+    <Parameter Name="STOCK_ACT_UND" Type="numeric" Mode="In" />
+  </Function>
+  <Function Name="SelectPRECIART_Presentxproc2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+    <Parameter Name="CDARTI" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SelectPRECIART_PresentxprocSUBCAT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+    <Parameter Name="CODLINEA" Type="varchar" Mode="In" />
+    <Parameter Name="SUBCODLINEA" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_BUSQUEDA_CLIENTE_PEDIDO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+    <Parameter Name="CODDEP" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_BUSQUEDA_CLIENTE_VTA" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+    <Parameter Name="CODDEP" Type="varchar" Mode="In" />
+    <Parameter Name="VENTACAB" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_BUSQUEDA_CLIENTEDEP_VTA" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+    <Parameter Name="CODDEP" Type="varchar" Mode="In" />
+    <Parameter Name="VENTACAB" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_DEL_TMP_ARTIDEV" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CORREL" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_DEL_TMP_DATOSPROD" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CORREL" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_DEL_TMP_DOC_ANULADOS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CORREL" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_DELETE_TMP_RPT_REPOR_SUNA" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CORREL" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_DELETE_TMP_VENDEDOR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CORREL" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_EXTAER_STOCK" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="cdarti" Type="varchar" Mode="In" />
+    <Parameter Name="CDALMA" Type="varchar" Mode="In" />
+    <Parameter Name="CORREL" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_EXTRAER_AÑO_MES" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_INS_TMP_DOC_ANULADOS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+    <Parameter Name="FECHAD" Type="datetime" Mode="In" />
+    <Parameter Name="FECHAH" Type="datetime" Mode="In" />
+    <Parameter Name="VENTADETHIST" Type="varchar" Mode="In" />
+    <Parameter Name="HISTO" Type="int" Mode="In" />
+    <Parameter Name="CORREL" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_INSERT_TMP_VENDEDOR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CORREL" Type="int" Mode="In" />
+    <Parameter Name="CODVEND" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_LISTA_ARTICULO_FACT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+    <Parameter Name="CDZONA" Type="char" Mode="In" />
+    <Parameter Name="TIPO" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_LISTA_ARTICULO_FACT_FILTRO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+    <Parameter Name="CDZONA" Type="char" Mode="In" />
+    <Parameter Name="TIPO" Type="int" Mode="In" />
+    <Parameter Name="TEXTO" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_PEDIDO_XVENDEDOR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="FECHAD" Type="varchar" Mode="In" />
+    <Parameter Name="FECHAH" Type="varchar" Mode="In" />
+    <Parameter Name="CORREL" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_REPORTE_CLIENTEDEP_PERCEP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_REPORTE_COBRANZA" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_REPORTE_PEDIDO_XVENDEDOR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CORREL" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_RPT_CLIENTE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMP" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_RPT_VENTAS_DETALLE_POR_DOCU" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODI" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_RPT_VTA_ANUL" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CORREL" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_RPT_VTA_SUNA_ANUL" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMP" Type="varchar" Mode="In" />
+    <Parameter Name="FECHAD" Type="datetime" Mode="In" />
+    <Parameter Name="FECHAH" Type="datetime" Mode="In" />
+    <Parameter Name="CODDOCUM" Type="varchar" Mode="In" />
+    <Parameter Name="CORREL" Type="int" Mode="In" />
+    <Parameter Name="VENTCAB" Type="varchar" Mode="In" />
+    <Parameter Name="VENTDET" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_SELECT_COBRANZAXCLIENTE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMP" Type="varchar" Mode="In" />
+    <Parameter Name="CODCLIENTE" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_SELECT_FACTURAS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="FECHA1" Type="varchar" Mode="In" />
+    <Parameter Name="FECHA2" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_SUMPEDIDO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODCLIENTE" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_TOTAL_FACTURAS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ctipdoc" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_TOTAL_FACTURAS_TODO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ctipdoc" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_VERIFICA_NROPTOVTA" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NROPTOVTA" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="USP_CONFIGINV" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="VERIFICA_HISTORICOVENT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CADVENT" Type="varchar" Mode="In" />
+    <Parameter Name="CODEMPRESA" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="ZSP_RPT_DESCEXT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="NARGESTModelStoreContainer">
+    <EntitySet Name="ACTIVO" EntityType="Self.ACTIVO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ACTIVO_FIJO" EntityType="Self.ACTIVO_FIJO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ALMACEN" EntityType="Self.ALMACEN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ARTIDAT" EntityType="Self.ARTIDAT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CATEGORIA_CLIENTE" EntityType="Self.CATEGORIA_CLIENTE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CIERRE_MES_INVENTARIO" EntityType="Self.CIERRE_MES_INVENTARIO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CIUDAD" EntityType="Self.CIUDAD" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CLIDEP" EntityType="Self.CLIDEP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CLIE_FUERZA" EntityType="Self.CLIE_FUERZA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CLIENTE" EntityType="Self.CLIENTE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CLIENTEXPROMOSUBCAT" EntityType="Self.CLIENTEXPROMOSUBCAT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CONFIGSIS" EntityType="Self.CONFIGSIS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CONFIGVTA" EntityType="Self.CONFIGVTA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Distrito" EntityType="Self.Distrito" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FUERZAVENTA" EntityType="Self.FUERZAVENTA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LINEA" EntityType="Self.LINEA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Moneda" EntityType="Self.Moneda" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PAIS" EntityType="Self.PAIS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="paisdepa" EntityType="Self.paisdepa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RUTA" EntityType="Self.RUTA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SEGMENTO_CLIENTE" EntityType="Self.SEGMENTO_CLIENTE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SUBLINEA" EntityType="Self.SUBLINEA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TIPCREDF" EntityType="Self.TIPCREDF" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TIPO_PAGO" EntityType="Self.TIPO_PAGO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TIPODOC" EntityType="Self.TIPODOC" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TIPONEGOCIO" EntityType="Self.TIPONEGOCIO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoPagoXPromocion" EntityType="Self.TipoPagoXPromocion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoPagoXPromocionSub" EntityType="Self.TipoPagoXPromocionSub" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TIPOPRE" EntityType="Self.TIPOPRE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoPrecioXPromocion" EntityType="Self.TipoPrecioXPromocion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoPrecioXPromocionSubCat" EntityType="Self.TipoPrecioXPromocionSubCat" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TIPOPROD" EntityType="Self.TIPOPROD" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TMP_STOCKPEDIDO" EntityType="Self.TMP_STOCKPEDIDO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VENDEDOR" EntityType="Self.VENDEDOR" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VENTA_X_COBRAR" EntityType="Self.VENTA_X_COBRAR" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VENTACAB" EntityType="Self.VENTACAB" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VENTADET" EntityType="Self.VENTADET" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Zona" EntityType="Self.Zona" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ACCESO" EntityType="Self.ACCESO" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ACCESO].[CodEmpresa] AS [CodEmpresa], 
+    [ACCESO].[cdnivel] AS [cdnivel], 
+    [ACCESO].[cdmodulo] AS [cdmodulo], 
+    [ACCESO].[activo] AS [activo]
+    FROM [dbo].[ACCESO] AS [ACCESO]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ACCESOPROC" EntityType="Self.ACCESOPROC" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ACCESOPROC].[CodEmpresa] AS [CodEmpresa], 
+    [ACCESOPROC].[cdnivel] AS [cdnivel], 
+    [ACCESOPROC].[cdproceso] AS [cdproceso], 
+    [ACCESOPROC].[activo] AS [activo]
+    FROM [dbo].[ACCESOPROC] AS [ACCESOPROC]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ADUANA" EntityType="Self.ADUANA" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ADUANA].[COD_EMPRESA] AS [COD_EMPRESA], 
+    [ADUANA].[ADU_CODIGO] AS [ADU_CODIGO], 
+    [ADUANA].[ADU_NOMBRE] AS [ADU_NOMBRE]
+    FROM [dbo].[ADUANA] AS [ADUANA]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ALMAZON" EntityType="Self.ALMAZON" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ALMAZON].[CDZONA] AS [CDZONA], 
+    [ALMAZON].[CDALMACEN] AS [CDALMACEN], 
+    [ALMAZON].[USERID] AS [USERID], 
+    [ALMAZON].[TSTAMP] AS [TSTAMP], 
+    [ALMAZON].[TRANS] AS [TRANS], 
+    [ALMAZON].[DATETRANS] AS [DATETRANS], 
+    [ALMAZON].[CODEMPRESA] AS [CODEMPRESA]
+    FROM [dbo].[ALMAZON] AS [ALMAZON]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TMP_PEDIDO_XVENDEDOR" EntityType="Self.TMP_PEDIDO_XVENDEDOR" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TMP_PEDIDO_XVENDEDOR].[CODCLIENTE] AS [CODCLIENTE], 
+    [TMP_PEDIDO_XVENDEDOR].[DESCLIENTE] AS [DESCLIENTE], 
+    [TMP_PEDIDO_XVENDEDOR].[FECPEDIDO] AS [FECPEDIDO], 
+    [TMP_PEDIDO_XVENDEDOR].[NUM_PEDIDO] AS [NUM_PEDIDO], 
+    [TMP_PEDIDO_XVENDEDOR].[CODRUTA] AS [CODRUTA], 
+    [TMP_PEDIDO_XVENDEDOR].[ITEM] AS [ITEM], 
+    [TMP_PEDIDO_XVENDEDOR].[CODARTI] AS [CODARTI], 
+    [TMP_PEDIDO_XVENDEDOR].[DESARTI] AS [DESARTI], 
+    [TMP_PEDIDO_XVENDEDOR].[PRECIO] AS [PRECIO], 
+    [TMP_PEDIDO_XVENDEDOR].[CANTIDAD] AS [CANTIDAD], 
+    [TMP_PEDIDO_XVENDEDOR].[TOTBAS] AS [TOTBAS], 
+    [TMP_PEDIDO_XVENDEDOR].[CORREL] AS [CORREL], 
+    [TMP_PEDIDO_XVENDEDOR].[DESPRES] AS [DESPRES], 
+    [TMP_PEDIDO_XVENDEDOR].[CODVEND] AS [CODVEND], 
+    [TMP_PEDIDO_XVENDEDOR].[NOMBVEND] AS [NOMBVEND]
+    FROM [dbo].[TMP_PEDIDO_XVENDEDOR] AS [TMP_PEDIDO_XVENDEDOR]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="rsyssegment" EntityType="Self.rsyssegment" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [rsyssegment].[RAZONSOCIAL] AS [RAZONSOCIAL], 
+    [rsyssegment].[DSTIPODOC] AS [DSTIPODOC], 
+    [rsyssegment].[NRODOCU] AS [NRODOCU], 
+    [rsyssegment].[CODARTI] AS [CODARTI], 
+    [rsyssegment].[DESARTI] AS [DESARTI], 
+    [rsyssegment].[CODLINEA] AS [CODLINEA], 
+    [rsyssegment].[DESLINEA] AS [DESLINEA], 
+    [rsyssegment].[CODSUBLINEA] AS [CODSUBLINEA], 
+    [rsyssegment].[DESSUBLINEA] AS [DESSUBLINEA], 
+    [rsyssegment].[CODPRES] AS [CODPRES], 
+    [rsyssegment].[DESPRES] AS [DESPRES], 
+    [rsyssegment].[CANTIDAD] AS [CANTIDAD], 
+    [rsyssegment].[IGVBAS] AS [IGVBAS], 
+    [rsyssegment].[SUBTOTBAS] AS [SUBTOTBAS], 
+    [rsyssegment].[FECDOCUM] AS [FECDOCUM], 
+    [rsyssegment].[cdusuario] AS [cdusuario], 
+    [rsyssegment].[usuario] AS [usuario], 
+    [rsyssegment].[NROPTOVTA] AS [NROPTOVTA], 
+    [rsyssegment].[ESTADO] AS [ESTADO], 
+    [rsyssegment].[TOTBAS] AS [TOTBAS]
+    FROM [dbo].[rsyssegment] AS [rsyssegment]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="rsyssegmentC" EntityType="Self.rsyssegmentC" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [rsyssegmentC].[FECDOCUM] AS [FECDOCUM], 
+    [rsyssegmentC].[DSTIPODOC] AS [DSTIPODOC], 
+    [rsyssegmentC].[NRODOC] AS [NRODOC], 
+    [rsyssegmentC].[DSTIPOMOV] AS [DSTIPOMOV], 
+    [rsyssegmentC].[DESALMACEN] AS [DESALMACEN], 
+    [rsyssegmentC].[CDARTICULO] AS [CDARTICULO], 
+    [rsyssegmentC].[DESARTI] AS [DESARTI], 
+    [rsyssegmentC].[CODPRES] AS [CODPRES], 
+    [rsyssegmentC].[despres] AS [despres], 
+    [rsyssegmentC].[CODLINEA] AS [CODLINEA], 
+    [rsyssegmentC].[DESLINEA] AS [DESLINEA], 
+    [rsyssegmentC].[CODSUBLINEA] AS [CODSUBLINEA], 
+    [rsyssegmentC].[DESSUBLINEA] AS [DESSUBLINEA], 
+    [rsyssegmentC].[CDPROVEE] AS [CDPROVEE], 
+    [rsyssegmentC].[DESPROVEEDOR] AS [DESPROVEEDOR], 
+    [rsyssegmentC].[cdusuario] AS [cdusuario], 
+    [rsyssegmentC].[usuario] AS [usuario], 
+    [rsyssegmentC].[ESTADO] AS [ESTADO], 
+    [rsyssegmentC].[COSTOBAS] AS [COSTOBAS], 
+    [rsyssegmentC].[CANTIDAD] AS [CANTIDAD], 
+    [rsyssegmentC].[CANTXUNI] AS [CANTXUNI], 
+    [rsyssegmentC].[TOTAL] AS [TOTAL]
+    FROM [dbo].[rsyssegmentC] AS [rsyssegmentC]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="syssegments" EntityType="Self.syssegments" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [syssegments].[CODEMPRESA] AS [CODEMPRESA], 
+    [syssegments].[codcliente] AS [codcliente], 
+    [syssegments].[DATOADJUNTO] AS [DATOADJUNTO], 
+    [syssegments].[Expr1] AS [Expr1], 
+    [syssegments].[DESCRIPCION] AS [DESCRIPCION], 
+    [syssegments].[DSVEND] AS [DSVEND], 
+    [syssegments].[Expr2] AS [Expr2]
+    FROM [dbo].[syssegments] AS [syssegments]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="test" EntityType="Self.test" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [test].[srvid] AS [srvid], 
+    [test].[sid] AS [sid], 
+    [test].[xstatus] AS [xstatus], 
+    [test].[xdate1] AS [xdate1], 
+    [test].[xdate2] AS [xdate2], 
+    [test].[name] AS [name], 
+    [test].[password] AS [password], 
+    [test].[dbid] AS [dbid], 
+    [test].[language] AS [language], 
+    [test].[isrpcinmap] AS [isrpcinmap], 
+    [test].[ishqoutmap] AS [ishqoutmap], 
+    [test].[selfoutmap] AS [selfoutmap]
+    FROM [dbo].[test] AS [test]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__ARTIDAT__CODALMA__7D4E87B5" Association="Self.FK__ARTIDAT__CODALMA__7D4E87B5">
+      <End Role="ALMACEN" EntitySet="ALMACEN" />
+      <End Role="ARTIDAT" EntitySet="ARTIDAT" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TIPOPRE__codmon__1249A49B" Association="Self.FK__TIPOPRE__codmon__1249A49B">
+      <End Role="Moneda" EntitySet="Moneda" />
+      <End Role="TIPOPRE" EntitySet="TIPOPRE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIDEP_CLIENTE" Association="Self.FK_CLIDEP_CLIENTE">
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+      <End Role="CLIDEP" EntitySet="CLIDEP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIDEP_Distrito" Association="Self.FK_CLIDEP_Distrito">
+      <End Role="Distrito" EntitySet="Distrito" />
+      <End Role="CLIDEP" EntitySet="CLIDEP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIDEP_RUTA" Association="Self.FK_CLIDEP_RUTA">
+      <End Role="RUTA" EntitySet="RUTA" />
+      <End Role="CLIDEP" EntitySet="CLIDEP" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIE_FUERZA_CLIENTE" Association="Self.FK_CLIE_FUERZA_CLIENTE">
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+      <End Role="CLIE_FUERZA" EntitySet="CLIE_FUERZA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIE_FUERZA_FUERZAVENTA" Association="Self.FK_CLIE_FUERZA_FUERZAVENTA">
+      <End Role="FUERZAVENTA" EntitySet="FUERZAVENTA" />
+      <End Role="CLIE_FUERZA" EntitySet="CLIE_FUERZA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIENTE_CIUDAD" Association="Self.FK_CLIENTE_CIUDAD">
+      <End Role="CIUDAD" EntitySet="CIUDAD" />
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIENTE_Distrito" Association="Self.FK_CLIENTE_Distrito">
+      <End Role="Distrito" EntitySet="Distrito" />
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIENTE_PAIS" Association="Self.FK_CLIENTE_PAIS">
+      <End Role="PAIS" EntitySet="PAIS" />
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIENTE_paisdepa" Association="Self.FK_CLIENTE_paisdepa">
+      <End Role="paisdepa" EntitySet="paisdepa" />
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIENTE_RUTA" Association="Self.FK_CLIENTE_RUTA">
+      <End Role="RUTA" EntitySet="RUTA" />
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIENTE_SEGMENTO_CLIENTE" Association="Self.FK_CLIENTE_SEGMENTO_CLIENTE">
+      <End Role="SEGMENTO_CLIENTE" EntitySet="SEGMENTO_CLIENTE" />
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIENTE_TIPO_PAGO" Association="Self.FK_CLIENTE_TIPO_PAGO">
+      <End Role="TIPO_PAGO" EntitySet="TIPO_PAGO" />
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIENTE_TIPONEGOCIO" Association="Self.FK_CLIENTE_TIPONEGOCIO">
+      <End Role="TIPONEGOCIO" EntitySet="TIPONEGOCIO" />
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CLIENTE_TIPOPRE" Association="Self.FK_CLIENTE_TIPOPRE">
+      <End Role="TIPOPRE" EntitySet="TIPOPRE" />
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

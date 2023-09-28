@@ -1,0 +1,362 @@
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\PresentacionNetFra.WPF.exe.config
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\PresentacionNetFra.WPF.exe
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\PresentacionNetFra.WPF.pdb
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\Dominio.Entidades.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\Servicios.Implementacion.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\Servicios.Interfaces.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\Dominio.Contextos.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\EntityFramework.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\AutoMapper.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\Newtonsoft.Json.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.Shared.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\AxShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\ShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\stdole.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\Dominio.Entidades.pdb
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\Dominio.Entidades.dll.config
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\Servicios.Implementacion.pdb
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\Servicios.Implementacion.dll.config
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\Servicios.Interfaces.pdb
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\Dominio.Contextos.pdb
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\Dominio.Contextos.dll.config
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\CapaDatafirst.dll.config
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\EntityFramework.xml
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\Newtonsoft.Json.xml
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\es\EntityFramework.resources.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.csprojAssemblyReference.cache
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\obj\Debug\MainWindow.g.cs
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\obj\Debug\App.g.cs
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF_MarkupCompile.cache
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF_MarkupCompile.lref
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\obj\Debug\MainWindow.baml
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.g.resources
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.Properties.Resources.resources
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.csproj.GenerateResource.cache
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.csproj.CoreCompileInputs.cache
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.csproj.CopyComplete
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.exe
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.pdb
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\Infraestructura.Transformations.dll
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\Infraestructura.Transformations.pdb
+D:\NarGestionDistribuidora_URBANO-master - copia\PresentacionNetFra.WPF\bin\Debug\Infraestructura.Transformations.dll.config
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\PresentacionNetFra.WPF.exe.config
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\PresentacionNetFra.WPF.exe
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\PresentacionNetFra.WPF.pdb
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\Dominio.Entidades.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\EntityFramework.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\Infraestructura.Transformations.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\Servicios.Implementacion.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\Servicios.Interfaces.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\AutoMapper.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CapaDatafirst.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\Dominio.Contextos.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\Newtonsoft.Json.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.Shared.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\AxShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\ShockwaveFlashObjects.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\stdole.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\Dominio.Entidades.pdb
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\Dominio.Entidades.dll.config
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\Infraestructura.Transformations.pdb
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\Infraestructura.Transformations.dll.config
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\Servicios.Implementacion.pdb
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\Servicios.Implementacion.dll.config
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\Servicios.Interfaces.pdb
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\EntityFramework.xml
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CapaDatafirst.pdb
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\CapaDatafirst.dll.config
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\Dominio.Contextos.pdb
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\Dominio.Contextos.dll.config
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\Newtonsoft.Json.xml
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\es\EntityFramework.resources.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.csprojAssemblyReference.cache
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\obj\Debug\MainWindow.g.cs
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\obj\Debug\App.g.cs
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF_MarkupCompile.cache
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF_MarkupCompile.lref
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\obj\Debug\MainWindow.baml
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.g.resources
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.Properties.Resources.resources
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.csproj.GenerateResource.cache
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.csproj.CoreCompileInputs.cache
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.csproj.CopyComplete
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.exe
+D:\NarGestionDistribuidora_URBANO-master\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.pdb
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\PresentacionNetFra.WPF.exe.config
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\PresentacionNetFra.WPF.exe
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\PresentacionNetFra.WPF.pdb
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Dominio.Entidades.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\EntityFramework.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Infraestructura.Transformations.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Servicios.Implementacion.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Servicios.Interfaces.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\AutoMapper.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CapaDatafirst.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Dominio.Contextos.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Newtonsoft.Json.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.Shared.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.ComponentModel.Annotations.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Collections.Immutable.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Options.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\AxShockwaveFlashObjects.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Memory.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\ShockwaveFlashObjects.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Identity.Client.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Numerics.Vectors.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Buffers.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\stdole.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Dominio.Entidades.pdb
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Dominio.Entidades.dll.config
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Infraestructura.Transformations.pdb
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Infraestructura.Transformations.dll.config
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Servicios.Implementacion.pdb
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Servicios.Implementacion.dll.config
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Servicios.Interfaces.pdb
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\EntityFramework.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CapaDatafirst.pdb
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CapaDatafirst.dll.config
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Dominio.Contextos.pdb
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Dominio.Contextos.dll.config
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Newtonsoft.Json.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Collections.Immutable.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Options.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Memory.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Identity.Client.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Numerics.Vectors.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Buffers.xml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\es\EntityFramework.resources.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\MainWindow.g.cs
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\App.g.cs
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF_MarkupCompile.cache
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF_MarkupCompile.lref
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\MainWindow.baml
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.g.resources
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.Properties.Resources.resources
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.csproj.GenerateResource.cache
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.csproj.CoreCompileInputs.cache
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.csproj.CopyComplete
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.exe
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.pdb
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\PresentacionNetFra.WPF.exe.config
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\PresentacionNetFra.WPF.exe
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\PresentacionNetFra.WPF.pdb
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Dominio.Entidades.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\EntityFramework.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Infraestructura.Transformations.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Servicios.Implementacion.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Servicios.Interfaces.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\AutoMapper.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CapaDatafirst.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Dominio.Contextos.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Newtonsoft.Json.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.Shared.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.ComponentModel.Annotations.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Collections.Immutable.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Options.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\AxShockwaveFlashObjects.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Memory.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\ShockwaveFlashObjects.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Identity.Client.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Numerics.Vectors.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Buffers.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\stdole.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Dominio.Entidades.pdb
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Dominio.Entidades.dll.config
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Infraestructura.Transformations.pdb
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Infraestructura.Transformations.dll.config
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Servicios.Implementacion.pdb
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Servicios.Implementacion.dll.config
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Servicios.Interfaces.pdb
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\EntityFramework.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CapaDatafirst.pdb
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\CapaDatafirst.dll.config
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Dominio.Contextos.pdb
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Dominio.Contextos.dll.config
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Newtonsoft.Json.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Collections.Immutable.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Options.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Memory.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\Microsoft.Identity.Client.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Numerics.Vectors.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\System.Buffers.xml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\es\EntityFramework.resources.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.csproj.AssemblyReference.cache
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\MainWindow.g.cs
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\App.g.cs
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF_MarkupCompile.cache
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF_MarkupCompile.lref
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\MainWindow.baml
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.g.resources
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.Properties.Resources.resources
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.csproj.GenerateResource.cache
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.csproj.CoreCompileInputs.cache
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.csproj.CopyComplete
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.exe
+D:\FFFF\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.pdb
+D:\NarURBAA\NarGestionDistribuidora_URBANO\PresentacionNetFra.WPF\obj\Debug\PresentacionNetFra.WPF.csproj.AssemblyReference.cache

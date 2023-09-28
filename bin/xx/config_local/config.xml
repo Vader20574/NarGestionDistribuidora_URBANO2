@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<dsgridbanco xmlns="http://tempuri.org/dsgridbanco.xsd">
+  <ini>
+    <server>.</server>
+    <bd>BDGLORIA021118</bd>
+    <usuario>SA</usuario>
+    <password>301102</password>
+    <Reporte>C:\Reportes_Inv_gloria\</Reporte>
+    <ReporteInv>C:\Reportes_Inv_gloria\</ReporteInv>
+    <ReporteVta>C:\FUENTES\NarGestionDistribuidora\Inventario\Reportes\</ReporteVta>
+
+    <server2>190.41.58.57</server2>
+    <bd2>nextel</bd2>
+    <usuario2>nar</usuario2>
+    <password2>301102</password2>
+   
+
+    <dsn>FACTURA_ELECT</dsn>
+    <uid>FE_COMERCIALHU</uid>
+    <pwd>FE_COMERCIALHU</pwd>
+
+
+  </ini>
+</dsgridbanco>

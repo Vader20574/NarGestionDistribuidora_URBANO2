@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NARGESTModelStoreContainer" CdmEntityContainer="NARGESTEntities">
+    <FunctionImportMapping FunctionImportName="SP_RPT_VENTAS_DETALLE_POR_DOCU" FunctionName="NARGESTModel.Store.SP_RPT_VENTAS_DETALLE_POR_DOCU">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NARGESTModel.SP_RPT_VENTAS_DETALLE_POR_DOCU_Result">
+          <ScalarProperty Name="CORREL" ColumnName="CORREL" />
+          <ScalarProperty Name="TIPODOC" ColumnName="TIPODOC" />
+          <ScalarProperty Name="SERIE" ColumnName="SERIE" />
+          <ScalarProperty Name="NUMERODOC" ColumnName="NUMERODOC" />
+          <ScalarProperty Name="CLIENTE_NOM" ColumnName="CLIENTE_NOM" />
+          <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+          <ScalarProperty Name="DISTRITO" ColumnName="DISTRITO" />
+          <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+          <ScalarProperty Name="EMPLEADO" ColumnName="EMPLEADO" />
+          <ScalarProperty Name="RUTA" ColumnName="RUTA" />
+          <ScalarProperty Name="VENDEDOR" ColumnName="VENDEDOR" />
+          <ScalarProperty Name="CODIGO_PROD" ColumnName="CODIGO_PROD" />
+          <ScalarProperty Name="NOMBRE_PROD" ColumnName="NOMBRE_PROD" />
+          <ScalarProperty Name="CANTIDAD" ColumnName="CANTIDAD" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="DESSUBLINEA" ColumnName="DESSUBLINEA" />
+          <ScalarProperty Name="TIPOPAGO" ColumnName="TIPOPAGO" />
+          <ScalarProperty Name="TIPONEGOCIO" ColumnName="TIPONEGOCIO" />
+          <ScalarProperty Name="CODCLIDEP" ColumnName="CODCLIDEP" />
+          <ScalarProperty Name="CODCLIPRIN" ColumnName="CODCLIPRIN" />
+          <ScalarProperty Name="NOMCLIPRIN" ColumnName="NOMCLIPRIN" />
+          <ScalarProperty Name="DNI" ColumnName="DNI" />
+          <ScalarProperty Name="RUC" ColumnName="RUC" />
+          <ScalarProperty Name="TELEFONO" ColumnName="TELEFONO" />
+          <ScalarProperty Name="OD" ColumnName="OD" />
+          <ScalarProperty Name="precio_unit_venta" ColumnName="precio_unit_venta" />
+          <ScalarProperty Name="precio_unit_costo" ColumnName="precio_unit_costo" />
+          <ScalarProperty Name="total_costo" ColumnName="total_costo" />
+          <ScalarProperty Name="descuento" ColumnName="descuento" />
+          <ScalarProperty Name="nro_plan_desc" ColumnName="nro_plan_desc" />
+          <ScalarProperty Name="por_cobrar" ColumnName="por_cobrar" />
+          <ScalarProperty Name="OBSV" ColumnName="OBSV" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

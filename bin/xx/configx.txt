@@ -1,0 +1,13 @@
+    <!--/*****************URBANO****************************************************************/-->
+
+    <!--<add name="Distribucion" connectionString="Data Source=190.117.178.122;initial catalog=NARGEST030621;Integrated Security=False;Connection Timeout=5000;User Id=sa;Password=0p3r@d0r" providerName="System.Data.SqlClient" />
+     <add name="NARGESTEntities" connectionString="metadata=res://*/ModelDataFirst.csdl|res://*/ModelDataFirst.ssdl|res://*/ModelDataFirst.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=190.117.178.122;initial catalog=NARGEST030621;user id=sa;password=0p3r@d0r;Connection Timeout=5000;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+    <add name="CapaCliente.Properties.Settings.BDGLORIA160318ConnectionString" connectionString="Data Source=190.117.178.122;initial catalog=NARGEST030621;Integrated Security=False;Connection Timeout=5000;User Id=sa;Password=0p3r@d0r" providerName="System.Data.SqlClient" />-->
+
+	  <!--/*****************OPERADOR****************************************************************/-->
+
+	<add name="Distribucion" connectionString="Data Source=190.117.65.103;initial catalog=NARGEST;Integrated Security=False;Connection Timeout=5000;User Id=sa;Password=0p3r@d0r" providerName="System.Data.SqlClient" />
+    <add name="NARGESTEntities" connectionString="metadata=res://*/ModelDataFirst.csdl|res://*/ModelDataFirst.ssdl|res://*/ModelDataFirst.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=190.117.65.103;initial catalog=NARGEST;user id=sa;password=0p3r@d0r;Connection Timeout=5000;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+    <add name="CapaCliente.Properties.Settings.BDGLORIA160318ConnectionString" connectionString="Data Source=190.117.65.103;initial catalog=NARGEST;Integrated Security=False;Connection Timeout=5000;User Id=sa;Password=0p3r@d0r" providerName="System.Data.SqlClient" />
+
+	  

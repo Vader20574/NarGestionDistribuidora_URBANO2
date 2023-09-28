@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{857106E2-77FC-42FD-9048-DB9A71D34844}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Servicios.Interfaces</RootNamespace>
+    <AssemblyName>Servicios.Interfaces</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Almacen\IGestorDeAlmacen.cs" />
+    <Compile Include="Almacen\Peticiones\AlmacenActualizar.cs" />
+    <Compile Include="Almacen\Peticiones\AlmacenNuevo.cs" />
+    <Compile Include="Almacen\Respuestas\AlmacenRegistrado.cs" />
+    <Compile Include="Anulados\IGestorDeAnulados.cs" />
+    <Compile Include="Articulo\IGestorDeArticulo.cs" />
+    <Compile Include="Articulo\Respuestas\SP_LISTA_ARTICULO_FACT_FILTRO_Resp.cs" />
+    <Compile Include="Articulo\Respuestas\SP_LISTA_ARTICULO_FACT_Resp.cs" />
+    <Compile Include="Artidat\IGestorDeArtidat.cs" />
+    <Compile Include="Artidat\Peticiones\ArtidatActualizar.cs" />
+    <Compile Include="Artidat\Peticiones\ArtidatNuevo.cs" />
+    <Compile Include="Artidat\Respuestas\ArtidatRegistrado.cs" />
+    <Compile Include="Artipresent\IGestorDeArtipresent.cs" />
+    <Compile Include="Artipresent\Respuestas\SelectPRECIART_Presentxproc2_Resp.cs" />
+    <Compile Include="CatABCprod\Peticiones\CatABCprodNuevo.cs" />
+    <Compile Include="CatABCprod\Respuestas\CatABCprodRegistrado.cs" />
+    <Compile Include="CategoriaCliente\IGestorCategoriaCliente.cs" />
+    <Compile Include="CategoriaCliente\Peticiones\CategoriaClienteActualizar.cs" />
+    <Compile Include="CategoriaCliente\Peticiones\CategoriaClienteNuevo.cs" />
+    <Compile Include="CategoriaCliente\Respuestas\CategoriaClienteRegistrado.cs" />
+    <Compile Include="CentroCostoPromo\IGestorDeCentroCostoPromo.cs" />
+    <Compile Include="CentroCostoPromo\Peticiones\CentroCostoPromoActualizar.cs" />
+    <Compile Include="CentroCostoPromo\Peticiones\CentroCostoPromoNuevo.cs" />
+    <Compile Include="CentroCostoPromo\Respuestas\CentroCostoPromoRegistrado.cs" />
+    <Compile Include="Cierre_Inv_Gloria\IGestorDeCierre_Inv_Gloria.cs" />
+    <Compile Include="Cierre_Inv_Gloria\Peticiones\Cierre_Inv_GloriaActualizar.cs" />
+    <Compile Include="Cierre_Inv_Gloria\Peticiones\Cierre_Inv_GloriaNuevo.cs" />
+    <Compile Include="Cierre_Inv_Gloria\Respuestas\Cierre_Inv_GloriaRegistrado.cs" />
+    <Compile Include="Cierre_Mes_Inv\IGestorCierre_Mes_Inv.cs" />
+    <Compile Include="Cierre_Mes_Inv\Peticiones\Cierre_Mes_InvActualizar.cs" />
+    <Compile Include="Cierre_Mes_Inv\Peticiones\Cierre_Mes_InvNuevo.cs" />
+    <Compile Include="Cierre_Mes_Inv\Respuestas\Cierre_Mes_InvRegistrado.cs" />
+    <Compile Include="Cierre_Mes_Inv\Respuestas\ListAñoMes.cs" />
+    <Compile Include="Ciudad\IGestorDeCiudad.cs" />
+    <Compile Include="Ciudad\Peticiones\CiudadActualizar.cs" />
+    <Compile Include="Ciudad\Peticiones\CiudadNuevo.cs" />
+    <Compile Include="Ciudad\Respuesta\CiudadRegistrado.cs" />
+    <Compile Include="CliDep\CliDepRegistradoMasOK.cs" />
+    <Compile Include="CliDep\IGestorDeCliDep.cs" />
+    <Compile Include="CliDep\Peticiones\CliDepActualizar.cs" />
+    <Compile Include="CliDep\Peticiones\CliDepNuevo.cs" />
+    <Compile Include="CliDep\Respuestas\CliDepRegistrado.cs" />
+    <Compile Include="CliDep\Respuestas\CliDepRegistradoMas.cs" />
+    <Compile Include="ClieFuerza\IGestorDeClieFuerza.cs" />
+    <Compile Include="ClieFuerza\Peticiones\ClieFuerzaActualizar.cs" />
+    <Compile Include="ClieFuerza\Peticiones\ClieFuerzaNuevo.cs" />
+    <Compile Include="ClieFuerza\Respuestas\ClieFuerzaListar.cs" />
+    <Compile Include="ClieFuerza\Respuestas\ClieFuerzaRegistrado.cs" />
+    <Compile Include="ClienteXPromoSubCat\IGestorClienteXPromoSubCat.cs" />
+    <Compile Include="ClienteXPromoSubCat\Peticiones\ClienteXPromoSubCatActualizar.cs" />
+    <Compile Include="ClienteXPromoSubCat\Peticiones\ClienteXPromoSubCatNuevo.cs" />
+    <Compile Include="ClienteXPromoSubCat\Respuestas\ClienteXPromoSubCatRegistrado.cs" />
+    <Compile Include="ClienteXPromo\IGestorClienteXPromo.cs" />
+    <Compile Include="ClienteXPromo\Peticiones\ClienteXPromoAct.cs" />
+    <Compile Include="ClienteXPromo\Peticiones\ClienteXPromoNuevo.cs" />
+    <Compile Include="ClienteXPromo\Respuestas\ClienteXPromoRegistrado.cs" />
+    <Compile Include="Cliente\IGestorDeCliente.cs" />
+    <Compile Include="Cliente\Peticiones\ClienteActualizar.cs" />
+    <Compile Include="Cliente\Peticiones\ClienteNuevo.cs" />
+    <Compile Include="Cliente\Respuestas\CIienteSelecionado1.cs" />
+    <Compile Include="Cliente\Respuestas\ClienteRegistrado.cs" />
+    <Compile Include="Compartido\IMantenimientoBase.cs" />
+    <Compile Include="Configsis\IGestorDeConfigsis.cs" />
+    <Compile Include="Configsis\Peticiones\ConfigsisActualizar.cs" />
+    <Compile Include="Configsis\Peticiones\ConfigsisNuevo.cs" />
+    <Compile Include="Configsis\Respuestas\ConfigsisRegistrado.cs" />
+    <Compile Include="Departamento\IGestorDeDepartamento.cs" />
+    <Compile Include="Departamento\Peticiones\DepartamentoActualizar.cs" />
+    <Compile Include="Departamento\Peticiones\DepartamentoNuevo.cs" />
+    <Compile Include="Departamento\Respuestas\DepartamentoRegistrado.cs" />
+    <Compile Include="Distrito\IGestorDeDistrito.cs" />
+    <Compile Include="Distrito\Peticiones\DistritoActualizar.cs" />
+    <Compile Include="Distrito\Peticiones\DistritoNuevo.cs" />
+    <Compile Include="Distrito\Respuestas\DistritoRegistrado.cs" />
+    <Compile Include="EntregaMercas\IGestorDeEntregaMerca.cs" />
+    <Compile Include="EntregaMercas\Peticiones\EntregaMercaActualizar.cs" />
+    <Compile Include="EntregaMercas\Peticiones\EntregaMercaNuevo.cs" />
+    <Compile Include="EntregaMercas\Respuestas\EntregaMercaRegistrado.cs" />
+    <Compile Include="EquipoVendedor\IGestoDeEquipoVendedor.cs" />
+    <Compile Include="EquipoVendedor\Peticiones\Equipo_VendedorActualizar.cs" />
+    <Compile Include="EquipoVendedor\Peticiones\Equipo_VendedorNuevo.cs" />
+    <Compile Include="EquipoVendedor\Respuestas\Equipo_VendedorRegistrado.cs" />
+    <Compile Include="Equipo\IGestorDeEquipo.cs" />
+    <Compile Include="Equipo\Peticiones\EquipoActualizar.cs" />
+    <Compile Include="Equipo\Peticiones\EquipoNuevo.cs" />
+    <Compile Include="Equipo\Respuestas\EquipoRegistrado.cs" />
+    <Compile Include="Facturacion\VentaDet\Peticiones\DescDdocum.cs" />
+    <Compile Include="FacturaElectronica\Peticiones\NuevaCDocumento.cs" />
+    <Compile Include="FacturaElectronica\Respuestas\CDocumentoRegistrado.cs" />
+    <Compile Include="Jefe_Equipo\IGestorDeJefe_Equipo.cs" />
+    <Compile Include="Jefe_Equipo\Peticiones\Jefe_EquipoActualizar.cs" />
+    <Compile Include="Jefe_Equipo\Peticiones\Jefe_EquipoNuevo.cs" />
+    <Compile Include="Jefe_Equipo\Respuestas\Jefe_EquipoRegistro.cs" />
+    <Compile Include="Facturacion\VentaCab\IGestorDeFacturacionVentaCab.cs" />
+    <Compile Include="Facturacion\VentaCab\Peticiones\NuevaVentacab.cs" />
+    <Compile Include="Facturacion\VentaCab\Peticiones\VentacabActualizar.cs" />
+    <Compile Include="Facturacion\VentaCab\Respuestas\VentaCabRegistrado.cs" />
+    <Compile Include="Facturacion\VentaDet\IGestorDeFacturacionVentaDet.cs" />
+    <Compile Include="Facturacion\VentaDet\Peticiones\NuevaVentaDet.cs" />
+    <Compile Include="Facturacion\VentaDet\Peticiones\VentaDetActualizar.cs" />
+    <Compile Include="Facturacion\VentaDet\Respuestas\VentaDetRegistrado.cs" />
+    <Compile Include="FacturaElectronica\IGestorDeFacturacionElectronica.cs" />
+    <Compile Include="FacturaElectronica\Peticiones\NuevaDDocumento.cs" />
+    <Compile Include="FacturaElectronica\Peticiones\NuevaHdocumento.cs" />
+    <Compile Include="FacturaElectronica\Respuestas\DDocumentoRegistrado.cs" />
+    <Compile Include="FacturaElectronica\Respuestas\HDocumentoRegistrado.cs" />
+    <Compile Include="FuerzaVenta\IGestorDeFuerzaVenta.cs" />
+    <Compile Include="FuerzaVenta\Peticiones\FuerzaVentaActualizar.cs" />
+    <Compile Include="FuerzaVenta\Peticiones\FuerzaVentaNuevo.cs" />
+    <Compile Include="FuerzaVenta\Respuestas\FuerzaVentaRegistrado.cs" />
+    <Compile Include="HistoVentas\IGestorDeHistoVentas.cs" />
+    <Compile Include="LineaCorreDoc\Peticiones\LineaCorreDocNuevo.cs" />
+    <Compile Include="LineaCorreDoc\Respuestas\LineaCorreDocRegistrado.cs" />
+    <Compile Include="LineaCorreDoc\Respuestas\LineaCorreDocRegistrado2.cs" />
+    <Compile Include="Linea\IGestorDeLinea.cs" />
+    <Compile Include="Linea\Peticiones\LineaActualizar.cs" />
+    <Compile Include="Linea\Peticiones\LineaNuevo.cs" />
+    <Compile Include="Linea\Respuestas\LineaRegistrado.cs" />
+    <Compile Include="Moneda\IGestorDeMoneda.cs" />
+    <Compile Include="Moneda\Peticiones\MonedaActualizar.cs" />
+    <Compile Include="Moneda\Peticiones\MonedaNuevo.cs" />
+    <Compile Include="Moneda\Respuestas\MonedaRegistrado.cs" />
+    <Compile Include="Movimiento\Cabecera\IGestoDeMovimientoCabecera.cs" />
+    <Compile Include="Movimiento\Cabecera\Peticiones\MovicabParaActualizar.cs" />
+    <Compile Include="Movimiento\Cabecera\Peticiones\MovicabNuevo.cs" />
+    <Compile Include="Movimiento\Cabecera\Respuestas\MovicabRegistrado.cs" />
+    <Compile Include="Pais\IGestorDePais.cs" />
+    <Compile Include="Pais\Peticiones\PaisActualizar.cs" />
+    <Compile Include="Pais\Peticiones\PaisNuevo.cs" />
+    <Compile Include="Pais\Respuestas\PaisRegistrado.cs" />
+    <Compile Include="PromoDeSoles\IGestorPromoDeSoles.cs" />
+    <Compile Include="PromoDeSoles\Peticiones\PromoDeSolesActualizar.cs" />
+    <Compile Include="PromoDeSoles\Peticiones\PromoDeSolesNuevo.cs" />
+    <Compile Include="PromoDeSoles\Respuestas\PromoDeSolesRegistrado.cs" />
+    <Compile Include="PromoSubCat\IGestorDePromoSubCat.cs" />
+    <Compile Include="PromoSubCat\Peticiones\PromoSubCatActualizar.cs" />
+    <Compile Include="PromoSubCat\Peticiones\PromoSubCatNuevo.cs" />
+    <Compile Include="PromoSubCat\Respuestas\PromoSubCatRegistrado.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequerimientoTienda\IGestorDeRequerimientoTienda.cs" />
+    <Compile Include="RequerimientoTienda\Respuestas\RequerimientoTiendaReg.cs" />
+    <Compile Include="Ruta\IGestorDeRuta.cs" />
+    <Compile Include="Ruta\Peticiones\RutaActualizar.cs" />
+    <Compile Include="Ruta\Peticiones\RutaNuevo.cs" />
+    <Compile Include="Ruta\Respuestas\RutaRegistrado.cs" />
+    <Compile Include="SegmentoCliente\IGestorSegmentoCliente.cs" />
+    <Compile Include="SegmentoCliente\Peticiones\SegmentoClienteActualizar.cs" />
+    <Compile Include="SegmentoCliente\Peticiones\SegmentoClienteNuevo.cs" />
+    <Compile Include="SegmentoCliente\Respuestas\SegmentoClienteRegistrado.cs" />
+    <Compile Include="SubEmpresaXLinea\Peticiones\SubEmpXLineaNuevo.cs" />
+    <Compile Include="SubEmpresaXLinea\Respuestas\RespSubEmpresaXLinea.cs" />
+    <Compile Include="SubEmpresaXLinea\Respuestas\RespSubEmpresaXLinea2.cs" />
+    <Compile Include="SubEmpresaXLinea\Respuestas\SubEmpXLineaRegistrado.cs" />
+    <Compile Include="SubEmpresa\Peticiones\SubEmpresaNuevo.cs" />
+    <Compile Include="SubEmpresa\Respuestas\SubEmpresaRegistrado.cs" />
+    <Compile Include="SubLinea\IGestorDeSubLinea.cs" />
+    <Compile Include="SubLinea\Peticiones\SubLineaActualizar.cs" />
+    <Compile Include="SubLinea\Peticiones\SubLineaNuevo.cs" />
+    <Compile Include="SubLinea\Respuestas\SubLineaRegistrado.cs" />
+    <Compile Include="SupervisorVendedor\IGestorDeSupervisorVendedor.cs" />
+    <Compile Include="SupervisorVendedor\Peticiones\SupervisorVendedorActualizar.cs" />
+    <Compile Include="SupervisorVendedor\Peticiones\SupervisorVendedorNuevo.cs" />
+    <Compile Include="SupervisorVendedor\Respuestas\SupervisorVendedorRegistrado.cs" />
+    <Compile Include="Supervisor\IGestorDeSupervisor.cs" />
+    <Compile Include="Supervisor\Peticiones\SupervisorActualizar.cs" />
+    <Compile Include="Supervisor\Peticiones\SupervisorNuevo.cs" />
+    <Compile Include="Supervisor\Respuestas\SupervisorRegistrado.cs" />
+    <Compile Include="TipoCredito\IGestorDeTipoCredito.cs" />
+    <Compile Include="TipoCredito\Peticiones\TipoCreditoActualizar.cs" />
+    <Compile Include="TipoCredito\Peticiones\TipoCreditoNuevo.cs" />
+    <Compile Include="TipoCredito\Respuestas\TipoCreditoRegistrado.cs" />
+    <Compile Include="TipoDoc\IGestorDeTipoDoc.cs" />
+    <Compile Include="TipoDoc\Peticiones\TipoDocActualizar.cs" />
+    <Compile Include="TipoDoc\Peticiones\TipoDocNuevo.cs" />
+    <Compile Include="TipoDoc\Respuestas\TipoDocRegistrado.cs" />
+    <Compile Include="TipoNegocio\IGestorDeTipoNegocio.cs" />
+    <Compile Include="TipoNegocio\Peticiones\TipoNegocioActualizar.cs" />
+    <Compile Include="TipoNegocio\Peticiones\TipoNegocioNuevo.cs" />
+    <Compile Include="TipoNegocio\Respuestas\TipoNegocioRegistrado.cs" />
+    <Compile Include="TipoPagoXPromocion\IGestorDeTipoPagoXProm.cs" />
+    <Compile Include="TipoPagoXPromocion\Peticiones\TipoPagoXPromActualizar.cs" />
+    <Compile Include="TipoPagoXPromocion\Peticiones\TipoPagoXPromNuevo.cs" />
+    <Compile Include="TipoPagoXPromocion\Respuestas\TipoPagoXPromRegistrado.cs" />
+    <Compile Include="TipoPagoXPromSubCat\IGestorDeTipoPagoXPromSubCat.cs" />
+    <Compile Include="TipoPagoXPromSubCat\Peticiones\TipoPagoXPromSubCatActualizar.cs" />
+    <Compile Include="TipoPagoXPromSubCat\Peticiones\TipoPagoXPromSubCatNuevo.cs" />
+    <Compile Include="TipoPagoXPromSubCat\Respuestas\TipoPagoXPromSubCatRegistrado.cs" />
+    <Compile Include="TipoPago\IGestorDeTipoPago.cs" />
+    <Compile Include="TipoPago\Peticiones\TipoPagoActualizar.cs" />
+    <Compile Include="TipoPago\Peticiones\TipoPagoNuevo.cs" />
+    <Compile Include="TipoPago\Respuestas\TipoPagoRegistrado.cs" />
+    <Compile Include="TipoPrecioXPromocion\IGestorDeTipoPrecioXPromocion.cs" />
+    <Compile Include="TipoPrecioXPromocion\Peticiones\TipoPrecioXPromActualizar.cs" />
+    <Compile Include="TipoPrecioXPromocion\Peticiones\TipoPrecioXPromNuevo.cs" />
+    <Compile Include="TipoPrecioXPromocion\Respuestas\TipoPrecioXPromRegistrado.cs" />
+    <Compile Include="TipoPrecioXPromoSoles\IGestorDeTipoPrecioXPromoSoles.cs" />
+    <Compile Include="TipoPrecioXPromoSoles\Peticiones\TipoPrecioXPromoSolesAct.cs" />
+    <Compile Include="TipoPrecioXPromoSoles\Peticiones\TipoPrecioXPromoSolesNuevo.cs" />
+    <Compile Include="TipoPrecioXPromoSoles\Respuestas\TipoPrecioXPromoSolesReg.cs" />
+    <Compile Include="TipoPrecioXPromSubCatSoles\IGestorDeTipoPrecioXPromSubCatSol.cs" />
+    <Compile Include="TipoPrecioXPromSubCatSoles\Peticiones\TipoPrecioXPromSubCatSolAct.cs" />
+    <Compile Include="TipoPrecioXPromSubCatSoles\Peticiones\TipoPrecioXPromSubCatSolNuevo.cs" />
+    <Compile Include="TipoPrecioXPromSubCatSoles\Respuestas\TipoPrecioXPromSubCatSolReg.cs" />
+    <Compile Include="TipoPrecioXPromSubCat\IGestorDeTipoPrecioXPromSubCat.cs" />
+    <Compile Include="TipoPrecioXPromSubCat\Peticiones\TipoPrecioXPromSubCatActualizar.cs" />
+    <Compile Include="TipoPrecioXPromSubCat\Peticiones\TipoPrecioXPromSubCatNuevo.cs" />
+    <Compile Include="TipoPrecioXPromSubCat\Respuestas\TipoPrecioXPromSubCatRegistrado.cs" />
+    <Compile Include="TipoPrecio\IGestorDeTipoPrecio.cs" />
+    <Compile Include="TipoPrecio\Peticiones\TipoPrecioActualizar.cs" />
+    <Compile Include="TipoPrecio\Peticiones\TipoPrecioNuevo.cs" />
+    <Compile Include="TipoPrecio\Respuestas\TipoPrecioRegistrado.cs" />
+    <Compile Include="TipoProducto\IGestorDeTipoProd.cs" />
+    <Compile Include="TipoProducto\Peticiones\TipoProdActualizar.cs" />
+    <Compile Include="TipoProducto\Peticiones\TipoProdNuevo.cs" />
+    <Compile Include="TipoProducto\Respuestas\TipoProdRegistrado.cs" />
+    <Compile Include="TmpStockPedido\IGestorDeTmpStockPedido.cs" />
+    <Compile Include="TmpStockPedido\Peticiones\TmpStockPedidoActualizar.cs" />
+    <Compile Include="TmpStockPedido\Peticiones\TmpStockPedidoNuevo.cs" />
+    <Compile Include="TmpStockPedido\Respuestas\TmpStockPedidoRegistrado.cs" />
+    <Compile Include="Urbano\IGestorDeUrbano.cs" />
+    <Compile Include="Urbano\Peticiones\Clientex.cs" />
+    <Compile Include="Vendedor\IGestorDeVendedor.cs" />
+    <Compile Include="Vendedor\Peticiones\VendedorActualizar.cs" />
+    <Compile Include="Vendedor\Peticiones\VendedorNuevo.cs" />
+    <Compile Include="Vendedor\Respuestas\VendedorRegistrado.cs" />
+    <Compile Include="VentaxCobrar\IGestorDeVentaxCobrar.cs" />
+    <Compile Include="Zona\IGestorDeZona.cs" />
+    <Compile Include="Zona\Peticiones\ZonaActualizar.cs" />
+    <Compile Include="Zona\Peticiones\ZonaNuevo.cs" />
+    <Compile Include="Zona\Respuestas\ZonaRegistrado.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="VentaxCobrar\Peticiones\" />
+    <Folder Include="VentaxCobrar\Respuestas\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDatafirst\CapaDatafirst.csproj">
+      <Project>{F09E4F4E-976F-4148-A5A3-EFC349784B8D}</Project>
+      <Name>CapaDatafirst</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

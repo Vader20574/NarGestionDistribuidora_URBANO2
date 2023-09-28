@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NARGESTModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="NARGESTEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="SP_RPT_VENTAS_DETALLE_POR_DOCU" ReturnType="Collection(NARGESTModel.SP_RPT_VENTAS_DETALLE_POR_DOCU_Result)">
+      <Parameter Name="CODI" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="SP_RPT_VENTAS_DETALLE_POR_DOCU_Result">
+    <Property Type="Int32" Name="CORREL" Nullable="true" />
+    <Property Type="String" Name="TIPODOC" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="SERIE" Nullable="true" MaxLength="3" />
+    <Property Type="String" Name="NUMERODOC" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="CLIENTE_NOM" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="DIRECCION" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="DISTRITO" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="TOTAL" Nullable="true" Precision="20" Scale="4" />
+    <Property Type="String" Name="EMPLEADO" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="RUTA" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="VENDEDOR" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="CODIGO_PROD" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="NOMBRE_PROD" Nullable="true" MaxLength="150" />
+    <Property Type="Decimal" Name="CANTIDAD" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="DateTime" Name="FECHA" Nullable="true" Precision="23" />
+    <Property Type="String" Name="DESSUBLINEA" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="TIPOPAGO" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="TIPONEGOCIO" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CODCLIDEP" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CODCLIPRIN" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="NOMCLIPRIN" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="DNI" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="RUC" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="TELEFONO" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="OD" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="precio_unit_venta" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="precio_unit_costo" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="Decimal" Name="total_costo" Nullable="true" Precision="38" Scale="4" />
+    <Property Type="Decimal" Name="descuento" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="String" Name="nro_plan_desc" Nullable="false" MaxLength="50" />
+    <Property Type="Decimal" Name="por_cobrar" Nullable="false" Precision="20" Scale="4" />
+    <Property Type="String" Name="OBSV" Nullable="true" MaxLength="50" />
+  </ComplexType>
+</Schema>
